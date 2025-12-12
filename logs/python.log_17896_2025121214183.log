@@ -1,0 +1,189 @@
+Watching for file changes with StatReloader
+[12/Dec/2025 15:18:05] "GET / HTTP/1.1" 200 12068
+[12/Dec/2025 15:19:22] "GET / HTTP/1.1" 200 12068
+[12/Dec/2025 15:26:13] "GET / HTTP/1.1" 200 12068
+C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\NewtAndCo\settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+December 12, 2025 - 15:18:04
+Django version 6.0, using settings 'NewtAndCo.settings'
+Starting development server at http://127.0.0.1:11868/
+Quit the server with CTRL-BREAK.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/6.0/howto/deployment/
+Watching for file changes with StatReloader
+Invalid HTTP_HOST header: 'localhost:8888'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\utils\deprecation.py", line 308, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\http\request.py", line 205, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8888'. You may need to add 'localhost' to ALLOWED_HOSTS.
+[12/Dec/2025 15:27:45] "GET / HTTP/1.1" 400 67815
+C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\NewtAndCo\settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+December 12, 2025 - 15:27:42
+Django version 6.0, using settings 'NewtAndCo.settings'
+Starting development server at http://127.0.0.1:11868/
+Quit the server with CTRL-BREAK.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/6.0/howto/deployment/
+Watching for file changes with StatReloader
+[12/Dec/2025 15:27:55] "GET / HTTP/1.1" 200 12068
+[12/Dec/2025 15:27:56] "GET / HTTP/1.1" 200 12068
+[12/Dec/2025 15:27:57] "GET / HTTP/1.1" 200 12068
+[12/Dec/2025 15:27:57] "GET / HTTP/1.1" 200 12068
+C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\NewtAndCo\settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+December 12, 2025 - 15:27:55
+Django version 6.0, using settings 'NewtAndCo.settings'
+Starting development server at http://127.0.0.1:11868/
+Quit the server with CTRL-BREAK.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/6.0/howto/deployment/
+Watching for file changes with StatReloader
+C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\NewtAndCo\settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+December 12, 2025 - 15:28:05
+Django version 6.0, using settings 'NewtAndCo.settings'
+Starting development server at http://127.0.0.1:11868/
+Quit the server with CTRL-BREAK.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/6.0/howto/deployment/
+Watching for file changes with StatReloader
+C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\NewtAndCo\settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+December 12, 2025 - 15:28:08
+Django version 6.0, using settings 'NewtAndCo.settings'
+Starting development server at http://127.0.0.1:11868/
+Quit the server with CTRL-BREAK.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/6.0/howto/deployment/
+Watching for file changes with StatReloader
+Invalid HTTP_HOST header: 'localhost:8888'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\utils\deprecation.py", line 308, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\http\request.py", line 205, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8888'. You may need to add 'localhost' to ALLOWED_HOSTS.
+[12/Dec/2025 15:28:31] "GET / HTTP/1.1" 400 67869
+Invalid HTTP_HOST header: 'localhost:8888'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\utils\deprecation.py", line 308, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\http\request.py", line 205, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8888'. You may need to add 'localhost' to ALLOWED_HOSTS.
+[12/Dec/2025 15:28:43] "GET / HTTP/1.1" 400 67869
+C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\NewtAndCo\settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+December 12, 2025 - 15:28:21
+Django version 6.0, using settings 'NewtAndCo.settings'
+Starting development server at http://127.0.0.1:11868/
+Quit the server with CTRL-BREAK.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/6.0/howto/deployment/
+Watching for file changes with StatReloader
+[12/Dec/2025 15:28:54] "GET / HTTP/1.1" 200 12068
+C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\NewtAndCo\settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+December 12, 2025 - 15:28:52
+Django version 6.0, using settings 'NewtAndCo.settings'
+Starting development server at http://127.0.0.1:11868/
+Quit the server with CTRL-BREAK.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/6.0/howto/deployment/
+Watching for file changes with StatReloader
+Invalid HTTP_HOST header: 'localhost:8888'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\utils\deprecation.py", line 308, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\http\request.py", line 205, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8888'. You may need to add 'localhost' to ALLOWED_HOSTS.
+[12/Dec/2025 15:29:58] "GET / HTTP/1.1" 400 67853
+C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\NewtAndCo\settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+December 12, 2025 - 15:29:23
+Django version 6.0, using settings 'NewtAndCo.settings'
+Starting development server at http://127.0.0.1:11868/
+Quit the server with CTRL-BREAK.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/6.0/howto/deployment/
+Watching for file changes with StatReloader

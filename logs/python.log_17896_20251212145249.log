@@ -1,0 +1,11 @@
+Watching for file changes with StatReloader
+[12/Dec/2025 15:52:50] "GET / HTTP/1.1" 200 12068
+Not Found: /favicon.ico
+[12/Dec/2025 15:56:23] "GET /favicon.ico HTTP/1.1" 404 2206
+[12/Dec/2025 15:56:47] "GET / HTTP/1.1" 200 12068
+Not Found: /favicon.ico
+[12/Dec/2025 15:56:48] "GET /favicon.ico HTTP/1.1" 404 2216
+[12/Dec/2025 15:57:04] "GET / HTTP/1.1" 200 12068
+[12/Dec/2025 15:57:04] "GET / HTTP/1.1" 200 12068
+[12/Dec/2025 15:57:05] "GET / HTTP/1.1" 200 12068
+[12/Dec/2025 15:57:05] "GET / HTTP/1.1" 200 12068
