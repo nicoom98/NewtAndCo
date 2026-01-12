@@ -1,0 +1,25 @@
+Watching for file changes with StatReloader
+[15/Dec/2025 20:38:21] "GET / HTTP/1.1" 200 43332
+[15/Dec/2025 20:53:59] "GET / HTTP/1.1" 200 43332
+[15/Dec/2025 21:09:01] "OPTIONS / HTTP/1.1" 200 43332
+[15/Dec/2025 21:21:37] "OPTIONS / HTTP/1.1" 200 43332
+[15/Dec/2025 21:22:00] "GET /admin/config.php HTTP/1.0" 302 0
+Not Found: /SDK/webLanguage
+[15/Dec/2025 21:23:21] "GET /SDK/webLanguage HTTP/1.1" 404 3250
+[15/Dec/2025 21:41:29] "OPTIONS / HTTP/1.1" 200 43332
+[15/Dec/2025 21:42:05] "GET / HTTP/1.1" 200 43332
+Not Found: /json/
+[15/Dec/2025 21:46:09] "GET /json/ HTTP/1.1" 404 3213
+[15/Dec/2025 21:50:53] "GET / HTTP/1.1" 200 43332
+Not Found: /SDK/webLanguage
+[15/Dec/2025 21:52:06] "GET /SDK/webLanguage HTTP/1.1" 404 3250
+Not Found: /SDK/webLanguage
+[15/Dec/2025 22:00:05] "GET /SDK/webLanguage HTTP/1.1" 404 3250
+Not Found: /.env
+[15/Dec/2025 22:03:46] "GET /.env HTTP/1.1" 404 3214
+[15/Dec/2025 22:08:09] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 43332
+Not Found: /cgi-bin/luci/;stok=/locale
+[15/Dec/2025 22:10:58] "GET /cgi-bin/luci/;stok=/locale HTTP/1.1" 404 3287
+Not Found: /dispatch.asp
+[15/Dec/2025 22:27:47] "GET /dispatch.asp HTTP/1.1" 404 3241
+[15/Dec/2025 22:32:31] "GET / HTTP/1.1" 200 43332

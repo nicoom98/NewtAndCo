@@ -1,0 +1,81 @@
+Watching for file changes with StatReloader
+[12/Dec/2025 18:01:22] "GET / HTTP/1.1" 200 53535
+[12/Dec/2025 18:01:22] "GET /static/css/swiper.css HTTP/1.1" 200 20951
+[12/Dec/2025 18:01:22] "GET /static/css/style.css HTTP/1.1" 200 26133
+[12/Dec/2025 18:01:22] "GET /static/logo.png HTTP/1.1" 200 474639
+[12/Dec/2025 18:01:22] "GET /static/js/jquery-3.7.1.min.js HTTP/1.1" 200 87535
+[12/Dec/2025 18:01:22] "GET /static/css/vendor.css HTTP/1.1" 200 31551
+[12/Dec/2025 18:01:22] "GET /static/js/swiper.js HTTP/1.1" 200 209964
+[12/Dec/2025 18:01:22] "GET /static/js/plugins.js HTTP/1.1" 200 75356
+[12/Dec/2025 18:01:22] "GET /static/js/bootstrap.bundle.js HTTP/1.1" 200 214133
+[12/Dec/2025 18:01:22] "GET /static/js/script.js HTTP/1.1" 200 7057
+[12/Dec/2025 18:01:22] "GET /static/css/bootstrap.css HTTP/1.1" 200 293102
+[12/Dec/2025 18:01:22] "GET /static/js/iconify.js HTTP/1.1" 200 34237
+[12/Dec/2025 18:01:22] "GET /static/images/overlay.png HTTP/1.1" 200 7706
+[12/Dec/2025 18:01:22] "GET /static/images/diapo.png HTTP/1.1" 200 113838
+[12/Dec/2025 18:01:22] "GET /static/images/item9.jpg HTTP/1.1" 200 45540
+[12/Dec/2025 18:01:22] "GET /static/images/item10.jpg HTTP/1.1" 200 34413
+[12/Dec/2025 18:01:22] "GET /static/images/item11.jpg HTTP/1.1" 200 46664
+[12/Dec/2025 18:01:22] "GET /static/images/item12.jpg HTTP/1.1" 200 44155
+[12/Dec/2025 18:01:22] "GET /static/images/item13.jpg HTTP/1.1" 200 40460
+[12/Dec/2025 18:01:22] "GET /static/images/item14.jpg HTTP/1.1" 200 35909
+[12/Dec/2025 18:01:22] "GET /static/images/item16.jpg HTTP/1.1" 200 40992
+[12/Dec/2025 18:01:22] "GET /static/images/item15.jpg HTTP/1.1" 200 41490
+[12/Dec/2025 18:01:22] "GET /static/images/insta1.jpg HTTP/1.1" 200 75355
+[12/Dec/2025 18:01:22] "GET /static/images/insta2.jpg HTTP/1.1" 200 45973
+[12/Dec/2025 18:01:22] "GET /static/images/insta3.jpg HTTP/1.1" 200 64180
+[12/Dec/2025 18:01:22] "GET /static/images/insta4.jpg HTTP/1.1" 200 92950
+[12/Dec/2025 18:01:22] "GET /static/images/insta5.jpg HTTP/1.1" 200 60771
+[12/Dec/2025 18:01:22] "GET /static/images/insta6.jpg HTTP/1.1" 200 56555
+[12/Dec/2025 18:01:22] "GET /static/css/images/2.png HTTP/1.1" 404 1867
+[12/Dec/2025 18:01:22] "GET /static/images/2.png HTTP/1.1" 200 55963
+Not Found: /favicon.ico
+[12/Dec/2025 18:01:23] "GET /favicon.ico HTTP/1.1" 404 2715
+Not Found: /medals.html
+[12/Dec/2025 18:01:28] "GET /medals.html HTTP/1.1" 404 2715
+Not Found: /manager/text/list
+[12/Dec/2025 18:04:24] "GET /manager/text/list HTTP/1.1" 404 2728
+[12/Dec/2025 18:07:26] "GET / HTTP/1.0" 200 53537
+[12/Dec/2025 18:14:16] "GET / HTTP/1.1" 200 53542
+[12/Dec/2025 18:14:16] "GET /static/css/swiper.css HTTP/1.1" 200 20951
+[12/Dec/2025 18:14:16] "GET /static/css/vendor.css HTTP/1.1" 200 31551
+[12/Dec/2025 18:14:16] "GET /static/css/style.css HTTP/1.1" 200 26149
+[12/Dec/2025 18:14:16] "GET /static/css/bootstrap.css HTTP/1.1" 200 293102
+[12/Dec/2025 18:14:16] "GET /static/js/jquery-3.7.1.min.js HTTP/1.1" 200 87535
+[12/Dec/2025 18:14:16] "GET /static/js/script.js HTTP/1.1" 200 7057
+[12/Dec/2025 18:14:16] "GET /static/js/plugins.js HTTP/1.1" 200 75356
+[12/Dec/2025 18:14:16] "GET /static/js/swiper.js HTTP/1.1" 200 209964
+[12/Dec/2025 18:14:16] "GET /static/js/bootstrap.bundle.js HTTP/1.1" 200 214133
+[12/Dec/2025 18:14:16] "GET /static/js/iconify.js HTTP/1.1" 200 34237
+[12/Dec/2025 18:14:16] "GET /static/images/diapo.png HTTP/1.1" 200 113838
+[12/Dec/2025 18:14:16] "GET /static/logo.png HTTP/1.1" 200 474639
+[12/Dec/2025 18:14:16] "GET /static/images/overlay.png HTTP/1.1" 200 7706
+[12/Dec/2025 18:14:16] "GET /static/images/item9.jpg HTTP/1.1" 200 45540
+[12/Dec/2025 18:14:16] "GET /static/images/item10.jpg HTTP/1.1" 200 34413
+[12/Dec/2025 18:14:16] "GET /static/images/item11.jpg HTTP/1.1" 200 46664
+[12/Dec/2025 18:14:16] "GET /static/images/item12.jpg HTTP/1.1" 200 44155
+[12/Dec/2025 18:14:16] "GET /static/images/item13.jpg HTTP/1.1" 200 40460
+[12/Dec/2025 18:14:16] "GET /static/images/item14.jpg HTTP/1.1" 200 35909
+[12/Dec/2025 18:14:16] "GET /static/images/item15.jpg HTTP/1.1" 200 41490
+[12/Dec/2025 18:14:16] "GET /static/images/item16.jpg HTTP/1.1" 200 40992
+[12/Dec/2025 18:14:16] "GET /static/images/insta1.jpg HTTP/1.1" 200 75355
+[12/Dec/2025 18:14:16] "GET /static/images/insta2.jpg HTTP/1.1" 200 45973
+[12/Dec/2025 18:14:16] "GET /static/images/insta3.jpg HTTP/1.1" 200 64180
+[12/Dec/2025 18:14:16] "GET /static/images/insta4.jpg HTTP/1.1" 200 92950
+[12/Dec/2025 18:14:16] "GET /static/images/insta5.jpg HTTP/1.1" 200 60771
+[12/Dec/2025 18:14:16] "GET /static/images/insta6.jpg HTTP/1.1" 200 56555
+[12/Dec/2025 18:14:16] "GET /static/images/2.png HTTP/1.1" 200 55963
+Not Found: /apple-touch-icon-precomposed.png
+[12/Dec/2025 18:14:16] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2778
+Not Found: /apple-touch-icon.png
+Not Found: /favicon.ico
+[12/Dec/2025 18:14:16] "GET /apple-touch-icon.png HTTP/1.1" 404 2742
+[12/Dec/2025 18:14:16] "GET /favicon.ico HTTP/1.1" 404 2715
+[12/Dec/2025 18:14:16] "GET /static/images/diapo.png HTTP/1.1" 200 113838
+[12/Dec/2025 18:14:37] "GET / HTTP/1.1" 200 53542
+[12/Dec/2025 18:14:43] "GET / HTTP/1.1" 200 53542
+[12/Dec/2025 18:14:47] "GET / HTTP/1.1" 200 53542
+[12/Dec/2025 18:14:47] "GET /static/css/style.css HTTP/1.1" 304 0
+[12/Dec/2025 18:14:53] "GET / HTTP/1.1" 200 53542
+[12/Dec/2025 18:14:58] "GET / HTTP/1.1" 200 53542
+[12/Dec/2025 18:16:00] "GET / HTTP/1.1" 200 53542

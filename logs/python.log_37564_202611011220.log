@@ -1,0 +1,1017 @@
+Watching for file changes with StatReloader
+[10/Jan/2026 12:22:01] "GET / HTTP/1.1" 200 43332
+[10/Jan/2026 12:22:01] "GET / HTTP/1.1" 200 43332
+[10/Jan/2026 12:22:01] "GET / HTTP/1.1" 200 43332
+[10/Jan/2026 12:22:01] "GET / HTTP/1.1" 200 43332
+Not Found: /favicon.ico
+[10/Jan/2026 12:22:02] "GET /favicon.ico HTTP/1.1" 404 3240
+[10/Jan/2026 12:22:06] "GET /medailles/ HTTP/1.1" 200 108905
+[10/Jan/2026 12:22:06] "GET /static/css/colorPick.css HTTP/1.1" 200 2899
+[10/Jan/2026 12:22:06] "GET /static/images/blog-lg4.jpg HTTP/1.1" 200 142502
+[10/Jan/2026 12:22:06] "GET /static/images/blog-lg2.jpg HTTP/1.1" 200 155307
+[10/Jan/2026 12:22:06] "GET /static/images/blog-lg3.jpg HTTP/1.1" 200 104266
+[10/Jan/2026 12:22:06] "GET /static/images/blog-lg1.jpg HTTP/1.1" 200 182460
+[10/Jan/2026 12:22:06] "GET /static/js/medals.js HTTP/1.1" 200 12508
+[10/Jan/2026 12:22:06] "GET /static/images/reviewer-2.jpg HTTP/1.1" 200 20298
+[10/Jan/2026 12:22:06] "GET /static/images/banner-img.png HTTP/1.1" 200 368268
+[10/Jan/2026 12:22:06] "GET /static/images/banner-img2.png HTTP/1.1" 200 319611
+[10/Jan/2026 12:22:06] "GET /static/images/banner-img3.png HTTP/1.1" 200 336677
+[10/Jan/2026 12:22:06] "GET /static/images/banner-img4.png HTTP/1.1" 200 295153
+[10/Jan/2026 12:22:06] "GET /static/images/image0.png HTTP/1.1" 200 33679
+[10/Jan/2026 12:22:06] "GET /static/images/silver.jpg HTTP/1.1" 200 61166
+[10/Jan/2026 12:22:06] "GET /static/images/cuivre.jpg HTTP/1.1" 200 80739
+[10/Jan/2026 12:22:06] "GET /static/images/marber.jpg HTTP/1.1" 200 27815
+[10/Jan/2026 12:22:06] "GET /static/images/gold.png HTTP/1.1" 200 77928
+[10/Jan/2026 12:22:06] "GET /static/images/marber3.jpg HTTP/1.1" 200 39330
+[10/Jan/2026 12:22:06] "GET /static/images/marber2.jpg HTTP/1.1" 200 473058
+[10/Jan/2026 12:22:13] "GET /medailles/ HTTP/1.1" 200 108905
+[10/Jan/2026 12:22:14] "GET /accueil/ HTTP/1.1" 200 43332
+[10/Jan/2026 12:22:21] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 12:22:21] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 12:22:21] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 12:22:21] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 12:22:38] "GET /accueil/ HTTP/1.1" 200 43332
+[10/Jan/2026 12:22:39] "GET /medailles/ HTTP/1.1" 200 108905
+[10/Jan/2026 12:26:30] "GET /medailles/ HTTP/1.1" 200 109689
+[10/Jan/2026 12:26:50] "GET / HTTP/1.1" 200 43332
+[10/Jan/2026 12:26:50] "GET /static/css/swiper.css HTTP/1.1" 200 20951
+[10/Jan/2026 12:26:50] "GET /static/css/bootstrap.css HTTP/1.1" 200 293102
+[10/Jan/2026 12:26:50] "GET /static/css/vendor.css HTTP/1.1" 200 31551
+[10/Jan/2026 12:26:50] "GET /static/css/style.css HTTP/1.1" 200 26289
+[10/Jan/2026 12:26:50] "GET /static/js/swiper.js HTTP/1.1" 200 209964
+[10/Jan/2026 12:26:50] "GET /static/js/jquery-3.7.1.min.js HTTP/1.1" 200 87535
+[10/Jan/2026 12:26:51] "GET /static/js/script.js HTTP/1.1" 200 7057
+[10/Jan/2026 12:26:51] "GET /static/js/plugins.js HTTP/1.1" 200 75356
+[10/Jan/2026 12:26:51] "GET /static/js/iconify.js HTTP/1.1" 200 34237
+[10/Jan/2026 12:26:51] "GET /static/js/bootstrap.bundle.js HTTP/1.1" 200 214133
+[10/Jan/2026 12:26:51] "GET /static/logo.png HTTP/1.1" 200 474639
+[10/Jan/2026 12:26:51] "GET /static/images/diapo.png HTTP/1.1" 200 113838
+[10/Jan/2026 12:26:51] "GET /static/images/overlay.png HTTP/1.1" 200 7706
+[10/Jan/2026 12:26:51] "GET /static/images/item9.jpg HTTP/1.1" 200 45540
+[10/Jan/2026 12:26:51] "GET /static/images/item10.jpg HTTP/1.1" 200 34413
+[10/Jan/2026 12:26:51] "GET /static/images/item11.jpg HTTP/1.1" 200 46664
+[10/Jan/2026 12:26:51] "GET /static/images/item12.jpg HTTP/1.1" 200 44155
+[10/Jan/2026 12:26:51] "GET /static/images/2.png HTTP/1.1" 200 55963
+[10/Jan/2026 12:26:51] "GET /static/images/item13.jpg HTTP/1.1" 200 40460
+[10/Jan/2026 12:26:51] "GET /static/images/item14.jpg HTTP/1.1" 200 35909
+[10/Jan/2026 12:26:51] "GET /static/images/item15.jpg HTTP/1.1" 200 41490
+[10/Jan/2026 12:26:51] "GET /static/images/item16.jpg HTTP/1.1" 200 40992
+[10/Jan/2026 12:26:51] "GET /static/images/insta1.jpg HTTP/1.1" 200 75355
+[10/Jan/2026 12:26:51] "GET /static/images/insta2.jpg HTTP/1.1" 200 45973
+[10/Jan/2026 12:26:51] "GET /static/images/insta3.jpg HTTP/1.1" 200 64180
+[10/Jan/2026 12:26:51] "GET /static/images/insta4.jpg HTTP/1.1" 200 92950
+[10/Jan/2026 12:26:51] "GET /static/images/insta6.jpg HTTP/1.1" 200 56555
+[10/Jan/2026 12:26:51] "GET /static/images/insta5.jpg HTTP/1.1" 200 60771
+Not Found: /apple-touch-icon-precomposed.png
+[10/Jan/2026 12:26:51] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 3303
+Not Found: /apple-touch-icon.png
+Not Found: /favicon.ico
+[10/Jan/2026 12:26:51] "GET /apple-touch-icon.png HTTP/1.1" 404 3267
+[10/Jan/2026 12:26:51] "GET /favicon.ico HTTP/1.1" 404 3240
+[10/Jan/2026 12:26:51] "GET /static/images/diapo.png HTTP/1.1" 200 113838
+Not Found: /favicon.ico
+[10/Jan/2026 12:26:52] "GET /favicon.ico HTTP/1.1" 404 3240
+[10/Jan/2026 12:26:55] "GET /medailles/ HTTP/1.1" 200 109689
+[10/Jan/2026 12:26:56] "GET /static/css/colorPick.css HTTP/1.1" 200 2899
+[10/Jan/2026 12:26:56] "GET /static/images/blog-lg4.jpg HTTP/1.1" 200 142502
+[10/Jan/2026 12:26:56] "GET /static/js/medals.js HTTP/1.1" 200 12508
+[10/Jan/2026 12:26:56] "GET /static/images/blog-lg2.jpg HTTP/1.1" 200 155307
+[10/Jan/2026 12:26:56] "GET /static/images/blog-lg3.jpg HTTP/1.1" 200 104266
+[10/Jan/2026 12:26:56] "GET /static/images/blog-lg1.jpg HTTP/1.1" 200 182460
+[10/Jan/2026 12:26:56] "GET /static/images/reviewer-2.jpg HTTP/1.1" 200 20298
+[10/Jan/2026 12:26:56] "GET /static/images/banner-img.png HTTP/1.1" 200 368268
+[10/Jan/2026 12:26:56] "GET /static/images/banner-img2.png HTTP/1.1" 200 319611
+[10/Jan/2026 12:26:56] "GET /static/images/banner-img4.png HTTP/1.1" 200 295153
+[10/Jan/2026 12:26:56] "GET /static/images/banner-img3.png HTTP/1.1" 200 336677
+[10/Jan/2026 12:26:56] "GET /static/images/image0.png HTTP/1.1" 200 33679
+[10/Jan/2026 12:26:56] "GET /static/images/gold.png HTTP/1.1" 200 77928
+[10/Jan/2026 12:26:56] "GET /static/images/silver.jpg HTTP/1.1" 200 61166
+[10/Jan/2026 12:26:56] "GET /static/images/cuivre.jpg HTTP/1.1" 200 80739
+[10/Jan/2026 12:26:56] "GET /static/images/marber.jpg HTTP/1.1" 200 27815
+[10/Jan/2026 12:26:56] "GET /static/images/marber3.jpg HTTP/1.1" 200 39330
+[10/Jan/2026 12:26:56] "GET /static/images/marber2.jpg HTTP/1.1" 200 473058
+[10/Jan/2026 12:28:27] "GET /medailles/ HTTP/1.1" 200 109669
+[10/Jan/2026 12:28:35] "GET /medailles/ HTTP/1.1" 200 109669
+[10/Jan/2026 12:29:21] "GET /medailles/ HTTP/1.1" 200 109679
+[10/Jan/2026 12:29:28] "GET /medailles/ HTTP/1.1" 200 109679
+[10/Jan/2026 12:35:21] "GET /medailles/ HTTP/1.1" 200 109124
+[10/Jan/2026 12:36:00] "GET /medailles/ HTTP/1.1" 200 109119
+[10/Jan/2026 12:42:35] "GET /medailles/ HTTP/1.1" 200 194799
+Not Found: /medailles/images/029.jpg
+Not Found: /medailles/images/marber.jpg
+[10/Jan/2026 12:42:36] "GET /medailles/images/029.jpg HTTP/1.1" 404 3279
+[10/Jan/2026 12:42:36] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 12:42:36] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 12:44:55] "GET /medailles/ HTTP/1.1" 200 194807
+[10/Jan/2026 12:44:55] "GET /static/images/029.png HTTP/1.1" 404 1861
+Not Found: /medailles/images/marber.jpg
+[10/Jan/2026 12:44:55] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 12:44:55] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 12:45:12] "GET /medailles/ HTTP/1.1" 200 194807
+Not Found: /medailles/images/marber2.jpg
+Not Found: /medailles/images/marber.jpg
+[10/Jan/2026 12:45:12] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 12:45:12] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 12:45:12] "GET /static/images/029.jpg HTTP/1.1" 200 3943189
+[10/Jan/2026 12:46:59] "GET /medailles/ HTTP/1.1" 200 194790
+Not Found: /medailles/images/marber2.jpg
+Not Found: /medailles/images/marber.jpg
+[10/Jan/2026 12:46:59] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 12:46:59] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 12:47:09] "GET /medailles/ HTTP/1.1" 200 195722
+Not Found: /medailles/images/marber2.jpg
+Not Found: /medailles/images/marber.jpg
+[10/Jan/2026 12:47:09] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 12:47:09] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 12:47:38] "GET /medailles/ HTTP/1.1" 200 195750
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 12:47:38] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 12:47:38] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 12:48:07] "GET /medailles/ HTTP/1.1" 200 195750
+Not Found: /medailles/images/marber.jpg
+[10/Jan/2026 12:48:07] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 12:48:07] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 12:48:07] "GET /static/images/029.jpg HTTP/1.1" 200 3943189
+[10/Jan/2026 12:52:46] "GET /medailles/ HTTP/1.1" 200 194522
+Not Found: /medailles/images/marber2.jpg
+Not Found: /medailles/images/marber.jpg
+[10/Jan/2026 12:52:46] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 12:52:46] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 12:53:09] "GET /medailles/ HTTP/1.1" 200 194522
+Not Found: /medailles/images/marber.jpg
+[10/Jan/2026 12:53:09] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 12:53:09] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 12:53:20] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 12:53:20] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 12:53:20] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 12:53:20] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 12:59:18] "GET / HTTP/1.1" 200 43332
+[10/Jan/2026 13:03:54] "GET /medailles/ HTTP/1.1" 200 194522
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:03:54] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 13:03:54] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:03:54] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 13:03:55] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 13:03:55] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 13:03:55] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 13:05:14] "GET /medailles/ HTTP/1.1" 200 194505
+Not Found: /medailles/images/marber2.jpg
+Not Found: /medailles/images/marber.jpg
+[10/Jan/2026 13:05:14] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:05:14] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 13:05:14] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 13:05:14] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 13:05:14] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 13:05:14] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 13:05:28] "GET /medailles/ HTTP/1.1" 200 194522
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:05:28] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 13:05:28] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:05:28] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 13:05:28] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 13:05:28] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 13:05:28] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 13:08:29] "GET /medailles/ HTTP/1.1" 200 194522
+Not Found: /medailles/images/marber2.jpg
+Not Found: /medailles/images/marber.jpg
+[10/Jan/2026 13:08:29] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:08:29] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 13:08:29] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 13:08:29] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 13:08:30] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 13:08:30] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 13:09:50] "GET /medailles/ HTTP/1.1" 200 194548
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:09:50] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 13:09:50] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:09:50] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 13:09:50] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 13:09:50] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 13:09:50] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 13:10:12] "GET /medailles/ HTTP/1.1" 200 194548
+Not Found: /medailles/images/marber.jpg
+[10/Jan/2026 13:10:12] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:10:12] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:23:36] "GET / HTTP/1.1" 200 43332
+[10/Jan/2026 13:28:42] "GET /medailles/ HTTP/1.1" 200 196497
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:28:42] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 13:28:42] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:28:42] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 13:28:42] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 13:28:42] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 13:28:42] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 13:32:02] "GET /medailles/ HTTP/1.1" 200 195597
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:32:02] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 13:32:02] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:32:03] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 13:32:03] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 13:32:03] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 13:32:03] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 13:32:41] "GET /medailles/ HTTP/1.1" 200 196498
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:32:41] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 13:32:41] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:32:41] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 13:32:41] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 13:32:41] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 13:32:41] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 13:32:55] "GET /medailles/ HTTP/1.1" 200 196498
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:32:55] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 13:32:55] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:32:55] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 13:32:55] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 13:32:55] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 13:32:55] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 13:34:04] "GET /medailles/ HTTP/1.1" 200 188648
+Not Found: /medailles/images/marber2.jpg
+Not Found: /medailles/images/marber.jpg
+[10/Jan/2026 13:34:04] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:34:04] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 13:34:04] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 13:34:04] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 13:34:04] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 13:34:04] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 13:35:15] "GET /medailles/ HTTP/1.1" 200 186730
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:35:16] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 13:35:16] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:35:16] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 13:35:16] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 13:35:16] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 13:35:16] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 13:35:39] "GET / HTTP/1.1" 200 43332
+[10/Jan/2026 13:35:42] "GET /medailles/ HTTP/1.1" 200 186730
+Not Found: /medailles/images/marber.jpg
+[10/Jan/2026 13:35:42] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:35:42] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:35:47] "GET /medailles/ HTTP/1.1" 200 186730
+Not Found: /medailles/images/marber.jpg
+[10/Jan/2026 13:35:47] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:35:47] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:35:56] "GET /medailles/ HTTP/1.1" 200 186730
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:35:56] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 13:35:56] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+Not Found: /invoker/EJBInvokerServlet
+[10/Jan/2026 13:35:57] "HEAD /invoker/EJBInvokerServlet HTTP/1.1" 404 0
+Not Found: /jmx-console/HtmlAdaptor
+[10/Jan/2026 13:35:58] "HEAD /jmx-console/HtmlAdaptor?action=inspectMBean&name=jboss.system:type=ServerInfo HTTP/1.1" 404 0
+Not Found: /invoker/JMXInvokerServlet
+[10/Jan/2026 13:35:59] "HEAD /invoker/JMXInvokerServlet HTTP/1.1" 404 0
+Not Found: /web-console/ServerInfo.jsp
+[10/Jan/2026 13:36:01] "HEAD /web-console/ServerInfo.jsp HTTP/1.1" 404 0
+[10/Jan/2026 13:36:27] "GET /medailles/ HTTP/1.1" 200 186730
+Not Found: /medailles/images/marber.jpg
+[10/Jan/2026 13:36:27] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:36:27] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:36:29] "GET /medailles/ HTTP/1.1" 200 186730
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:36:29] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 13:36:29] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:36:37] "GET / HTTP/1.1" 200 43332
+[10/Jan/2026 13:36:37] "GET / HTTP/1.1" 200 43332
+[10/Jan/2026 13:36:40] "GET /medailles/ HTTP/1.1" 200 186730
+Not Found: /medailles/images/marber.jpg
+[10/Jan/2026 13:36:40] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:36:40] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+Forbidden (CSRF cookie not set.): /
+[10/Jan/2026 13:36:45] "POST / HTTP/1.1" 403 2855
+[10/Jan/2026 13:39:30] "GET /medailles/ HTTP/1.1" 200 186627
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:39:30] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 13:39:30] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:39:30] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 13:39:30] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 13:39:30] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 13:39:30] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 13:39:35] "GET /medailles/ HTTP/1.1" 200 186627
+Not Found: /medailles/images/marber.jpg
+[10/Jan/2026 13:39:35] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:39:35] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:40:10] "GET /medailles/ HTTP/1.1" 200 186632
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:40:10] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 13:40:10] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:40:10] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 13:40:10] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 13:40:10] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 13:40:10] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 13:40:12] "GET /medailles/ HTTP/1.1" 200 186632
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:40:12] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 13:40:12] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:40:48] "GET /medailles/ HTTP/1.1" 200 186627
+Not Found: /medailles/images/marber2.jpg
+Not Found: /medailles/images/marber.jpg
+[10/Jan/2026 13:40:48] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:40:48] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 13:40:48] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 13:40:48] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 13:40:48] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 13:40:48] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 13:40:58] "GET /medailles/ HTTP/1.1" 200 186627
+[10/Jan/2026 13:40:58] "GET /static/css/swiper.css HTTP/1.1" 200 20951
+[10/Jan/2026 13:40:58] "GET /static/css/bootstrap.css HTTP/1.1" 200 293102
+[10/Jan/2026 13:40:58] "GET /static/css/vendor.css HTTP/1.1" 200 31551
+[10/Jan/2026 13:40:58] "GET /static/css/style.css HTTP/1.1" 200 26313
+[10/Jan/2026 13:40:58] "GET /static/css/colorPick.css HTTP/1.1" 200 2899
+[10/Jan/2026 13:40:58] "GET /static/js/jquery-3.7.1.min.js HTTP/1.1" 200 87535
+[10/Jan/2026 13:40:58] "GET /static/logo.png HTTP/1.1" 200 474639
+[10/Jan/2026 13:40:58] "GET /static/js/swiper.js HTTP/1.1" 200 209964
+[10/Jan/2026 13:40:58] "GET /static/js/bootstrap.bundle.js HTTP/1.1" 200 214133
+[10/Jan/2026 13:40:58] "GET /static/js/script.js HTTP/1.1" 200 7057
+[10/Jan/2026 13:40:58] "GET /static/js/plugins.js HTTP/1.1" 200 75356
+[10/Jan/2026 13:40:58] "GET /static/js/iconify.js HTTP/1.1" 200 34237
+[10/Jan/2026 13:40:58] "GET /static/js/medals.js HTTP/1.1" 200 12508
+[10/Jan/2026 13:40:58] "GET /static/images/overlay.png HTTP/1.1" 200 7706
+[10/Jan/2026 13:40:58] "GET /static/images/item9.jpg HTTP/1.1" 200 45540
+[10/Jan/2026 13:40:58] "GET /static/images/item10.jpg HTTP/1.1" 200 34413
+[10/Jan/2026 13:40:58] "GET /static/images/item11.jpg HTTP/1.1" 200 46664
+[10/Jan/2026 13:40:58] "GET /static/images/item12.jpg HTTP/1.1" 200 44155
+[10/Jan/2026 13:40:58] "GET /static/images/blog-lg4.jpg HTTP/1.1" 200 142502
+[10/Jan/2026 13:40:58] "GET /static/images/blog-lg2.jpg HTTP/1.1" 200 155307
+[10/Jan/2026 13:40:58] "GET /static/images/2.png HTTP/1.1" 200 55963
+[10/Jan/2026 13:40:58] "GET /static/images/blog-lg3.jpg HTTP/1.1" 200 104266
+[10/Jan/2026 13:40:58] "GET /static/images/blog-lg1.jpg HTTP/1.1" 200 182460
+[10/Jan/2026 13:40:58] "GET /static/images/reviewer-2.jpg HTTP/1.1" 200 20298
+[10/Jan/2026 13:40:58] "GET /static/images/insta1.jpg HTTP/1.1" 200 75355
+[10/Jan/2026 13:40:58] "GET /static/images/insta2.jpg HTTP/1.1" 200 45973
+[10/Jan/2026 13:40:58] "GET /static/images/insta3.jpg HTTP/1.1" 200 64180
+[10/Jan/2026 13:40:58] "GET /static/images/insta4.jpg HTTP/1.1" 200 92950
+[10/Jan/2026 13:40:58] "GET /static/images/insta5.jpg HTTP/1.1" 200 60771
+[10/Jan/2026 13:40:58] "GET /static/images/insta6.jpg HTTP/1.1" 200 56555
+[10/Jan/2026 13:40:58] "GET /static/images/029.jpg HTTP/1.1" 200 3943189
+Not Found: /medailles/images/marber.jpg
+[10/Jan/2026 13:40:58] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:40:58] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:40:58] "GET /static/images/image0.png HTTP/1.1" 200 33679
+[10/Jan/2026 13:40:58] "GET /static/images/gold.png HTTP/1.1" 200 77928
+[10/Jan/2026 13:40:58] "GET /static/images/silver.jpg HTTP/1.1" 200 61166
+[10/Jan/2026 13:40:58] "GET /static/images/cuivre.jpg HTTP/1.1" 200 80739
+[10/Jan/2026 13:40:58] "GET /static/images/marber.jpg HTTP/1.1" 200 27815
+[10/Jan/2026 13:40:58] "GET /static/images/marber2.jpg HTTP/1.1" 200 473058
+[10/Jan/2026 13:40:58] "GET /static/images/marber3.jpg HTTP/1.1" 200 39330
+[10/Jan/2026 13:40:58] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 13:40:58] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 13:40:58] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 13:40:58] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+Not Found: /favicon.ico
+[10/Jan/2026 13:40:59] "GET /favicon.ico HTTP/1.1" 404 3240
+[10/Jan/2026 13:41:08] "GET /medailles/ HTTP/1.1" 200 186627
+[10/Jan/2026 13:41:08] "GET /static/css/style.css HTTP/1.1" 200 26313
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:41:08] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 13:41:08] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:41:08] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 13:41:08] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 13:41:08] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 13:41:08] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 13:43:05] "GET /medailles/ HTTP/1.1" 200 186627
+[10/Jan/2026 13:43:05] "GET /static/css/style.css HTTP/1.1" 200 26357
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:43:05] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 13:43:05] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:43:05] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 13:43:05] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 13:43:05] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 13:43:05] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 13:43:29] "GET /medailles/ HTTP/1.1" 200 186627
+[10/Jan/2026 13:43:29] "GET /static/css/style.css HTTP/1.1" 200 26357
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:43:29] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 13:43:29] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:43:29] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 13:43:29] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 13:43:29] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 13:43:29] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 13:43:38] "GET /medailles/ HTTP/1.1" 200 186627
+Not Found: /medailles/images/marber.jpg
+[10/Jan/2026 13:43:38] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:43:38] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:43:40] "GET /medailles/ HTTP/1.1" 200 186627
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:43:40] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 13:43:40] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:43:41] "GET /medailles/ HTTP/1.1" 200 186627
+Not Found: /medailles/images/marber.jpg
+[10/Jan/2026 13:43:41] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:43:41] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:43:42] "GET /medailles/ HTTP/1.1" 200 186627
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:43:42] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:43:42] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 13:43:42] "GET /medailles/ HTTP/1.1" 200 186627
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:43:42] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 13:43:42] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:43:42] "GET /medailles/ HTTP/1.1" 200 186627
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:43:42] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 13:43:42] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:43:43] "GET /medailles/ HTTP/1.1" 200 186627
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:43:43] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 13:43:43] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:43:43] "GET /medailles/ HTTP/1.1" 200 186627
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:43:43] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 13:43:43] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:43:43] "GET /medailles/ HTTP/1.1" 200 186627
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:43:43] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 13:43:43] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:43:43] "GET /medailles/ HTTP/1.1" 200 186627
+Not Found: /medailles/images/marber.jpg
+[10/Jan/2026 13:43:43] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:43:43] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:43:43] "GET /medailles/ HTTP/1.1" 200 186627
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:43:43] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 13:43:43] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:43:43] "GET /medailles/ HTTP/1.1" 200 186627
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:43:43] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:43:43] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 13:43:46] "GET /medailles/ HTTP/1.1" 200 186627
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:43:46] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 13:43:46] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:43:48] "GET /medailles/ HTTP/1.1" 200 186627
+Not Found: /medailles/images/marber2.jpg
+Not Found: /medailles/images/marber.jpg
+[10/Jan/2026 13:43:48] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:43:48] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 13:43:51] "GET /medailles/ HTTP/1.1" 200 186627
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:43:51] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 13:43:51] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:44:37] "GET /medailles/ HTTP/1.1" 200 186627
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:44:37] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 13:44:37] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:44:54] "GET /medailles/ HTTP/1.1" 200 186627
+[10/Jan/2026 13:44:54] "GET /static/css/style.css HTTP/1.1" 200 26355
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:44:54] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 13:44:54] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:44:54] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 13:44:54] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 13:44:54] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 13:44:54] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 13:44:58] "GET /medailles/ HTTP/1.1" 200 186627
+Not Found: /medailles/images/marber.jpg
+[10/Jan/2026 13:44:58] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:44:58] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:45:05] "GET / HTTP/1.1" 200 43332
+[10/Jan/2026 13:45:05] "GET /static/css/swiper.css HTTP/1.1" 200 20951
+[10/Jan/2026 13:45:05] "GET /static/js/jquery-3.7.1.min.js HTTP/1.1" 200 87535
+[10/Jan/2026 13:45:06] "GET /static/js/bootstrap.bundle.js HTTP/1.1" 200 214133
+[10/Jan/2026 13:45:06] "GET /static/js/plugins.js HTTP/1.1" 200 75356
+[10/Jan/2026 13:45:06] "GET /static/css/vendor.css HTTP/1.1" 200 31551
+[10/Jan/2026 13:45:06] "GET /static/css/style.css HTTP/1.1" 200 26355
+[10/Jan/2026 13:45:06] "GET /static/css/bootstrap.css HTTP/1.1" 200 293102
+[10/Jan/2026 13:45:06] "GET /static/js/script.js HTTP/1.1" 200 7057
+[10/Jan/2026 13:45:06] "GET /static/js/swiper.js HTTP/1.1" 200 209964
+[10/Jan/2026 13:45:06] "GET /static/js/iconify.js HTTP/1.1" 200 34237
+[10/Jan/2026 13:45:06] "GET /static/images/diapo.png HTTP/1.1" 200 113838
+[10/Jan/2026 13:45:06] "GET /static/logo.png HTTP/1.1" 200 474639
+[10/Jan/2026 13:45:06] "GET /static/images/overlay.png HTTP/1.1" 200 7706
+[10/Jan/2026 13:45:06] "GET /static/images/2.png HTTP/1.1" 200 55963
+[10/Jan/2026 13:45:06] "GET /static/images/item9.jpg HTTP/1.1" 200 45540
+[10/Jan/2026 13:45:06] "GET /static/images/item10.jpg HTTP/1.1" 200 34413
+[10/Jan/2026 13:45:06] "GET /static/images/item11.jpg HTTP/1.1" 200 46664
+[10/Jan/2026 13:45:06] "GET /static/images/item12.jpg HTTP/1.1" 200 44155
+[10/Jan/2026 13:45:06] "GET /static/images/item14.jpg HTTP/1.1" 200 35909
+[10/Jan/2026 13:45:06] "GET /static/images/item15.jpg HTTP/1.1" 200 41490
+[10/Jan/2026 13:45:06] "GET /static/images/item13.jpg HTTP/1.1" 200 40460
+[10/Jan/2026 13:45:06] "GET /static/images/item16.jpg HTTP/1.1" 200 40992
+[10/Jan/2026 13:45:06] "GET /static/images/insta1.jpg HTTP/1.1" 200 75355
+[10/Jan/2026 13:45:06] "GET /static/images/insta2.jpg HTTP/1.1" 200 45973
+[10/Jan/2026 13:45:06] "GET /static/images/insta3.jpg HTTP/1.1" 200 64180
+[10/Jan/2026 13:45:06] "GET /static/images/insta4.jpg HTTP/1.1" 200 92950
+[10/Jan/2026 13:45:06] "GET /static/images/insta6.jpg HTTP/1.1" 200 56555
+[10/Jan/2026 13:45:06] "GET /static/images/insta5.jpg HTTP/1.1" 200 60771
+[10/Jan/2026 13:45:08] "GET /medailles/ HTTP/1.1" 200 186627
+[10/Jan/2026 13:45:08] "GET /static/css/style.css HTTP/1.1" 304 0
+[10/Jan/2026 13:45:08] "GET /static/css/colorPick.css HTTP/1.1" 200 2899
+Not Found: /medailles/images/marber.jpg
+[10/Jan/2026 13:45:08] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 13:45:08] "GET /static/js/medals.js HTTP/1.1" 200 12508
+[10/Jan/2026 13:45:08] "GET /static/images/blog-lg3.jpg HTTP/1.1" 200 104266
+[10/Jan/2026 13:45:08] "GET /static/images/blog-lg2.jpg HTTP/1.1" 200 155307
+[10/Jan/2026 13:45:08] "GET /static/images/blog-lg1.jpg HTTP/1.1" 200 182460
+[10/Jan/2026 13:45:08] "GET /static/images/blog-lg4.jpg HTTP/1.1" 200 142502
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:45:08] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:45:08] "GET /static/images/reviewer-2.jpg HTTP/1.1" 200 20298
+[10/Jan/2026 13:45:08] "GET /static/images/image0.png HTTP/1.1" 200 33679
+[10/Jan/2026 13:45:08] "GET /static/images/silver.jpg HTTP/1.1" 200 61166
+[10/Jan/2026 13:45:08] "GET /static/images/gold.png HTTP/1.1" 200 77928
+[10/Jan/2026 13:45:08] "GET /static/images/cuivre.jpg HTTP/1.1" 200 80739
+[10/Jan/2026 13:45:08] "GET /static/images/marber.jpg HTTP/1.1" 200 27815
+[10/Jan/2026 13:45:08] "GET /static/images/marber3.jpg HTTP/1.1" 200 39330
+[10/Jan/2026 13:45:08] "GET /static/images/marber2.jpg HTTP/1.1" 200 473058
+[10/Jan/2026 13:45:09] "GET /static/images/029.jpg HTTP/1.1" 200 3943189
+[10/Jan/2026 13:45:54] "GET /medailles/ HTTP/1.1" 200 186627
+[10/Jan/2026 13:45:54] "GET /static/css/style.css HTTP/1.1" 200 26357
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:45:54] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 13:45:54] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:45:55] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 13:45:55] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 13:45:55] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 13:45:55] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 13:46:00] "GET /medailles/ HTTP/1.1" 200 186627
+[10/Jan/2026 13:46:00] "GET /static/css/style.css HTTP/1.1" 200 26357
+Not Found: /medailles/images/marber.jpg
+[10/Jan/2026 13:46:00] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:46:00] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:46:22] "GET /medailles/ HTTP/1.1" 200 186577
+[10/Jan/2026 13:46:22] "GET /static/css/style.css HTTP/1.1" 304 0
+Not Found: /medailles/images/marber.jpg
+[10/Jan/2026 13:46:22] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:46:22] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:46:22] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 13:46:22] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 13:46:22] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 13:46:22] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 13:46:44] "GET /medailles/ HTTP/1.1" 200 186577
+[10/Jan/2026 13:46:44] "GET /static/css/style.css HTTP/1.1" 304 0
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:46:44] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 13:46:44] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:46:44] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 13:46:44] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 13:46:44] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 13:46:44] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 13:48:22] "GET /medailles/ HTTP/1.1" 200 186627
+[10/Jan/2026 13:48:22] "GET /static/css/style.css HTTP/1.1" 200 26357
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:48:22] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 13:48:22] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:48:22] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 13:48:22] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 13:48:22] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 13:48:22] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 13:49:40] "GET /medailles/ HTTP/1.1" 200 186627
+[10/Jan/2026 13:49:40] "GET /static/css/style.css HTTP/1.1" 304 0
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:49:40] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+Not Found: /medailles/images/marber.jpg
+[10/Jan/2026 13:49:40] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 13:49:40] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 13:49:40] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 13:49:40] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 13:49:40] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 13:50:30] "GET /medailles/ HTTP/1.1" 200 186627
+[10/Jan/2026 13:50:30] "GET /static/css/style.css HTTP/1.1" 200 26357
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:50:30] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 13:50:30] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:50:30] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 13:50:30] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 13:50:30] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 13:50:30] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 13:52:13] "GET / HTTP/1.1" 200 43332
+[10/Jan/2026 13:53:20] "GET /medailles/ HTTP/1.1" 200 186727
+[10/Jan/2026 13:53:20] "GET /static/css/style.css HTTP/1.1" 304 0
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:53:20] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 13:53:20] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:53:20] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 13:53:20] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 13:53:20] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 13:53:20] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 13:53:31] "GET /medailles/ HTTP/1.1" 200 186727
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:53:31] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 13:53:31] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:53:31] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 13:53:31] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 13:53:31] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 13:53:31] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 13:54:05] "GET /medailles/ HTTP/1.1" 200 186748
+[10/Jan/2026 13:54:05] "GET /static/css/style.css HTTP/1.1" 304 0
+Not Found: /medailles/images/marber2.jpg
+Not Found: /medailles/images/marber.jpg
+[10/Jan/2026 13:54:05] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:54:05] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 13:54:05] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 13:54:05] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 13:54:05] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 13:54:05] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 13:54:14] "GET /medailles/ HTTP/1.1" 200 186769
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 13:54:14] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 13:54:14] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 13:54:14] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 13:54:14] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 13:54:14] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 13:54:14] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 14:01:11] "GET / HTTP/1.1" 200 43332
+[10/Jan/2026 14:13:50] "GET /medailles/ HTTP/1.1" 200 186947
+[10/Jan/2026 14:13:50] "GET /static/css/style.css HTTP/1.1" 304 0
+Not Found: /medailles/images/marber.jpg
+[10/Jan/2026 14:13:51] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 14:13:51] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 14:13:51] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 14:13:51] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 14:13:51] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 14:13:51] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 14:18:07] "GET /medailles/ HTTP/1.1" 200 186938
+[10/Jan/2026 14:18:07] "GET /static/css/style.css HTTP/1.1" 304 0
+Not Found: /medailles/images/marber2.jpg
+Not Found: /medailles/images/marber.jpg
+[10/Jan/2026 14:18:07] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 14:18:07] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 14:18:07] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 14:18:07] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 14:18:07] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 14:18:07] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 14:20:47] "GET /medailles/ HTTP/1.1" 200 186920
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 14:20:47] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 14:20:47] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 14:20:47] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 14:20:47] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 14:20:47] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 14:20:47] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 14:21:04] "GET /medailles/ HTTP/1.1" 200 186921
+[10/Jan/2026 14:21:04] "GET /static/css/style.css HTTP/1.1" 304 0
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 14:21:04] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 14:21:04] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 14:21:04] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 14:21:04] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 14:21:04] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 14:21:04] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 14:22:10] "GET /medailles/ HTTP/1.1" 200 185515
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 14:22:10] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 14:22:10] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 14:22:10] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 14:22:10] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 14:22:10] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 14:22:10] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 14:22:26] "GET /medailles/ HTTP/1.1" 200 186930
+Not Found: /medailles/images/marber.jpg
+[10/Jan/2026 14:22:26] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 14:22:26] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 14:22:26] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 14:22:26] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 14:22:26] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 14:22:26] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 14:24:57] "GET /medailles/ HTTP/1.1" 200 186930
+[10/Jan/2026 14:24:57] "GET /static/css/style.css HTTP/1.1" 304 0
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 14:24:57] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 14:24:57] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 14:24:57] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 14:24:57] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 14:24:57] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 14:24:57] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 14:25:30] "GET /medailles/ HTTP/1.1" 200 186934
+Not Found: /medailles/images/marber2.jpg
+Not Found: /medailles/images/marber.jpg
+[10/Jan/2026 14:25:30] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 14:25:30] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 14:30:41] "GET /medailles/ HTTP/1.1" 200 186940
+[10/Jan/2026 14:30:41] "GET /static/css/style.css HTTP/1.1" 304 0
+Not Found: /medailles/images/marber2.jpg
+Not Found: /medailles/images/marber.jpg
+[10/Jan/2026 14:30:41] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 14:30:41] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 14:32:37] "GET /medailles/ HTTP/1.1" 200 192472
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 14:32:37] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 14:32:37] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+Not Found: /manager/html
+[10/Jan/2026 14:33:45] "GET /manager/html HTTP/1.1" 404 3238
+[10/Jan/2026 14:34:55] "GET /medailles/ HTTP/1.1" 200 192472
+Not Found: /medailles/images/marber.jpg
+[10/Jan/2026 14:34:55] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 14:34:55] "GET /static/css/style.css HTTP/1.1" 200 26357
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 14:34:55] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 14:36:13] "GET /medailles/ HTTP/1.1" 200 192492
+[10/Jan/2026 14:36:13] "GET /static/css/style.css HTTP/1.1" 304 0
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 14:36:13] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 14:36:13] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 14:36:45] "GET /medailles/ HTTP/1.1" 200 192401
+Not Found: /medailles/images/marber2.jpg
+Not Found: /medailles/images/marber.jpg
+[10/Jan/2026 14:36:45] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 14:36:45] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 14:37:49] "GET /medailles/ HTTP/1.1" 200 192472
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 14:37:49] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 14:37:49] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 14:37:54] "GET /medailles/ HTTP/1.1" 200 192472
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 14:37:54] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 14:37:54] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 14:38:00] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 14:38:00] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 14:38:00] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 14:38:00] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 14:38:11] "GET /medailles/ HTTP/1.1" 200 192472
+[10/Jan/2026 14:38:11] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 14:38:11] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 14:38:11] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 14:38:11] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 14:38:11] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 14:38:11] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 14:40:09] "GET /medailles/ HTTP/1.1" 200 192489
+Not Found: /medailles/images/marber2.jpg
+Not Found: /medailles/images/marber.jpg
+[10/Jan/2026 14:40:09] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 14:40:09] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 14:40:09] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 14:40:09] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 14:40:09] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 14:40:09] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 14:40:14] "GET /medailles/ HTTP/1.1" 200 192489
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 14:40:14] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 14:40:14] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 14:40:14] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 14:40:14] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 14:40:14] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 14:40:14] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 14:41:06] "GET /medailles/ HTTP/1.1" 200 192417
+[10/Jan/2026 14:41:06] "GET /static/css/style.css HTTP/1.1" 304 0
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 14:41:06] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 14:41:06] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 14:41:06] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 14:41:06] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 14:41:06] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 14:41:06] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 14:41:18] "GET /medailles/ HTTP/1.1" 200 192472
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 14:41:19] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 14:41:19] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 14:41:19] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 14:41:19] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 14:41:19] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 14:41:19] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 14:42:12] "GET /medailles/ HTTP/1.1" 200 192529
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 14:42:12] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 14:42:12] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 14:42:12] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 14:42:12] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 14:42:12] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 14:42:12] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 14:42:29] "GET /medailles/ HTTP/1.1" 200 192522
+Not Found: /medailles/images/marber.jpg
+[10/Jan/2026 14:42:29] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 14:42:29] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 14:42:29] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 14:42:29] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 14:42:29] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 14:42:29] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 14:43:04] "GET /medailles/ HTTP/1.1" 200 192474
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 14:43:04] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 14:43:04] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 14:43:04] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 14:43:04] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 14:43:04] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 14:43:04] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 14:44:44] "GET / HTTP/1.1" 200 43332
+[10/Jan/2026 14:44:58] "GET /medailles/ HTTP/1.1" 200 192474
+[10/Jan/2026 14:44:59] "GET /static/css/style.css HTTP/1.1" 304 0
+Not Found: /medailles/images/marber.jpg
+[10/Jan/2026 14:44:59] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 14:44:59] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 14:48:06] "GET /medailles/ HTTP/1.1" 200 192693
+[10/Jan/2026 14:48:06] "GET /static/css/style.css HTTP/1.1" 304 0
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 14:48:06] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 14:48:06] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 14:48:06] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 14:48:06] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 14:48:06] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 14:48:06] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 14:49:01] "GET /medailles/ HTTP/1.1" 200 192683
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 14:49:01] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 14:49:01] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 14:49:01] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 14:49:01] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 14:49:01] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 14:49:01] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 14:49:57] "GET /medailles/ HTTP/1.1" 200 192693
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 14:49:57] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+Not Found: /medailles/images/marber.jpg
+[10/Jan/2026 14:49:57] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 14:49:57] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 14:49:57] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 14:49:57] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 14:49:57] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 14:51:22] "GET /medailles/ HTTP/1.1" 200 192693
+[10/Jan/2026 14:51:22] "GET /static/css/style.css HTTP/1.1" 304 0
+Not Found: /medailles/images/marber.jpg
+[10/Jan/2026 14:51:22] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 14:51:22] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 14:53:33] "GET /medailles/ HTTP/1.1" 200 193105
+Not Found: /medailles/images/marber2.jpg
+Not Found: /medailles/images/marber.jpg
+[10/Jan/2026 14:53:33] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 14:53:33] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 14:53:33] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 14:53:33] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 14:53:33] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 14:53:33] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 14:54:21] "GET /medailles/ HTTP/1.1" 200 192946
+[10/Jan/2026 14:54:21] "GET /static/css/style.css HTTP/1.1" 304 0
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 14:54:22] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 14:54:22] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 14:54:22] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 14:54:22] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 14:54:22] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 14:54:22] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 14:54:53] "GET /medailles/ HTTP/1.1" 200 192946
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 14:54:54] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 14:54:54] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 14:55:59] "GET /medailles/ HTTP/1.1" 200 192945
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 14:55:59] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 14:55:59] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 14:55:59] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 14:55:59] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 14:55:59] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 14:55:59] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 15:01:41] "GET /medailles/ HTTP/1.1" 200 193164
+[10/Jan/2026 15:01:41] "GET /static/css/style.css HTTP/1.1" 304 0
+Not Found: /medailles/images/marber.jpg
+[10/Jan/2026 15:01:41] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 15:01:41] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 15:01:41] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 15:01:41] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 15:01:41] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 15:01:41] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 15:01:56] "GET /medailles/ HTTP/1.1" 200 193164
+Not Found: /medailles/images/marber.jpg
+[10/Jan/2026 15:01:56] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 15:01:56] "GET /static/css/style.css HTTP/1.1" 304 0
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 15:01:56] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 15:05:44] "GET /medailles/ HTTP/1.1" 200 193331
+Not Found: /medailles/images/marber2.jpg
+Not Found: /medailles/images/marber.jpg
+[10/Jan/2026 15:05:45] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 15:05:45] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 15:05:45] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 15:05:45] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 15:05:45] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 15:05:45] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 15:06:02] "GET /medailles/ HTTP/1.1" 200 193300
+Not Found: /medailles/images/marber2.jpg
+Not Found: /medailles/images/marber.jpg
+[10/Jan/2026 15:06:02] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 15:06:02] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 15:06:02] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 15:06:02] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 15:06:02] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 15:06:02] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 15:06:12] "GET /medailles/ HTTP/1.1" 200 193297
+Not Found: /medailles/images/marber2.jpg
+Not Found: /medailles/images/marber.jpg
+[10/Jan/2026 15:06:12] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 15:06:12] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 15:06:12] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 15:06:12] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 15:06:12] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 15:06:12] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 15:06:36] "GET /medailles/ HTTP/1.1" 200 193297
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 15:06:37] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 15:06:37] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 15:10:36] "GET /medailles/ HTTP/1.1" 200 193297
+[10/Jan/2026 15:10:36] "GET /static/css/style.css HTTP/1.1" 304 0
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 15:10:36] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 15:10:36] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 15:10:36] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 15:10:36] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 15:10:36] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 15:10:36] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 15:12:18] "GET /medailles/ HTTP/1.1" 200 193599
+Not Found: /medailles/images/marber2.jpg
+Not Found: /medailles/images/marber.jpg
+[10/Jan/2026 15:12:18] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 15:12:18] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 15:12:18] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 15:12:18] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 15:12:18] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 15:12:18] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 15:15:29] "GET / HTTP/1.1" 200 43332
+[10/Jan/2026 15:15:46] "GET /medailles/ HTTP/1.1" 200 187031
+Not Found: /medailles/images/marber2.jpg
+Not Found: /medailles/images/marber.jpg
+[10/Jan/2026 15:15:46] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 15:15:46] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 15:15:46] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 15:15:46] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 15:15:46] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 15:15:46] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[10/Jan/2026 15:16:49] "GET /medailles/ HTTP/1.1" 200 183810
+Not Found: /medailles/images/marber.jpg
+Not Found: /medailles/images/marber2.jpg
+[10/Jan/2026 15:16:49] "GET /medailles/images/marber.jpg HTTP/1.1" 404 3288
+[10/Jan/2026 15:16:49] "GET /medailles/images/marber2.jpg HTTP/1.1" 404 3291
+[10/Jan/2026 15:16:49] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[10/Jan/2026 15:16:49] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[10/Jan/2026 15:16:49] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[10/Jan/2026 15:16:49] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885

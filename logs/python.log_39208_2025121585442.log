@@ -1,0 +1,194 @@
+Watching for file changes with StatReloader
+[15/Dec/2025 09:54:43] "GET / HTTP/1.1" 200 43332
+[15/Dec/2025 09:54:43] "GET /static/css/swiper.css HTTP/1.1" 200 20951
+[15/Dec/2025 09:54:43] "GET /static/css/vendor.css HTTP/1.1" 200 31551
+[15/Dec/2025 09:54:43] "GET /static/css/bootstrap.css HTTP/1.1" 200 293102
+[15/Dec/2025 09:54:43] "GET /static/css/style.css HTTP/1.1" 200 26271
+[15/Dec/2025 09:54:43] "GET /static/logo.png HTTP/1.1" 200 474639
+[15/Dec/2025 09:54:43] "GET /static/js/swiper.js HTTP/1.1" 200 209964
+[15/Dec/2025 09:54:43] "GET /static/js/jquery-3.7.1.min.js HTTP/1.1" 200 87535
+[15/Dec/2025 09:54:43] "GET /static/js/plugins.js HTTP/1.1" 200 75356
+[15/Dec/2025 09:54:43] "GET /static/js/script.js HTTP/1.1" 200 7057
+[15/Dec/2025 09:54:43] "GET /static/js/iconify.js HTTP/1.1" 200 34237
+[15/Dec/2025 09:54:43] "GET /static/images/diapo.png HTTP/1.1" 200 113838
+[15/Dec/2025 09:54:43] "GET /static/images/overlay.png HTTP/1.1" 200 7706
+[15/Dec/2025 09:54:43] "GET /static/images/item9.jpg HTTP/1.1" 200 45540
+[15/Dec/2025 09:54:43] "GET /static/images/item10.jpg HTTP/1.1" 200 34413
+[15/Dec/2025 09:54:43] "GET /static/images/item11.jpg HTTP/1.1" 200 46664
+[15/Dec/2025 09:54:43] "GET /static/images/item12.jpg HTTP/1.1" 200 44155
+[15/Dec/2025 09:54:43] "GET /static/images/item13.jpg HTTP/1.1" 200 40460
+[15/Dec/2025 09:54:43] "GET /static/images/item14.jpg HTTP/1.1" 200 35909
+[15/Dec/2025 09:54:43] "GET /static/images/item15.jpg HTTP/1.1" 200 41490
+[15/Dec/2025 09:54:43] "GET /static/images/item16.jpg HTTP/1.1" 200 40992
+[15/Dec/2025 09:54:43] "GET /static/images/insta1.jpg HTTP/1.1" 200 75355
+[15/Dec/2025 09:54:43] "GET /static/images/insta2.jpg HTTP/1.1" 200 45973
+[15/Dec/2025 09:54:43] "GET /static/images/insta3.jpg HTTP/1.1" 200 64180
+[15/Dec/2025 09:54:43] "GET /static/images/insta4.jpg HTTP/1.1" 200 92950
+[15/Dec/2025 09:54:43] "GET /static/images/insta5.jpg HTTP/1.1" 200 60771
+[15/Dec/2025 09:54:43] "GET /static/images/insta6.jpg HTTP/1.1" 200 56555
+[15/Dec/2025 09:54:44] "GET /static/js/bootstrap.bundle.js HTTP/1.1" 200 214133
+[15/Dec/2025 09:54:44] "GET /static/images/2.png HTTP/1.1" 200 55963
+Not Found: /favicon.ico
+[15/Dec/2025 09:54:44] "GET /favicon.ico HTTP/1.1" 404 3240
+[15/Dec/2025 09:54:45] "GET /medailles/ HTTP/1.1" 200 102760
+[15/Dec/2025 09:54:45] "GET /static/css/colorPick.css HTTP/1.1" 200 2899
+[15/Dec/2025 09:54:45] "GET /static/images/blog-lg2.jpg HTTP/1.1" 200 155307
+[15/Dec/2025 09:54:45] "GET /static/images/blog-lg4.jpg HTTP/1.1" 200 142502
+[15/Dec/2025 09:54:45] "GET /static/images/blog-lg3.jpg HTTP/1.1" 200 104266
+[15/Dec/2025 09:54:45] "GET /static/images/reviewer-2.jpg HTTP/1.1" 200 20298
+[15/Dec/2025 09:54:45] "GET /static/images/blog-lg1.jpg HTTP/1.1" 200 182460
+[15/Dec/2025 09:54:45] "GET /static/js/medals.js HTTP/1.1" 200 12508
+[15/Dec/2025 09:54:45] "GET /static/images/banner-img.png HTTP/1.1" 200 368268
+[15/Dec/2025 09:54:45] "GET /static/images/banner-img2.png HTTP/1.1" 200 319611
+[15/Dec/2025 09:54:45] "GET /static/images/banner-img3.png HTTP/1.1" 200 336677
+[15/Dec/2025 09:54:45] "GET /static/images/banner-img4.png HTTP/1.1" 200 295153
+[15/Dec/2025 09:54:45] "GET /static/images/image0.png HTTP/1.1" 200 33679
+[15/Dec/2025 09:54:45] "GET /static/images/gold.png HTTP/1.1" 200 77928
+[15/Dec/2025 09:54:45] "GET /static/images/cuivre.jpg HTTP/1.1" 200 80739
+[15/Dec/2025 09:54:45] "GET /static/images/silver.jpg HTTP/1.1" 200 61166
+[15/Dec/2025 09:54:45] "GET /static/images/marber3.jpg HTTP/1.1" 200 39330
+[15/Dec/2025 09:54:45] "GET /static/images/marber.jpg HTTP/1.1" 200 27815
+[15/Dec/2025 09:54:45] "GET /static/images/marber2.jpg HTTP/1.1" 200 473058
+[15/Dec/2025 09:56:11] "GET / HTTP/1.1" 200 43332
+[15/Dec/2025 09:56:11] "GET /static/js/jquery-3.7.1.min.js HTTP/1.1" 200 87535
+[15/Dec/2025 09:56:11] "GET /static/js/bootstrap.bundle.js HTTP/1.1" 200 214133
+[15/Dec/2025 09:56:11] "GET /static/js/plugins.js HTTP/1.1" 200 75356
+[15/Dec/2025 09:56:11] "GET /static/js/script.js HTTP/1.1" 200 7057
+[15/Dec/2025 09:56:11] "GET /static/js/iconify.js HTTP/1.1" 200 34237
+[15/Dec/2025 09:56:11] "GET /static/css/swiper.css HTTP/1.1" 200 20951
+[15/Dec/2025 09:56:11] "GET /static/css/style.css HTTP/1.1" 200 26271
+[15/Dec/2025 09:56:12] "GET /static/css/vendor.css HTTP/1.1" 200 31551
+[15/Dec/2025 09:56:12] "GET /static/logo.png HTTP/1.1" 200 474639
+[15/Dec/2025 09:56:12] "GET /static/images/overlay.png HTTP/1.1" 200 7706
+[15/Dec/2025 09:56:12] "GET /static/images/item9.jpg HTTP/1.1" 200 45540
+[15/Dec/2025 09:56:12] "GET /static/images/item10.jpg HTTP/1.1" 200 34413
+[15/Dec/2025 09:56:12] "GET /static/images/item11.jpg HTTP/1.1" 200 46664
+[15/Dec/2025 09:56:12] "GET /static/images/item12.jpg HTTP/1.1" 200 44155
+[15/Dec/2025 09:56:12] "GET /static/images/item13.jpg HTTP/1.1" 200 40460
+[15/Dec/2025 09:56:12] "GET /static/images/item14.jpg HTTP/1.1" 200 35909
+[15/Dec/2025 09:56:12] "GET /static/images/item15.jpg HTTP/1.1" 200 41490
+[15/Dec/2025 09:56:12] "GET /static/images/item16.jpg HTTP/1.1" 200 40992
+[15/Dec/2025 09:56:12] "GET /static/images/insta1.jpg HTTP/1.1" 200 75355
+[15/Dec/2025 09:56:13] "GET /static/images/insta2.jpg HTTP/1.1" 200 45973
+[15/Dec/2025 09:56:13] "GET /static/images/insta3.jpg HTTP/1.1" 200 64180
+[15/Dec/2025 09:56:13] "GET /static/images/insta4.jpg HTTP/1.1" 200 92950
+[15/Dec/2025 09:56:13] "GET /static/images/insta5.jpg HTTP/1.1" 200 60771
+[15/Dec/2025 09:56:13] "GET /static/images/insta6.jpg HTTP/1.1" 200 56555
+[15/Dec/2025 09:56:13] "GET /static/images/2.png HTTP/1.1" 200 55963
+[15/Dec/2025 09:56:13] "GET /static/images/diapo.png HTTP/1.1" 200 113838
+[15/Dec/2025 09:56:15] "GET / HTTP/1.1" 200 43332
+[15/Dec/2025 09:56:15] "GET /static/css/bootstrap.css HTTP/1.1" 200 293102
+[15/Dec/2025 09:56:15] "GET /static/js/swiper.js HTTP/1.1" 200 209964
+[15/Dec/2025 09:56:17] "GET /medailles/ HTTP/1.1" 200 102760
+[15/Dec/2025 09:56:17] "GET /static/css/colorPick.css HTTP/1.1" 200 2899
+[15/Dec/2025 09:56:18] "GET /static/images/banner-img2.png HTTP/1.1" 200 319611
+[15/Dec/2025 09:56:18] "GET /static/images/blog-lg1.jpg HTTP/1.1" 200 182460
+[15/Dec/2025 09:56:18] "GET /static/images/banner-img4.png HTTP/1.1" 200 295153
+[15/Dec/2025 09:56:18] "GET /static/images/banner-img.png HTTP/1.1" 200 368268
+[15/Dec/2025 09:56:18] "GET /static/images/blog-lg4.jpg HTTP/1.1" 200 142502
+[15/Dec/2025 09:56:18] "GET /static/images/blog-lg3.jpg HTTP/1.1" 200 104266
+[15/Dec/2025 09:56:18] "GET /static/js/medals.js HTTP/1.1" 200 12508
+[15/Dec/2025 09:56:18] "GET /static/images/banner-img3.png HTTP/1.1" 200 336677
+[15/Dec/2025 09:56:18] "GET /static/images/reviewer-2.jpg HTTP/1.1" 200 20298
+[15/Dec/2025 09:56:18] "GET /static/images/image0.png HTTP/1.1" 200 33679
+[15/Dec/2025 09:56:18] "GET /static/images/gold.png HTTP/1.1" 200 77928
+[15/Dec/2025 09:56:18] "GET /static/images/silver.jpg HTTP/1.1" 200 61166
+[15/Dec/2025 09:56:19] "GET /static/images/cuivre.jpg HTTP/1.1" 200 80739
+[15/Dec/2025 09:56:19] "GET /static/images/marber.jpg HTTP/1.1" 200 27815
+[15/Dec/2025 09:56:19] "GET /static/images/marber2.jpg HTTP/1.1" 200 473058
+[15/Dec/2025 09:56:19] "GET /static/images/marber3.jpg HTTP/1.1" 200 39330
+[15/Dec/2025 10:02:49] "GET / HTTP/1.1" 200 43332
+[15/Dec/2025 10:02:49] "GET /medailles/ HTTP/1.1" 200 102760
+[15/Dec/2025 10:02:49] "GET /static/css/style.css HTTP/1.1" 304 0
+[15/Dec/2025 10:02:49] "GET /static/css/style.css HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[15/Dec/2025 10:02:49] "GET /favicon.ico HTTP/1.1" 404 3240
+[15/Dec/2025 10:02:52] "GET /medailles/ HTTP/1.1" 200 102760
+[15/Dec/2025 10:04:37] "GET /medailles/ HTTP/1.1" 200 102719
+[15/Dec/2025 10:04:47] "GET /medailles/ HTTP/1.1" 200 102719
+Forbidden (CSRF cookie not set.): /
+[15/Dec/2025 10:04:54] "POST / HTTP/1.1" 403 2855
+[15/Dec/2025 10:05:33] "GET /medailles/ HTTP/1.1" 200 102731
+[15/Dec/2025 10:05:33] "GET /medailles/ HTTP/1.1" 200 102731
+[15/Dec/2025 10:05:56] "GET /medailles/ HTTP/1.1" 200 102731
+[15/Dec/2025 10:05:57] "GET /medailles/ HTTP/1.1" 200 102731
+[15/Dec/2025 10:06:22] "GET /medailles/ HTTP/1.1" 200 102731
+[15/Dec/2025 10:06:26] "GET /medailles/ HTTP/1.1" 200 102731
+[15/Dec/2025 10:06:49] "GET /medailles/ HTTP/1.1" 200 102731
+[15/Dec/2025 10:06:56] "GET /medailles/ HTTP/1.1" 200 102731
+[15/Dec/2025 10:07:20] "GET /medailles/ HTTP/1.1" 200 102731
+[15/Dec/2025 10:07:37] "GET /medailles/ HTTP/1.1" 200 102730
+[15/Dec/2025 10:08:08] "GET /medailles/ HTTP/1.1" 200 102733
+[15/Dec/2025 10:08:24] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[15/Dec/2025 10:08:24] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[15/Dec/2025 10:08:24] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[15/Dec/2025 10:08:24] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[15/Dec/2025 10:10:23] "GET /medailles/ HTTP/1.1" 200 102733
+[15/Dec/2025 10:10:32] "GET /medailles/ HTTP/1.1" 200 102738
+Not Found: /.env
+[15/Dec/2025 10:13:49] "GET /.env HTTP/1.1" 404 3214
+Not Found: /api/.env
+[15/Dec/2025 10:13:49] "GET /api/.env HTTP/1.1" 404 3226
+Not Found: /backend/.env
+[15/Dec/2025 10:13:49] "GET /backend/.env HTTP/1.1" 404 3238
+[15/Dec/2025 10:13:50] "GET /admin/.env HTTP/1.1" 302 0
+Not Found: /.env.example
+[15/Dec/2025 10:13:50] "GET /.env.example HTTP/1.1" 404 3238
+Not Found: /app_dev.php/_profiler/phpinfo
+[15/Dec/2025 10:13:50] "GET /app_dev.php/_profiler/phpinfo HTTP/1.1" 404 3289
+[15/Dec/2025 10:13:50] "GET /?phpinfo=-1 HTTP/1.1" 200 43332
+Not Found: /debug/default/view
+[15/Dec/2025 10:13:51] "GET /debug/default/view?panel=config HTTP/1.1" 404 3269
+Not Found: /images/.env
+[15/Dec/2025 10:13:51] "GET /images/.env HTTP/1.1" 404 3235
+Not Found: /.env.save.1
+[15/Dec/2025 10:13:51] "GET /.env.save.1 HTTP/1.1" 404 3235
+Not Found: /.json
+[15/Dec/2025 10:13:52] "GET /.json HTTP/1.1" 404 3217
+Not Found: /library/.env
+[15/Dec/2025 10:13:52] "GET /library/.env HTTP/1.1" 404 3238
+Not Found: /API/.env
+[15/Dec/2025 10:13:52] "GET /API/.env HTTP/1.1" 404 3226
+Not Found: /client/.env
+[15/Dec/2025 10:13:52] "GET /client/.env HTTP/1.1" 404 3235
+Not Found: /blogs/.env
+[15/Dec/2025 10:13:52] "GET /blogs/.env HTTP/1.1" 404 3232
+Not Found: /settings/.env
+[15/Dec/2025 10:13:52] "GET /settings/.env HTTP/1.1" 404 3241
+Not Found: /.env.prod
+[15/Dec/2025 10:13:53] "GET /.env.prod HTTP/1.1" 404 3229
+Not Found: /html/.env
+[15/Dec/2025 10:13:53] "GET /html/.env HTTP/1.1" 404 3229
+Not Found: /aws.yml
+[15/Dec/2025 10:13:53] "GET /aws.yml HTTP/1.1" 404 3223
+Not Found: /apis/.env
+[15/Dec/2025 10:13:53] "GET /apis/.env HTTP/1.1" 404 3229
+Not Found: /stage/.env
+[15/Dec/2025 10:13:53] "GET /stage/.env HTTP/1.1" 404 3232
+Not Found: /auth/.env
+[15/Dec/2025 10:13:53] "GET /auth/.env HTTP/1.1" 404 3229
+Not Found: /env.txt
+[15/Dec/2025 10:13:54] "GET /env.txt HTTP/1.1" 404 3223
+Not Found: /test.php
+[15/Dec/2025 10:13:54] "GET /test.php HTTP/1.1" 404 3226
+Not Found: /platform/.env
+[15/Dec/2025 10:13:54] "GET /platform/.env HTTP/1.1" 404 3241
+Not Found: /data/.env
+[15/Dec/2025 10:13:54] "GET /data/.env HTTP/1.1" 404 3229
+Not Found: /www/.env
+[15/Dec/2025 10:13:54] "GET /www/.env HTTP/1.1" 404 3226
+Not Found: /developer/.env
+[15/Dec/2025 10:13:54] "GET /developer/.env HTTP/1.1" 404 3244
+Not Found: /home/.env
+[15/Dec/2025 10:13:55] "GET /home/.env HTTP/1.1" 404 3229
+Not Found: /media/.env
+[15/Dec/2025 10:13:55] "GET /media/.env HTTP/1.1" 404 3232
+Not Found: /cgi-bin/luci/;stok=/locale
+[15/Dec/2025 10:19:23] "GET /cgi-bin/luci/;stok=/locale HTTP/1.1" 404 3287
+Not Found: /.env
+[15/Dec/2025 10:19:55] "GET /.env HTTP/1.1" 404 3214
+[15/Dec/2025 10:22:31] "GET / HTTP/1.1" 200 43332
+[15/Dec/2025 10:23:14] "OPTIONS / HTTP/1.1" 200 43332
+[15/Dec/2025 10:23:17] "GET / HTTP/1.0" 200 43332
+Not Found: /SDK/webLanguage
+[15/Dec/2025 10:23:25] "GET /SDK/webLanguage HTTP/1.1" 404 3250

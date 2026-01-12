@@ -1,0 +1,463 @@
+Watching for file changes with StatReloader
+[12/Jan/2026 11:00:03] "GET / HTTP/1.1" 200 43332
+[12/Jan/2026 11:00:03] "GET / HTTP/1.1" 200 43332
+[12/Jan/2026 11:00:03,589] - Broken pipe from ('127.0.0.1', 60252)
+[12/Jan/2026 11:00:03] "GET /medailles/ HTTP/1.1" 200 264051
+[12/Jan/2026 11:00:03] "GET /medailles/ HTTP/1.1" 200 264051
+[12/Jan/2026 11:00:03,599] - Broken pipe from ('127.0.0.1', 60249)
+[12/Jan/2026 11:00:03,600] - Broken pipe from ('127.0.0.1', 60250)
+[12/Jan/2026 11:00:03] "GET /static/css/swiper.css HTTP/1.1" 200 20951
+[12/Jan/2026 11:00:03] "GET /static/css/vendor.css HTTP/1.1" 200 31551
+[12/Jan/2026 11:00:03] "GET /static/css/bootstrap.css HTTP/1.1" 200 293102
+[12/Jan/2026 11:00:03] "GET /static/css/style.css HTTP/1.1" 200 26219
+[12/Jan/2026 11:00:03] "GET /static/logo.png HTTP/1.1" 200 474639
+[12/Jan/2026 11:00:03] "GET /static/js/swiper.js HTTP/1.1" 200 209964
+[12/Jan/2026 11:00:03] "GET /static/js/jquery-3.7.1.min.js HTTP/1.1" 200 87535
+[12/Jan/2026 11:00:03] "GET /static/js/plugins.js HTTP/1.1" 200 75356
+[12/Jan/2026 11:00:03] "GET /static/js/script.js HTTP/1.1" 200 7057
+[12/Jan/2026 11:00:03] "GET /static/js/iconify.js HTTP/1.1" 200 34237
+[12/Jan/2026 11:00:03] "GET /static/images/diapo.png HTTP/1.1" 200 113838
+[12/Jan/2026 11:00:03] "GET /static/images/overlay.png HTTP/1.1" 200 7706
+[12/Jan/2026 11:00:03] "GET /static/images/item9.jpg HTTP/1.1" 200 45540
+[12/Jan/2026 11:00:03] "GET /static/images/item10.jpg HTTP/1.1" 200 34413
+[12/Jan/2026 11:00:03] "GET /static/images/item11.jpg HTTP/1.1" 200 46664
+[12/Jan/2026 11:00:03] "GET /static/images/item12.jpg HTTP/1.1" 200 44155
+[12/Jan/2026 11:00:03] "GET /static/images/item13.jpg HTTP/1.1" 200 40460
+[12/Jan/2026 11:00:03] "GET /static/images/item14.jpg HTTP/1.1" 200 35909
+[12/Jan/2026 11:00:03] "GET /static/images/item15.jpg HTTP/1.1" 200 41490
+[12/Jan/2026 11:00:03] "GET /static/images/item16.jpg HTTP/1.1" 200 40992
+[12/Jan/2026 11:00:03] "GET /static/images/insta1.jpg HTTP/1.1" 200 75355
+[12/Jan/2026 11:00:03] "GET /static/images/insta2.jpg HTTP/1.1" 200 45973
+[12/Jan/2026 11:00:03] "GET /static/images/insta3.jpg HTTP/1.1" 200 64180
+[12/Jan/2026 11:00:03] "GET /static/images/insta4.jpg HTTP/1.1" 200 92950
+[12/Jan/2026 11:00:03] "GET /static/images/insta5.jpg HTTP/1.1" 200 60771
+[12/Jan/2026 11:00:03] "GET /static/images/insta6.jpg HTTP/1.1" 200 56555
+[12/Jan/2026 11:00:03] "GET /static/js/bootstrap.bundle.js HTTP/1.1" 200 214133
+[12/Jan/2026 11:00:03] "GET /static/images/2.png HTTP/1.1" 200 55963
+Not Found: /favicon.ico
+[12/Jan/2026 11:00:04] "GET /favicon.ico HTTP/1.1" 404 3240
+[12/Jan/2026 11:00:08] "GET /medailles/ HTTP/1.1" 200 264051
+[12/Jan/2026 11:00:08] "GET /static/images/blog-lg3.jpg HTTP/1.1" 200 104266
+[12/Jan/2026 11:00:08] "GET /static/images/blog-lg2.jpg HTTP/1.1" 200 155307
+[12/Jan/2026 11:00:08] "GET /static/images/blog-lg4.jpg HTTP/1.1" 200 142502
+[12/Jan/2026 11:00:08] "GET /static/images/blog-lg1.jpg HTTP/1.1" 200 182460
+[12/Jan/2026 11:00:08] "GET /static/css/colorPick.css HTTP/1.1" 200 2899
+[12/Jan/2026 11:00:08] "GET /static/images/reviewer-2.jpg HTTP/1.1" 200 20298
+[12/Jan/2026 11:00:08] "GET /static/js/medals.js HTTP/1.1" 200 13138
+[12/Jan/2026 11:00:08] "GET /static/images/029.jpg HTTP/1.1" 200 3943189
+[12/Jan/2026 11:00:08] "GET /static/images/marber.jpg HTTP/1.1" 200 27815
+[12/Jan/2026 11:00:08] "GET /static/images/image0.png HTTP/1.1" 200 33679
+[12/Jan/2026 11:00:08] "GET /static/images/silver.jpg HTTP/1.1" 200 61166
+[12/Jan/2026 11:00:08] "GET /static/images/cuivre.jpg HTTP/1.1" 200 80739
+[12/Jan/2026 11:00:08] "GET /static/images/marber2.jpg HTTP/1.1" 200 473058
+[12/Jan/2026 11:00:08] "GET /static/images/marber3.jpg HTTP/1.1" 200 39330
+[12/Jan/2026 11:00:08] "GET /static/images/gold.png HTTP/1.1" 200 77928
+[12/Jan/2026 11:00:08] "GET /static/js/three3D.js HTTP/1.1" 200 15117
+[12/Jan/2026 11:00:25] "GET /static/fonts/Arial_Regular.json HTTP/1.1" 200 1309702
+[12/Jan/2026 11:00:25] "GET /static/images/paillette.jpg HTTP/1.1" 200 53765
+[12/Jan/2026 11:00:25] "GET /static/images/or.png HTTP/1.1" 200 4446828
+[12/Jan/2026 11:10:14] "GET / HTTP/1.1" 200 43332
+Not Found: /favicon.ico
+[12/Jan/2026 11:12:07] "GET /favicon.ico HTTP/1.1" 404 3235
+Not Found: /geoserver/web/
+[12/Jan/2026 11:12:46] "GET /geoserver/web/ HTTP/1.1" 404 3244
+[12/Jan/2026 11:12:49] "GET /static/fonts/Arial_Regular.json HTTP/1.1" 304 0
+[12/Jan/2026 11:13:31] "GET /static/fonts/faith_Regular.json HTTP/1.1" 200 321668
+[12/Jan/2026 11:14:45] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[12/Jan/2026 11:14:45] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[12/Jan/2026 11:14:45] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[12/Jan/2026 11:14:45] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[12/Jan/2026 11:16:16] "GET / HTTP/1.1" 200 43332
+[12/Jan/2026 11:17:00] "GET /static/fonts/Arial_Regular.json HTTP/1.1" 304 0
+[12/Jan/2026 11:17:02] "GET /medailles/ HTTP/1.1" 200 264051
+[12/Jan/2026 11:17:02] "GET /static/js/medals.js HTTP/1.1" 304 0
+[12/Jan/2026 11:17:02] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[12/Jan/2026 11:17:02] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[12/Jan/2026 11:17:02] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[12/Jan/2026 11:17:02] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[12/Jan/2026 11:17:02] "GET /static/js/three3D.js HTTP/1.1" 304 0
+[12/Jan/2026 11:29:08] "GET / HTTP/1.1" 200 43332
+Internal Server Error: /medailles/
+Traceback (most recent call last):
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\medaille\views.py", line 8, in index
+    return render(request, 'medailles/medals.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 174, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\loader_tags.py", line 160, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\loader_tags.py", line 211, in render
+    return template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 176, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\defaulttags.py", line 511, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\urls\resolvers.py", line 842, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'portraits' not found. 'portraits' is not a valid view function or pattern name.
+[12/Jan/2026 11:33:30] "GET /medailles/ HTTP/1.1" 500 163171
+C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\NewtAndCo\urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 12, 2026 - 11:00:03
+Django version 6.0, using settings 'NewtAndCo.settings'
+Starting development server at http://127.0.0.1:14058/
+Quit the server with CTRL-BREAK.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/6.0/howto/deployment/
+Watching for file changes with StatReloader
+[12/Jan/2026 11:33:58] "GET /medailles/ HTTP/1.1" 200 263402
+[12/Jan/2026 11:33:58] "GET /static/js/medals.js HTTP/1.1" 304 0
+[12/Jan/2026 11:33:58] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[12/Jan/2026 11:33:58] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[12/Jan/2026 11:33:58] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[12/Jan/2026 11:33:58] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[12/Jan/2026 11:33:58] "GET /static/js/three3D.js HTTP/1.1" 304 0
+Internal Server Error: /portraits/
+Traceback (most recent call last):
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\portrait\views.py", line 7, in index
+    return render(request, 'portraits/draws.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\engine.py", line 186, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 157, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 199, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\loader_tags.py", line 307, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\loader_tags.py", line 235, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 590, in parse
+    self.unclosed_block_tag(parse_until)
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 657, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Template: C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\templates\portraits\draws.html, Unclosed tag on line 390: 'block'. Looking for one of: endblock.
+[12/Jan/2026 11:34:00] "GET /portraits/ HTTP/1.1" 500 169294
+[12/Jan/2026 11:34:14] "GET /portraits/ HTTP/1.1" 200 70104
+Not Found: /portraits/images/blog-lg4.jpg
+[12/Jan/2026 11:34:14] "GET /portraits/images/blog-lg4.jpg HTTP/1.1" 404 3555
+Not Found: /portraits/images/blog-lg2.jpg
+[12/Jan/2026 11:34:14] "GET /portraits/images/blog-lg2.jpg HTTP/1.1" 404 3555
+Not Found: /portraits/images/blog-lg3.jpg
+Not Found: /portraits/images/blog-lg1.jpg
+Not Found: /portraits/images/reviewer-2.jpg
+[12/Jan/2026 11:34:14] "GET /portraits/images/blog-lg3.jpg HTTP/1.1" 404 3555
+[12/Jan/2026 11:34:14] "GET /portraits/images/blog-lg1.jpg HTTP/1.1" 404 3555
+[12/Jan/2026 11:34:14] "GET /portraits/images/reviewer-2.jpg HTTP/1.1" 404 3561
+Not Found: /portraits/images/banner-img.png
+[12/Jan/2026 11:34:14] "GET /portraits/images/banner-img.png HTTP/1.1" 404 3561
+[12/Jan/2026 11:34:14] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[12/Jan/2026 11:34:14] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[12/Jan/2026 11:34:14] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[12/Jan/2026 11:34:14] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[12/Jan/2026 11:35:34] "GET /portraits/ HTTP/1.1" 200 70147
+Not Found: /portraits/images/blog-lg4.jpg
+[12/Jan/2026 11:35:34] "GET /portraits/images/blog-lg4.jpg HTTP/1.1" 404 3555
+Not Found: /portraits/images/blog-lg2.jpg
+[12/Jan/2026 11:35:34] "GET /portraits/images/blog-lg2.jpg HTTP/1.1" 404 3555
+Not Found: /portraits/images/blog-lg3.jpg
+Not Found: /portraits/images/blog-lg1.jpg
+[12/Jan/2026 11:35:34] "GET /portraits/images/blog-lg3.jpg HTTP/1.1" 404 3555
+[12/Jan/2026 11:35:34] "GET /portraits/images/blog-lg1.jpg HTTP/1.1" 404 3555
+Not Found: /portraits/images/reviewer-2.jpg
+Not Found: /portraits/images/banner-img.png
+[12/Jan/2026 11:35:34] "GET /portraits/images/reviewer-2.jpg HTTP/1.1" 404 3561
+[12/Jan/2026 11:35:34] "GET /portraits/images/banner-img.png HTTP/1.1" 404 3561
+[12/Jan/2026 11:35:34] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[12/Jan/2026 11:35:34] "GET /static/js/draws.js HTTP/1.1" 200 4503
+[12/Jan/2026 11:35:34] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[12/Jan/2026 11:35:34] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[12/Jan/2026 11:35:34] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[12/Jan/2026 11:37:49] "GET / HTTP/1.1" 200 43345
+[12/Jan/2026 11:37:54] "GET /medailles/ HTTP/1.1" 200 263402
+[12/Jan/2026 11:37:54] "GET /static/js/three3D.js HTTP/1.1" 200 15117
+[12/Jan/2026 11:37:55] "GET /static/js/medals.js HTTP/1.1" 200 13138
+[12/Jan/2026 11:38:02] "GET /static/images/paillette.jpg HTTP/1.1" 304 0
+[12/Jan/2026 11:38:02] "GET /static/fonts/Arial_Regular.json HTTP/1.1" 200 1309702
+[12/Jan/2026 11:38:14] "GET /static/fonts/faith_Regular.json HTTP/1.1" 200 321668
+[12/Jan/2026 11:38:45] "GET /portraits/ HTTP/1.1" 200 70147
+Not Found: /portraits/images/blog-lg2.jpg
+Not Found: /portraits/images/blog-lg4.jpg
+[12/Jan/2026 11:38:45] "GET /portraits/images/blog-lg2.jpg HTTP/1.1" 404 3555
+[12/Jan/2026 11:38:45] "GET /portraits/images/blog-lg4.jpg HTTP/1.1" 404 3555
+Not Found: /portraits/images/blog-lg1.jpg
+Not Found: /portraits/images/blog-lg3.jpg
+Not Found: /portraits/images/banner-img.png
+[12/Jan/2026 11:38:45] "GET /portraits/images/blog-lg3.jpg HTTP/1.1" 404 3555
+[12/Jan/2026 11:38:45] "GET /portraits/images/blog-lg1.jpg HTTP/1.1" 404 3555
+[12/Jan/2026 11:38:45] "GET /static/js/draws.js HTTP/1.1" 200 4503
+[12/Jan/2026 11:38:45] "GET /portraits/images/banner-img.png HTTP/1.1" 404 3561
+Not Found: /portraits/images/reviewer-2.jpg
+[12/Jan/2026 11:38:45] "GET /portraits/images/reviewer-2.jpg HTTP/1.1" 404 3561
+[12/Jan/2026 11:42:18] "GET /portraits/ HTTP/1.1" 200 70147
+Not Found: /portraits/images/blog-lg4.jpg
+[12/Jan/2026 11:42:18] "GET /portraits/images/blog-lg4.jpg HTTP/1.1" 404 3555
+Not Found: /portraits/images/blog-lg2.jpg
+[12/Jan/2026 11:42:18] "GET /portraits/images/blog-lg2.jpg HTTP/1.1" 404 3555
+Not Found: /portraits/images/blog-lg3.jpg
+[12/Jan/2026 11:42:18] "GET /portraits/images/blog-lg3.jpg HTTP/1.1" 404 3555
+Not Found: /portraits/images/blog-lg1.jpg
+[12/Jan/2026 11:42:18] "GET /portraits/images/blog-lg1.jpg HTTP/1.1" 404 3555
+Not Found: /portraits/images/reviewer-2.jpg
+[12/Jan/2026 11:42:18] "GET /portraits/images/reviewer-2.jpg HTTP/1.1" 404 3561
+Not Found: /portraits/images/banner-img.png
+[12/Jan/2026 11:42:18] "GET /portraits/images/banner-img.png HTTP/1.1" 404 3561
+[12/Jan/2026 11:42:25] "GET /portraits/ HTTP/1.1" 200 70147
+Not Found: /portraits/images/blog-lg4.jpg
+[12/Jan/2026 11:42:25] "GET /portraits/images/blog-lg4.jpg HTTP/1.1" 404 3555
+Not Found: /portraits/images/blog-lg2.jpg
+[12/Jan/2026 11:42:25] "GET /portraits/images/blog-lg2.jpg HTTP/1.1" 404 3555
+Not Found: /portraits/images/blog-lg1.jpg
+Not Found: /portraits/images/blog-lg3.jpg
+Not Found: /portraits/images/reviewer-2.jpg
+[12/Jan/2026 11:42:25] "GET /portraits/images/blog-lg1.jpg HTTP/1.1" 404 3555
+[12/Jan/2026 11:42:25] "GET /portraits/images/blog-lg3.jpg HTTP/1.1" 404 3555
+Not Found: /portraits/images/banner-img.png
+[12/Jan/2026 11:42:25] "GET /portraits/images/reviewer-2.jpg HTTP/1.1" 404 3561
+[12/Jan/2026 11:42:25] "GET /portraits/images/banner-img.png HTTP/1.1" 404 3561
+[12/Jan/2026 11:42:26] "GET /portraits/ HTTP/1.1" 200 70147
+Not Found: /portraits/images/blog-lg2.jpg
+Not Found: /portraits/images/blog-lg4.jpg
+[12/Jan/2026 11:42:26] "GET /portraits/images/blog-lg2.jpg HTTP/1.1" 404 3555
+Not Found: /portraits/images/blog-lg3.jpg
+Not Found: /portraits/images/blog-lg1.jpg
+[12/Jan/2026 11:42:26] "GET /portraits/images/blog-lg4.jpg HTTP/1.1" 404 3555
+Not Found: /portraits/images/reviewer-2.jpg
+[12/Jan/2026 11:42:26] "GET /portraits/images/blog-lg3.jpg HTTP/1.1" 404 3555
+Not Found: /portraits/images/banner-img.png
+[12/Jan/2026 11:42:26] "GET /portraits/images/blog-lg1.jpg HTTP/1.1" 404 3555
+[12/Jan/2026 11:42:26] "GET /portraits/images/reviewer-2.jpg HTTP/1.1" 404 3561
+[12/Jan/2026 11:42:26] "GET /portraits/images/banner-img.png HTTP/1.1" 404 3561
+[12/Jan/2026 11:42:27] "GET /portraits/ HTTP/1.1" 200 70147
+Not Found: /portraits/images/blog-lg4.jpg
+Not Found: /portraits/images/blog-lg2.jpg
+[12/Jan/2026 11:42:27] "GET /portraits/images/blog-lg4.jpg HTTP/1.1" 404 3555
+Not Found: /portraits/images/blog-lg1.jpg
+Not Found: /portraits/images/blog-lg3.jpg
+[12/Jan/2026 11:42:27] "GET /portraits/images/blog-lg2.jpg HTTP/1.1" 404 3555
+Not Found: /portraits/images/reviewer-2.jpg
+[12/Jan/2026 11:42:27] "GET /portraits/images/blog-lg1.jpg HTTP/1.1" 404 3555
+Not Found: /portraits/images/banner-img.png
+[12/Jan/2026 11:42:27] "GET /portraits/images/blog-lg3.jpg HTTP/1.1" 404 3555
+[12/Jan/2026 11:42:27] "GET /portraits/images/reviewer-2.jpg HTTP/1.1" 404 3561
+[12/Jan/2026 11:42:27] "GET /portraits/images/banner-img.png HTTP/1.1" 404 3561
+[12/Jan/2026 11:42:48] "GET /medailles/ HTTP/1.1" 200 263402
+[12/Jan/2026 11:42:48] "GET /static/js/medals.js HTTP/1.1" 304 0
+[12/Jan/2026 11:42:48] "GET /static/js/three3D.js HTTP/1.1" 304 0
+Forbidden (CSRF cookie not set.): /
+[12/Jan/2026 11:48:26] "POST / HTTP/1.1" 403 2855
+[12/Jan/2026 11:49:21] "GET /medailles/ HTTP/1.1" 200 263402
+[12/Jan/2026 11:49:23] "GET /portraits/ HTTP/1.1" 200 72023
+Not Found: /portraits/images/blog-lg4.jpg
+[12/Jan/2026 11:49:23] "GET /portraits/images/blog-lg4.jpg HTTP/1.1" 404 3555
+Not Found: /portraits/images/blog-lg2.jpg
+Not Found: /portraits/images/blog-lg3.jpg
+[12/Jan/2026 11:49:23] "GET /portraits/images/blog-lg2.jpg HTTP/1.1" 404 3555
+Not Found: /portraits/images/blog-lg1.jpg
+Not Found: /portraits/images/reviewer-2.jpg
+[12/Jan/2026 11:49:23] "GET /portraits/images/blog-lg3.jpg HTTP/1.1" 404 3555
+[12/Jan/2026 11:49:23] "GET /portraits/images/blog-lg1.jpg HTTP/1.1" 404 3555
+[12/Jan/2026 11:49:23] "GET /portraits/images/reviewer-2.jpg HTTP/1.1" 404 3561
+Not Found: /portraits/images/banner-img.png
+[12/Jan/2026 11:49:23] "GET /portraits/images/banner-img.png HTTP/1.1" 404 3561
+[12/Jan/2026 11:52:54] "GET /portraits/ HTTP/1.1" 200 73560
+Not Found: /portraits/images/blog-lg2.jpg
+Not Found: /portraits/images/blog-lg4.jpg
+[12/Jan/2026 11:52:54] "GET /portraits/images/blog-lg2.jpg HTTP/1.1" 404 3555
+[12/Jan/2026 11:52:54] "GET /portraits/images/blog-lg4.jpg HTTP/1.1" 404 3555
+Not Found: /portraits/images/blog-lg1.jpg
+Not Found: /portraits/images/blog-lg3.jpg
+[12/Jan/2026 11:52:54] "GET /portraits/images/blog-lg1.jpg HTTP/1.1" 404 3555
+[12/Jan/2026 11:52:54] "GET /portraits/images/blog-lg3.jpg HTTP/1.1" 404 3555
+Not Found: /portraits/images/reviewer-2.jpg
+Not Found: /portraits/images/banner-img.png
+[12/Jan/2026 11:52:54] "GET /portraits/images/reviewer-2.jpg HTTP/1.1" 404 3561
+[12/Jan/2026 11:52:54] "GET /portraits/images/banner-img.png HTTP/1.1" 404 3561
+[12/Jan/2026 11:55:07] "GET /portraits/ HTTP/1.1" 200 78062
+Not Found: /portraits/images/blog-lg2.jpg
+Not Found: /portraits/images/blog-lg4.jpg
+[12/Jan/2026 11:55:07] "GET /portraits/images/blog-lg2.jpg HTTP/1.1" 404 3555
+[12/Jan/2026 11:55:07] "GET /portraits/images/blog-lg4.jpg HTTP/1.1" 404 3555
+Not Found: /portraits/images/blog-lg1.jpg
+Not Found: /portraits/images/blog-lg3.jpg
+[12/Jan/2026 11:55:07] "GET /portraits/images/blog-lg1.jpg HTTP/1.1" 404 3555
+[12/Jan/2026 11:55:07] "GET /portraits/images/blog-lg3.jpg HTTP/1.1" 404 3555
+Not Found: /portraits/images/reviewer-2.jpg
+[12/Jan/2026 11:55:07] "GET /portraits/images/reviewer-2.jpg HTTP/1.1" 404 3561
+Not Found: /portraits/images/banner-img.png
+[12/Jan/2026 11:55:07] "GET /portraits/images/banner-img.png HTTP/1.1" 404 3561
+[12/Jan/2026 11:55:28] "GET /medailles/ HTTP/1.1" 200 263382
+[12/Jan/2026 11:55:28] "GET /static/js/medals.js HTTP/1.1" 304 0
+[12/Jan/2026 11:55:28] "GET /static/js/three3D.js HTTP/1.1" 304 0
+[12/Jan/2026 11:55:59] "GET /portraits/ HTTP/1.1" 200 78062
+Not Found: /portraits/images/blog-lg4.jpg
+[12/Jan/2026 11:55:59] "GET /portraits/images/blog-lg4.jpg HTTP/1.1" 404 3555
+Not Found: /portraits/images/reviewer-2.jpg
+Not Found: /portraits/images/blog-lg2.jpg
+[12/Jan/2026 11:55:59] "GET /portraits/images/reviewer-2.jpg HTTP/1.1" 404 3561
+Not Found: /portraits/images/banner-img.png
+[12/Jan/2026 11:55:59] "GET /portraits/images/banner-img.png HTTP/1.1" 404 3561
+[12/Jan/2026 11:55:59] "GET /portraits/images/blog-lg2.jpg HTTP/1.1" 404 3555
+Not Found: /portraits/images/blog-lg3.jpg
+Not Found: /portraits/images/blog-lg1.jpg
+[12/Jan/2026 11:55:59] "GET /portraits/images/blog-lg3.jpg HTTP/1.1" 404 3555
+[12/Jan/2026 11:55:59] "GET /portraits/images/blog-lg1.jpg HTTP/1.1" 404 3555
+[12/Jan/2026 12:14:24] "GET / HTTP/1.1" 200 43345
+[12/Jan/2026 12:19:51] "GET / HTTP/1.1" 200 43345
+Not Found: /.env
+[12/Jan/2026 12:26:46] "GET /.env HTTP/1.1" 404 3475
+Not Found: /.env-react.log
+[12/Jan/2026 12:26:46] "GET /.env-react.log HTTP/1.1" 404 3505
+Not Found: /.env.mail_keys
+[12/Jan/2026 12:26:46] "GET /.env.mail_keys HTTP/1.1" 404 3505
+Not Found: /.env-allowlist
+[12/Jan/2026 12:26:46] "GET /.env-allowlist HTTP/1.1" 404 3505
+Not Found: /.env-sequelize
+[12/Jan/2026 12:26:46] "GET /.env-sequelize HTTP/1.1" 404 3505
+Not Found: /.env-constants
+[12/Jan/2026 12:26:47] "GET /.env-constants HTTP/1.1" 404 3505
+Not Found: /.env-aws-creds
+[12/Jan/2026 12:26:47] "GET /.env-aws-creds HTTP/1.1" 404 3505
+Not Found: /.env-proxy.log
+[12/Jan/2026 12:26:47] "GET /.env-proxy.log HTTP/1.1" 404 3505
+Not Found: /.env-tasks.yml
+[12/Jan/2026 12:26:47] "GET /.env-tasks.yml HTTP/1.1" 404 3505
+Not Found: /.env.token.bak
+[12/Jan/2026 12:26:47] "GET /.env.token.bak HTTP/1.1" 404 3505
+Not Found: /.env-workspace
+[12/Jan/2026 12:26:48] "GET /.env-workspace HTTP/1.1" 404 3505
+Not Found: /.env.mail.json
+[12/Jan/2026 12:26:48] "GET /.env.mail.json HTTP/1.1" 404 3505
+Not Found: /.env-prod.conf
+[12/Jan/2026 12:26:48] "GET /.env-prod.conf HTTP/1.1" 404 3505
+Not Found: /.env-test-data
+[12/Jan/2026 12:26:48] "GET /.env-test-data HTTP/1.1" 404 3505
+Not Found: /.env.example.1
+[12/Jan/2026 12:26:49] "GET /.env.example.1 HTTP/1.1" 404 3505
+Not Found: /.env.example.2
+[12/Jan/2026 12:26:49] "GET /.env.example.2 HTTP/1.1" 404 3505
+Not Found: /.env-rules.log
+[12/Jan/2026 12:26:49] "GET /.env-rules.log HTTP/1.1" 404 3505
+Not Found: /.env.email_api
+[12/Jan/2026 12:26:49] "GET /.env.email_api HTTP/1.1" 404 3505
+Not Found: /.env-validator
+[12/Jan/2026 12:26:49] "GET /.env-validator HTTP/1.1" 404 3505
+Not Found: /.env-variables
+[12/Jan/2026 12:26:49] "GET /.env-variables HTTP/1.1" 404 3505
+Not Found: /.env-prod-vars
+[12/Jan/2026 12:26:50] "GET /.env-prod-vars HTTP/1.1" 404 3505
+Not Found: /.env-oauth.env
+[12/Jan/2026 12:26:50] "GET /.env-oauth.env HTTP/1.1" 404 3505
+Not Found: /.env-audit.log
+[12/Jan/2026 12:26:50] "GET /.env-audit.log HTTP/1.1" 404 3505
+Not Found: /.env-admin.env
+[12/Jan/2026 12:26:50] "GET /.env-admin.env HTTP/1.1" 404 3505
+Not Found: /.env-vault-env
+[12/Jan/2026 12:26:50] "GET /.env-vault-env HTTP/1.1" 404 3505
+Not Found: /.env-token.env
+[12/Jan/2026 12:26:51] "GET /.env-token.env HTTP/1.1" 404 3505
+Not Found: /.env-token.log
+[12/Jan/2026 12:26:51] "GET /.env-token.log HTTP/1.1" 404 3505
+Not Found: /.env-probe.env
+[12/Jan/2026 12:26:51] "GET /.env-probe.env HTTP/1.1" 404 3505
+Not Found: /.env-auth-keys
+[12/Jan/2026 12:26:51] "GET /.env-auth-keys HTTP/1.1" 404 3505
+Not Found: /.env-dashboard
+[12/Jan/2026 12:26:51] "GET /.env-dashboard HTTP/1.1" 404 3505
+Not Found: /.env-auth.conf
+[12/Jan/2026 12:26:51] "GET /.env-auth.conf HTTP/1.1" 404 3505

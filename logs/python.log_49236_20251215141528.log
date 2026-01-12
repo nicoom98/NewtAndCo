@@ -1,0 +1,9 @@
+Watching for file changes with StatReloader
+[15/Dec/2025 15:15:30] "GET / HTTP/1.1" 200 43332
+[15/Dec/2025 15:18:18] "OPTIONS / HTTP/1.1" 200 43332
+Not Found: /SDK/webLanguage
+[15/Dec/2025 15:18:28] "GET /SDK/webLanguage HTTP/1.1" 404 3250
+[15/Dec/2025 15:22:56] "GET /admin/config.php HTTP/1.0" 302 0
+[15/Dec/2025 15:40:02] "GET / HTTP/1.1" 200 43332
+Not Found: /favicon.ico
+[15/Dec/2025 15:46:04] "GET /favicon.ico HTTP/1.1" 404 3240

@@ -1,0 +1,4 @@
+Watching for file changes with StatReloader
+[13/Dec/2025 14:32:04] "GET / HTTP/1.1" 200 49395
+Not Found: /robots.txt
+[13/Dec/2025 14:38:59] "GET /robots.txt HTTP/1.0" 404 2971

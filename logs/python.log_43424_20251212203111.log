@@ -1,0 +1,15 @@
+Watching for file changes with StatReloader
+[12/Dec/2025 21:31:12] "GET / HTTP/1.1" 200 53542
+Not Found: /version
+[12/Dec/2025 21:38:57] "GET /version HTTP/1.1" 404 2701
+[12/Dec/2025 21:38:58] "GET / HTTP/1.1" 200 53542
+[12/Dec/2025 21:39:00] "GET / HTTP/1.1" 200 53542
+Not Found: /v1
+[12/Dec/2025 21:39:03] "GET /v1 HTTP/1.1" 404 2686
+[12/Dec/2025 21:39:04] "GET / HTTP/1.1" 200 53542
+[12/Dec/2025 21:39:07] "GET / HTTP/1.1" 200 53542
+Not Found: /favicon.ico
+[12/Dec/2025 21:39:12] "GET /favicon.ico HTTP/1.1" 404 2713
+[12/Dec/2025 21:39:13] "GET /static/js/jquery-3.7.1.min.js HTTP/1.1" 200 87535
+[12/Dec/2025 21:39:15] "GET /static/js/bootstrap.bundle.js HTTP/1.1" 200 214133
+[12/Dec/2025 21:39:19] "GET /static/js/script.js HTTP/1.1" 200 7057

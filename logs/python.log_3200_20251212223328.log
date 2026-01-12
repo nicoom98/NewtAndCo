@@ -1,0 +1,39 @@
+Watching for file changes with StatReloader
+Not Found: /.env
+[12/Dec/2025 23:33:29] "GET /.env HTTP/1.1" 404 2689
+Not Found: /api/.env
+[12/Dec/2025 23:33:30] "GET /api/.env HTTP/1.1" 404 2701
+Not Found: /backend/.env
+[12/Dec/2025 23:33:30] "GET /backend/.env HTTP/1.1" 404 2713
+[12/Dec/2025 23:33:30] "GET /admin/.env HTTP/1.1" 302 0
+Not Found: /.env.example
+[12/Dec/2025 23:33:31] "GET /.env.example HTTP/1.1" 404 2713
+Not Found: /app_dev.php/_profiler/phpinfo
+[12/Dec/2025 23:33:31] "GET /app_dev.php/_profiler/phpinfo HTTP/1.1" 404 2764
+[12/Dec/2025 23:33:31] "GET /?phpinfo=-1 HTTP/1.1" 200 53542
+Not Found: /crm/.env
+[12/Dec/2025 23:33:32] "GET /crm/.env HTTP/1.1" 404 2701
+Not Found: /config/.env
+[12/Dec/2025 23:33:33] "GET /config/.env HTTP/1.1" 404 2710
+Not Found: /debug/default/view
+[12/Dec/2025 23:33:33] "GET /debug/default/view?panel=config HTTP/1.1" 404 2744
+Not Found: /images/.env
+[12/Dec/2025 23:33:33] "GET /images/.env HTTP/1.1" 404 2710
+Not Found: /.env.save.1
+[12/Dec/2025 23:33:33] "GET /.env.save.1 HTTP/1.1" 404 2710
+Not Found: /.json
+[12/Dec/2025 23:33:33] "GET /.json HTTP/1.1" 404 2692
+Not Found: /library/.env
+[12/Dec/2025 23:33:33] "GET /library/.env HTTP/1.1" 404 2713
+Not Found: /API/.env
+[12/Dec/2025 23:33:34] "GET /API/.env HTTP/1.1" 404 2701
+Not Found: /client/.env
+[12/Dec/2025 23:33:34] "GET /client/.env HTTP/1.1" 404 2710
+Not Found: /blogs/.env
+[12/Dec/2025 23:33:34] "GET /blogs/.env HTTP/1.1" 404 2707
+Not Found: /developmentserver/metadatauploader
+[12/Dec/2025 23:37:29] "GET /developmentserver/metadatauploader HTTP/1.1" 404 2779
+[12/Dec/2025 23:56:52] "GET / HTTP/1.1" 200 53542
+[12/Dec/2025 23:59:48] "GET / HTTP/1.1" 200 53542
+Not Found: /cgi-bin/luci/;stok=/locale
+[12/Dec/2025 23:59:54] "GET /cgi-bin/luci/;stok=/locale HTTP/1.1" 404 2762

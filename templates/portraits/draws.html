@@ -1,0 +1,1799 @@
+{% extends 'layouts/base.html' %} 
+{% load static %}  
+{% block title %}Médailles{%endblock %}
+{% block meta %}
+<meta
+			name="author"
+			content=""
+		/>
+		<meta
+			name="keywords"
+			content=""
+		/>
+		<meta
+			name="description"
+			content=""
+		/>
+{%endblock %}
+{% block css %}
+<link
+			rel="stylesheet"
+			href="{% static 'css/colorPick.css' %}"
+		/>
+		<style>
+
+/* Conteneur scrollable */
+.stepper-container {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch; /* scroll fluide sur mobile */
+  position: relative;
+  padding-bottom: 20px; /* pour scrollbar */
+}
+
+.stepper {
+  display: flex;
+  gap: 50px;           /* espace minimum entre steps */
+  position: relative;
+  min-width: 800px;    /* ajuster selon le nombre de steps */
+  justify-content: center;
+
+}
+.step-content-wrapper {
+  overflow: hidden;
+  touch-action: pan-y;
+}
+
+.step-content-track {
+  display: flex;
+  transition: transform 0.5s cubic-bezier(0.22,1,0.36,1);
+}
+.progress-bar, .progress-fill {
+  position: absolute;
+  top: 25px;
+  height: 4px;
+  transform: translateY(50%);
+  border-radius: 2px;
+  z-index: 0;
+}
+
+.progress-bar {
+  background: #d1d5db;
+}
+
+.progress-fill {
+  background: var(--accent-color);
+  width: 0;
+  z-index: 1;
+  transition: width 0.3s ease;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  cursor: not-allowed;
+}
+
+.step.unlock {
+  cursor: pointer;
+}
+
+.step-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #d1d5db;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  color: #6b7280;
+  transition: all 0.3s ease;
+  margin-bottom: 0.5rem;
+}
+
+.step.unlock .step-circle:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+
+.step.active .step-circle{
+  border-color: var(--accent-color);
+  background: #edeae3;
+  color: var(--accent-color);
+}
+
+.step.active .step-label{
+  font-size: larger;
+  font-weight: bold;
+  color: var(--accent-color);
+}
+.step.completed .step-label{
+
+  color: var(--accent-color);
+}
+.step.completed .step-circle{
+  border-color: var(--accent-color);
+  background: var(--accent-color);
+  color: #edeae3;
+}
+
+.step.completed-active .step-circle{
+  border-color: var(--accent-color);
+  background: #edeae3;
+  color:var(--accent-color);
+  box-shadow: 0 0 10px var(--accent-color);
+  transform: scale(1.1);
+}
+
+.step-label {
+  font-size: 0.85rem;
+  color: #374151;
+  white-space: nowrap;
+}
+
+.step-content {
+  width: 100%;
+
+
+}
+.step-content.active {
+  display: flex;
+  animation: slideInRight 0.35s ease;
+}
+
+.step-content.slide-left {
+  animation: slideInLeft 0.35s ease;
+}
+
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(40px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(-40px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+</style>
+{% endblock css %}
+{% block SVG %}
+
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			class="hide"
+		>
+			<defs>
+				<filter
+					id="dropShadow"
+					x="-50%"
+					y="-50%"
+					width="200%"
+					height="200%"
+				>
+					<feGaussianBlur
+						in="SourceAlpha"
+						stdDeviation="2"
+					/>
+					<feOffset
+						dx="3"
+						dy="5"
+						result="offsetblur"
+					/>
+					<feFlood flood-color="rgba(0, 0, 0, 0.4)" />
+					<feComposite
+						in2="offsetblur"
+						operator="in"
+					/>
+					<feMerge>
+						<feMergeNode />
+						<feMergeNode in="SourceGraphic" />
+					</feMerge>
+				</filter>
+
+				<marker
+					id="head"
+					viewBox="0 0 10 10"
+					refX="5"
+					refY="5"
+					markerWidth="3"
+					markerHeight="3"
+					orient="auto-start-reverse"
+				>
+					<path d="M 0 0 L 10 5 L 0 10 z" />
+				</marker>
+			</defs>
+		</svg>
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			style="display: none"
+		>
+			<defs>
+				<symbol
+					xmlns="http://www.w3.org/2000/svg"
+					id="minus"
+					viewBox="0 0 24 24"
+				>
+					<path
+						fill="currentColor"
+						d="M19 11H5a1 1 0 0 0 0 2h14a1 1 0 0 0 0-2Z"
+					></path>
+				</symbol>
+				<symbol
+					xmlns="http://www.w3.org/2000/svg"
+					id="plus"
+					viewBox="0 0 24 24"
+				>
+					<path
+						fill="currentColor"
+						d="M19 11h-6V5a1 1 0 0 0-2 0v6H5a1 1 0 0 0 0 2h6v6a1 1 0 0 0 2 0v-6h6a1 1 0 0 0 0-2Z"
+					></path>
+				</symbol>
+				<symbol
+					xmlns="http://www.w3.org/2000/svg"
+					id="link"
+					viewBox="0 0 24 24"
+				>
+					<path
+						fill="currentColor"
+						d="M12 19a1 1 0 1 0-1-1a1 1 0 0 0 1 1Zm5 0a1 1 0 1 0-1-1a1 1 0 0 0 1 1Zm0-4a1 1 0 1 0-1-1a1 1 0 0 0 1 1Zm-5 0a1 1 0 1 0-1-1a1 1 0 0 0 1 1Zm7-12h-1V2a1 1 0 0 0-2 0v1H8V2a1 1 0 0 0-2 0v1H5a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3Zm1 17a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-9h16Zm0-11H4V6a1 1 0 0 1 1-1h1v1a1 1 0 0 0 2 0V5h8v1a1 1 0 0 0 2 0V5h1a1 1 0 0 1 1 1ZM7 15a1 1 0 1 0-1-1a1 1 0 0 0 1 1Zm0 4a1 1 0 1 0-1-1a1 1 0 0 0 1 1Z"
+					/>
+				</symbol>
+				<symbol
+					xmlns="http://www.w3.org/2000/svg"
+					id="arrow-right"
+					viewBox="0 0 24 24"
+				>
+					<path
+						fill="currentColor"
+						d="M17.92 11.62a1 1 0 0 0-.21-.33l-5-5a1 1 0 0 0-1.42 1.42l3.3 3.29H7a1 1 0 0 0 0 2h7.59l-3.3 3.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0l5-5a1 1 0 0 0 .21-.33a1 1 0 0 0 0-.76Z"
+					/>
+				</symbol>
+				<symbol
+					xmlns="http://www.w3.org/2000/svg"
+					id="arrow-left"
+					viewBox="0 0 24 24"
+				>
+					<path
+						fill="currentColor"
+						transform="scale(-1,1) translate(-24,0)"
+						d="M17.92 11.62a1 1 0 0 0-.21-.33l-5-5a1 1 0 0 0-1.42 1.42l3.3 3.29H7a1 1 0 0 0 0 2h7.59l-3.3 3.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0l5-5a1 1 0 0 0 .21-.33a1 1 0 0 0 0-.76Z"
+					/>
+				</symbol>
+
+				<symbol viewBox="0 0 16 16" id="retry"><title>Retry SVG Icon</title><path fill="currentColor" fill-rule="evenodd" d="M7.32.029a8 8 0 0 1 7.18 3.307V1.75a.75.75 0 0 1 1.5 0V6h-4.25a.75.75 0 0 1 0-1.5h1.727A6.5 6.5 0 0 0 1.694 6.424A.75.75 0 1 1 .239 6.06A8 8 0 0 1 7.319.03Zm-3.4 14.852A8 8 0 0 0 15.76 9.94a.75.75 0 0 0-1.455-.364A6.5 6.5 0 0 1 2.523 11.5H4.25a.75.75 0 0 0 0-1.5H0v4.25a.75.75 0 0 0 1.5 0v-1.586a8 8 0 0 0 2.42 2.217" clip-rule="evenodd"></path></symbol>
+		
+
+				<symbol
+					xmlns="http://www.w3.org/2000/svg"
+					id="category"
+					viewBox="0 0 24 24"
+				>
+					<path
+						fill="currentColor"
+						d="M19 5.5h-6.28l-.32-1a3 3 0 0 0-2.84-2H5a3 3 0 0 0-3 3v13a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-10a3 3 0 0 0-3-3Zm1 13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-13a1 1 0 0 1 1-1h4.56a1 1 0 0 1 .95.68l.54 1.64a1 1 0 0 0 .95.68h7a1 1 0 0 1 1 1Z"
+					/>
+				</symbol>
+				<symbol
+					xmlns="http://www.w3.org/2000/svg"
+					id="calendar"
+					viewBox="0 0 24 24"
+				>
+					<path
+						fill="currentColor"
+						d="M19 4h-2V3a1 1 0 0 0-2 0v1H9V3a1 1 0 0 0-2 0v1H5a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3Zm1 15a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-7h16Zm0-9H4V7a1 1 0 0 1 1-1h2v1a1 1 0 0 0 2 0V6h6v1a1 1 0 0 0 2 0V6h2a1 1 0 0 1 1 1Z"
+					/>
+				</symbol>
+				<symbol
+					xmlns="http://www.w3.org/2000/svg"
+					id="heart"
+					viewBox="0 0 24 24"
+				>
+					<path
+						fill="currentColor"
+						d="M20.16 4.61A6.27 6.27 0 0 0 12 4a6.27 6.27 0 0 0-8.16 9.48l7.45 7.45a1 1 0 0 0 1.42 0l7.45-7.45a6.27 6.27 0 0 0 0-8.87Zm-1.41 7.46L12 18.81l-6.75-6.74a4.28 4.28 0 0 1 3-7.3a4.25 4.25 0 0 1 3 1.25a1 1 0 0 0 1.42 0a4.27 4.27 0 0 1 6 6.05Z"
+					/>
+				</symbol>
+				<symbol
+					xmlns="http://www.w3.org/2000/svg"
+					id="check"
+					viewBox="0 0 24 24"
+				>
+					<path
+						fill="currentColor"
+						d="M18.71 7.21a1 1 0 0 0-1.42 0l-7.45 7.46l-3.13-3.14A1 1 0 1 0 5.29 13l3.84 3.84a1 1 0 0 0 1.42 0l8.16-8.16a1 1 0 0 0 0-1.47Z"
+					/>
+				</symbol>
+				<symbol
+					xmlns="http://www.w3.org/2000/svg"
+					id="trash"
+					viewBox="0 0 24 24"
+				>
+					<path
+						fill="currentColor"
+						d="M10 18a1 1 0 0 0 1-1v-6a1 1 0 0 0-2 0v6a1 1 0 0 0 1 1ZM20 6h-4V5a3 3 0 0 0-3-3h-2a3 3 0 0 0-3 3v1H4a1 1 0 0 0 0 2h1v11a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8h1a1 1 0 0 0 0-2ZM10 5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v1h-4Zm7 14a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1V8h10Zm-3-1a1 1 0 0 0 1-1v-6a1 1 0 0 0-2 0v6a1 1 0 0 0 1 1Z"
+					/>
+				</symbol>
+				<symbol
+					xmlns="http://www.w3.org/2000/svg"
+					id="star-outline"
+					viewBox="0 0 15 15"
+				>
+					<path
+						fill="none"
+						stroke="currentColor"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						d="M7.5 9.804L5.337 11l.413-2.533L4 6.674l2.418-.37L7.5 4l1.082 2.304l2.418.37l-1.75 1.793L9.663 11L7.5 9.804Z"
+					/>
+				</symbol>
+				<symbol
+					xmlns="http://www.w3.org/2000/svg"
+					id="star-solid"
+					viewBox="0 0 15 15"
+				>
+					<path
+						fill="currentColor"
+						d="M7.953 3.788a.5.5 0 0 0-.906 0L6.08 5.85l-2.154.33a.5.5 0 0 0-.283.843l1.574 1.613l-.373 2.284a.5.5 0 0 0 .736.518l1.92-1.063l1.921 1.063a.5.5 0 0 0 .736-.519l-.373-2.283l1.574-1.613a.5.5 0 0 0-.283-.844L8.921 5.85l-.968-2.062Z"
+					/>
+				</symbol>
+				<symbol
+					xmlns="http://www.w3.org/2000/svg"
+					id="search"
+					viewBox="0 0 24 24"
+				>
+					<path
+						fill="currentColor"
+						d="M21.71 20.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z"
+					/>
+				</symbol>
+				<symbol
+					xmlns="http://www.w3.org/2000/svg"
+					id="user"
+					viewBox="0 0 24 24"
+				>
+					<path
+						fill="currentColor"
+						d="M15.71 12.71a6 6 0 1 0-7.42 0a10 10 0 0 0-6.22 8.18a1 1 0 0 0 2 .22a8 8 0 0 1 15.9 0a1 1 0 0 0 1 .89h.11a1 1 0 0 0 .88-1.1a10 10 0 0 0-6.25-8.19ZM12 12a4 4 0 1 1 4-4a4 4 0 0 1-4 4Z"
+					/>
+				</symbol>
+				<symbol
+					xmlns="http://www.w3.org/2000/svg"
+					id="close"
+					viewBox="0 0 15 15"
+				>
+					<path
+						fill="currentColor"
+						d="M7.953 3.788a.5.5 0 0 0-.906 0L6.08 5.85l-2.154.33a.5.5 0 0 0-.283.843l1.574 1.613l-.373 2.284a.5.5 0 0 0 .736.518l1.92-1.063l1.921 1.063a.5.5 0 0 0 .736-.519l-.373-2.283l1.574-1.613a.5.5 0 0 0-.283-.844L8.921 5.85l-.968-2.062Z"
+					/>
+				</symbol>
+			</defs>
+		</svg>
+{% endblock %}
+{% block banner %}
+
+			<section id="banner">
+				<div class="container-fluid">
+					<div class="container">
+						<div class="row hero-content pt-5 mt-3">
+							<h2 class="display-1 p-0 mt-3 mb-0">Nos Portraits</h2>
+							<nav class="breadcrumb">
+								<a
+									class="breadcrumb-item nav-link"
+									href="#"
+									>Home</a
+								>
+								<a
+									class="breadcrumb-item nav-link"
+									href="#"
+									>Pages</a
+								>
+								<span
+									class="breadcrumb-item active"
+									aria-current="page"
+									>Nos Portraits</span
+								>
+							</nav>
+						</div>
+					</div>
+{% endblock %}
+
+{% block content %}
+
+		<section id="selling-product">
+			<div class="container my-md-5 py-5">
+				<div class="row g-md-5">
+					<div class="col-lg-6">
+						<div class="row">
+							<div class="col-md-12">
+								<!-- product-large-slider -->
+								<div class="swiper product-large-slider">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<img
+												src="{% static 'images/blog-lg4.jpg' %}"
+												class="img-fluid"
+											/>
+										</div>
+										<div class="swiper-slide">
+											<img
+												src="{% static 'images/blog-lg2.jpg' %}"
+												class="img-fluid"
+											/>
+										</div>
+										<div class="swiper-slide">
+											<img
+												src="{% static 'images/blog-lg3.jpg' %}"
+												class="img-fluid"
+											/>
+										</div>
+										<div class="swiper-slide">
+											<img
+												src="{% static 'images/blog-lg1.jpg' %}"
+												class="img-fluid"
+											/>
+										</div>
+									</div>
+									<div class="swiper-pagination"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 mt-5">
+						<div class="product-info">
+							<div class="element-header">
+								<h2
+									itemprop="name"
+									class="display-6"
+								>
+									Jump Suit
+								</h2>
+								<div class="rating-container d-flex gap-0 align-items-center">
+									<span class="rating secondary-font">
+										<iconify-icon
+											icon="ion:paw"
+											class="text-primary"
+										></iconify-icon>
+										<iconify-icon
+											icon="ion:paw"
+											class="text-primary"
+										></iconify-icon>
+										<iconify-icon
+											icon="ion:paw"
+											class="text-primary"
+										></iconify-icon>
+										<iconify-icon
+											icon="ion:paw"
+											class="text-primary"
+										></iconify-icon>
+										<iconify-icon
+											icon="ion:paw-outline"
+											class="text-primary"
+										></iconify-icon>
+										4.0</span
+									>
+								</div>
+							</div>
+							<div class="product-price pt-3 pb-3">
+								<strong class="text-primary display-6 fw-bold">$170.00</strong
+								><del class="ms-2">$240.00</del>
+							</div>
+							<p>
+								Justo, cum feugiat imperdiet nulla molestie ac vulputate
+								scelerisque amet. Bibendum adipiscing platea blandit sit sed
+								quam semper rhoncus. Diam ultrices maecenas consequat eu tortor
+								orci, cras lectus mauris, cras egestas quam venenatis neque.
+							</p>
+
+							<div
+								class="nav d-flex justify-content-center nav-pills pb-4"
+								id="v-pills-tab"
+								role="tablist"
+								aria-orientation="vertical"
+							>
+								<button
+									class="filter-button active mx-1"
+									id="v-pills-description-tab"
+									data-bs-toggle="pill"
+									data-bs-target="#v-pills-description"
+									type="button"
+									role="tab"
+									aria-controls="v-pills-description"
+									aria-selected="false"
+									tabindex="-1"
+								>
+									Description
+								</button>
+								<button
+									class="filter-button mx-1"
+									id="v-pills-additional-tab"
+									data-bs-toggle="pill"
+									data-bs-target="#v-pills-additional"
+									type="button"
+									role="tab"
+									aria-controls="v-pills-additional"
+									aria-selected="false"
+									tabindex="-1"
+								>
+									Infos
+								</button>
+								<button
+									class="filter-button mx-1"
+									id="v-pills-reviews-tab"
+									data-bs-toggle="pill"
+									data-bs-target="#v-pills-reviews"
+									type="button"
+									role="tab"
+									aria-controls="v-pills-reviews"
+									aria-selected="true"
+								>
+									Avis clients
+								</button>
+							</div>
+							<div
+								class="tab-content"
+								id="v-pills-tabContent"
+							>
+								<div
+									class="tab-pane fade active show"
+									id="v-pills-description"
+									role="tabpanel"
+									aria-labelledby="v-pills-description-tab"
+									tabindex="0"
+								>
+									<h2>Product Description</h2>
+									<p>
+										Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+										Donec odio. Quisque volutpat mattis eros. Nullam malesuada
+										erat ut turpis. Suspendisse urna viverra non, semper
+										suscipit, posuere a, pede. Donec nec justo eget fel
+									</p>
+								</div>
+								<div
+									class="tab-pane fade"
+									id="v-pills-additional"
+									role="tabpanel"
+									aria-labelledby="v-pills-additional-tab"
+									tabindex="0"
+								>
+									<h2>How to Use the Product</h2>
+									<p>
+										Duis aute irure dolor in reprehenderit in voluptate velit
+										esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+										occaecat cupidatat non proident, sunt in culpa qui officia
+										deserunt mollit anim id est laborum. Duis aute irure dolor
+										in reprehenderit in voluptate velit esse cillum dolore eu
+										fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+										proident, sunt in culpa qui officia deserunt mollit anim id
+										est laborum.
+									</p>
+								</div>
+								<div
+									class="tab-pane fade"
+									id="v-pills-reviews"
+									role="tabpanel"
+									aria-labelledby="v-pills-reviews-tab"
+									tabindex="0"
+								>
+									<!-- product-large-slider -->
+									<div class="swiper testimonial-carousel">
+										<div class="swiper-wrapper">
+											<div class="swiper-slide">
+												<div class="col-12 d-flex align-items-center">
+													<div class="col-8">
+														<div class="review-content">
+															<div
+																class="rating-container d-flex align-items-center"
+															>
+																<div
+																	class="rating"
+																	data-rating="1"
+																>
+																	<iconify-icon
+																		icon="ion:paw"
+																		class="text-primary"
+																	></iconify-icon>
+																</div>
+																<div
+																	class="rating"
+																	data-rating="2"
+																>
+																	<iconify-icon
+																		icon="ion:paw"
+																		class="text-primary"
+																	></iconify-icon>
+																</div>
+																<div
+																	class="rating"
+																	data-rating="3"
+																>
+																	<iconify-icon
+																		icon="ion:paw"
+																		class="text-primary"
+																	></iconify-icon>
+																</div>
+																<div
+																	class="rating"
+																	data-rating="4"
+																>
+																	<iconify-icon
+																		icon="ion:paw"
+																		class="text-primary"
+																	></iconify-icon>
+																</div>
+																<div
+																	class="rating"
+																	data-rating="5"
+																>
+																	<iconify-icon
+																		icon="ion:paw-outline"
+																		class="text-primary"
+																	></iconify-icon>
+																</div>
+																<span class="rating-count">(3.5)</span>
+															</div>
+															<div class="review-header">
+																<span class="author-name fw-bold"
+																	>Jenny Willis</span
+																>
+																<span class="review-date fw-bold"
+																	>– 03/06/2022</span
+																>
+															</div>
+															<p>
+																Vitae tortor condimentum lacinia quis vel eros
+																donec ac. Nam at lectus urna duis convallis
+																convallis
+															</p>
+														</div>
+													</div>
+													<div class="col-4">
+														<div class="image-holder review-img">
+															<img
+																src="{% static 'images/reviewer-2.jpg' %}"
+																alt="review"
+																class="img-fluid rounded-circle review-image"
+															/>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="swiper-slide">
+												<div class="col-12 d-flex align-items-center">
+													<div class="col-8">
+														<div class="review-content">
+															<div
+																class="rating-container d-flex align-items-center"
+															>
+																<div
+																	class="rating"
+																	data-rating="1"
+																>
+																	<iconify-icon
+																		icon="ion:paw"
+																		class="text-primary"
+																	></iconify-icon>
+																</div>
+																<div
+																	class="rating"
+																	data-rating="2"
+																>
+																	<iconify-icon
+																		icon="ion:paw"
+																		class="text-primary"
+																	></iconify-icon>
+																</div>
+																<div
+																	class="rating"
+																	data-rating="3"
+																>
+																	<iconify-icon
+																		icon="ion:paw"
+																		class="text-primary"
+																	></iconify-icon>
+																</div>
+																<div
+																	class="rating"
+																	data-rating="4"
+																>
+																	<iconify-icon
+																		icon="ion:paw"
+																		class="text-primary"
+																	></iconify-icon>
+																</div>
+																<div
+																	class="rating"
+																	data-rating="5"
+																>
+																	<iconify-icon
+																		icon="ion:paw-outline"
+																		class="text-primary"
+																	></iconify-icon>
+																</div>
+																<span class="rating-count">(3.5)</span>
+															</div>
+															<div class="review-header">
+																<span class="author-name fw-bold"
+																	>Jenny Willis</span
+																>
+																<span class="review-date fw-bold"
+																	>– 03/06/2022</span
+																>
+															</div>
+															<p>
+																Vitae tortor condimentum lacinia quis vel eros
+																donec ac. Nam at lectus urna duis convallis
+																convallis
+															</p>
+														</div>
+													</div>
+													<div class="col-4">
+														<div class="image-holder review-img">
+															<img
+																src="{% static 'images/reviewer-2.jpg' %}"
+																alt="review"
+																class="img-fluid rounded-circle review-image"
+															/>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="d-flex justify-content-center text-center mt-3">
+							<a
+								href="#cuztomizer"
+								class="btn-cart w-100 px-4 pt-3 pb-3"
+							>
+								<h5 class="text-uppercase m-0">personnaliser</h5>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section
+			id="cuztomizer"
+			class="py-5"
+		>
+			<div class="container py-3">
+				<div class="section-header">
+					<h2 class="display-3 fw-normal"></h2>
+				</div>
+				<div class="row d-flex justify-content-center">
+					<div class="pb-5 col-12 col-xl-12">
+						<div
+							class="row custo-zone d-flex justify-content-center align-content-start"
+						>
+							<div class="col-12 text-center">
+								<span class="custo-zone-title"> Personnalisation :</span>
+							</div>
+
+							
+
+<div class="stepper-container">
+  <div class="stepper mt-4" id="stepper">
+    <div class="progress-bar"></div>
+    <div class="progress-fill" id="progress-fill"></div>
+
+    <div class="step" data-step="0">
+      <div class="step-circle">1</div>
+      <div class="step-label">Format</div>
+    </div>
+    <div class="step" data-step="1">
+      <div class="step-circle">2</div>
+      <div class="step-label">Options</div>
+    </div>
+    <div class="step" data-step="2">
+      <div class="step-circle">3</div>
+      <div class="step-label">Photos</div>
+    </div>
+    <div class="step" data-step="3">
+      <div class="step-circle">4</div>
+      <div class="step-label">Résumé</div>
+    </div>
+  </div>
+</div>
+
+
+<div class="step-content-wrapper">
+<div class="step-content-track ">
+<div id="step-content-0" class="step-content flex-column justify-content-evenly active">
+	<div class="col-12 text-center">
+			<span class="custo-zone-subtitle">Sélectionner le nombre d'animal souhaité :</span>
+				
+	</div>
+    <div class="row  d-flex justify-content-center align-content-start">
+							
+							<div
+								class="col-auto d-flex flex-row text-center product-qty align-items-center py-4"
+							>
+								<span class="input-group-btn">
+									<button
+										type="button"
+										class="quantity-left-minus btn btn-secondary btn-number"
+										data-type="minus"
+									>
+										<svg
+											width="16"
+											height="16"
+										>
+											<use xlink:href="#minus"></use>
+										</svg>
+									</button>
+								</span>
+								<input
+									type="text"
+									id="quantity"
+									name="quantity"
+									class="form-control input-number text-center p-2 mx-1"
+									maxvalue="4"
+									value="1"
+								/>
+								<span class="input-group-btn">
+									<button
+										type="button"
+										class="quantity-right-plus btn btn-secondary btn-number"
+										data-type="plus"
+										data-field=""
+									>
+										<svg
+											width="16"
+											height="16"
+										>
+											<use xlink:href="#plus"></use>
+										</svg>
+									</button>
+								</span>
+							</div>
+							<div class="w-100"></div>
+							<div
+								id="alert-qte"
+								class="col-auto alert alert-warning d-none"
+								role="alert"
+							>
+								<span>
+									Pour un portrait de plus de 4 sujets, merci de contacter pour
+									obtenir un devis -> <a href="contact.html">Contact</a></span
+								>
+							</div>
+							<div class="col-12 text-center">
+								<span class="custo-zone-subtitle">
+									Sélectionner la taille souhaitée :</span
+								>
+							</div>
+							<div class="col-12 text-center toggle-switch mt-4">
+								<label
+									class="draws-label"
+									for="draws-toggle"
+									>Portrait</label
+								>
+								<input
+									type="checkbox"
+									id="draws-toggle"
+								/>
+								<label
+									class="slider round"
+									for="draws-toggle"
+								>
+									<div class="thumb"></div>
+								</label>
+								<label
+									class="draws-label"
+									for="draws-toggle"
+									>Paysage</label
+								>
+							</div>
+							<div class="row d-flex justify-content-evenly align-items-center">
+								<div class="col-4 col-md-2 p-2 d-flex justify-content-center">
+									<label class="d-flex justify-content-center">
+										<input
+											type="radio"
+											class="hide"
+											name="size"
+										/>
+										<svg
+											width="100%"
+											class="draws"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<rect
+												id="paper"
+												x="0"
+												y="0"
+												width="100"
+												height="150"
+											/>
+											<g
+												class="check"
+												fill="none"
+												fill-rule="evenodd"
+												clip-rule="evenodd"
+											>
+												<path
+													d="M12.298 6.564a.5.5 0 0 1 .194.68l-2.777 5a.5.5 0 1 1-.874-.486l2.777-5a.5.5 0 0 1 .68-.194"
+												/>
+												<path
+													d="M6.11 9.466a.5.5 0 0 1 .702-.078L9.59 11.61a.5.5 0 0 1-.625.781L6.188 10.17a.5.5 0 0 1-.078-.703"
+												/>
+												<path
+													d="M 4 3 M 2.713 5.3 c 0.015 0.758 -0.398 1.785 -0.935 2.321 a 2.66 2.66 0 0 0 0 3.759 c 0.53 0.529 0.92 1.445 0.935 2.192 c 0.014 0.662 0.273 1.32 0.778 1.825 a 2.65 2.65 0 0 0 1.748 0.775 c 0.791 0.04 1.827 0.499 2.387 1.06 a 2.66 2.66 0 0 0 3.759 0 c 0.56 -0.561 1.596 -1.02 2.387 -1.06 a 2.65 2.65 0 0 0 1.748 -0.775 a 2.65 2.65 0 0 0 0.777 -1.825 c 0.016 -0.747 0.406 -1.663 0.935 -2.192 a 2.66 2.66 0 0 0 0 -3.759 c -0.536 -0.536 -0.95 -1.563 -0.934 -2.32 a 2.65 2.65 0 0 0 -0.778 -1.933 a 2.65 2.65 0 0 0 -2.015 -0.775 c -0.714 0.036 -1.615 -0.31 -2.12 -0.816 a 2.66 2.66 0 0 0 -3.76 0 c -0.504 0.506 -1.406 0.852 -2.12 0.816 a 2.65 2.65 0 0 0 -2.014 0.775 A 2.65 2.65 0 0 0 2.713 5.3"
+												/>
+											</g>
+											<text class="center-text">A2</text>
+
+											<!-- Flèches horizontales -->
+											<line
+												marker-start="url(#head)"
+												id="left-arrow"
+											/>
+											<text class="size-cm size-H">10cm</text>
+											<line
+												marker-end="url(#head)"
+												id="right-arrow"
+											/>
+
+											<!-- Flèches verticales -->
+											<line
+												marker-start="url(#head)"
+												id="top-arrow"
+											/>
+											<text class="size-cm size-V">10cm</text>
+											<line
+												marker-start="url(#head)"
+												id="bottom-arrow"
+											/>
+										</svg>
+									</label>
+								</div>
+								<div class="col-4 col-md-2 p-2 d-flex justify-content-center">
+									<label class="d-flex justify-content-center">
+										<input
+											type="radio"
+											class="hide"
+											name="size"
+										/>
+										<svg
+											width="100%"
+											class="draws text-reverse blocked-draws"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<rect
+												id="paper"
+												x="0"
+												y="0"
+												width="50"
+												height="150"
+											/>
+											<g
+												class="check"
+												fill="none"
+												fill-rule="evenodd"
+												clip-rule="evenodd"
+											>
+												<path
+													d="M12.298 6.564a.5.5 0 0 1 .194.68l-2.777 5a.5.5 0 1 1-.874-.486l2.777-5a.5.5 0 0 1 .68-.194"
+												/>
+												<path
+													d="M6.11 9.466a.5.5 0 0 1 .702-.078L9.59 11.61a.5.5 0 0 1-.625.781L6.188 10.17a.5.5 0 0 1-.078-.703"
+												/>
+												<path
+													d="M 4 3 M 2.713 5.3 c 0.015 0.758 -0.398 1.785 -0.935 2.321 a 2.66 2.66 0 0 0 0 3.759 c 0.53 0.529 0.92 1.445 0.935 2.192 c 0.014 0.662 0.273 1.32 0.778 1.825 a 2.65 2.65 0 0 0 1.748 0.775 c 0.791 0.04 1.827 0.499 2.387 1.06 a 2.66 2.66 0 0 0 3.759 0 c 0.56 -0.561 1.596 -1.02 2.387 -1.06 a 2.65 2.65 0 0 0 1.748 -0.775 a 2.65 2.65 0 0 0 0.777 -1.825 c 0.016 -0.747 0.406 -1.663 0.935 -2.192 a 2.66 2.66 0 0 0 0 -3.759 c -0.536 -0.536 -0.95 -1.563 -0.934 -2.32 a 2.65 2.65 0 0 0 -0.778 -1.933 a 2.65 2.65 0 0 0 -2.015 -0.775 c -0.714 0.036 -1.615 -0.31 -2.12 -0.816 a 2.66 2.66 0 0 0 -3.76 0 c -0.504 0.506 -1.406 0.852 -2.12 0.816 a 2.65 2.65 0 0 0 -2.014 0.775 A 2.65 2.65 0 0 0 2.713 5.3"
+												/>
+											</g>
+											<text class="center-text">Marque Page</text>
+
+											<!-- Flèches horizontales -->
+											<line
+												marker-start="url(#head)"
+												id="left-arrow"
+											/>
+											<text class="size-cm size-H">10cm</text>
+											<line
+												marker-end="url(#head)"
+												id="right-arrow"
+											/>
+
+											<!-- Flèches verticales -->
+											<line
+												marker-start="url(#head)"
+												id="top-arrow"
+											/>
+											<text class="size-cm size-V">10cm</text>
+											<line
+												marker-start="url(#head)"
+												id="bottom-arrow"
+											/>
+										</svg>
+									</label>
+								</div>
+								<div class="col-4 col-md-2 p-2 d-flex justify-content-center">
+									<label class="d-flex justify-content-center">
+										<input
+											type="radio"
+											class="hide"
+											name="size"
+										/>
+										<svg
+											width="100%"
+											class="draws"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<rect
+												id="paper"
+												x="0"
+												y="0"
+												width="100"
+												height="150"
+											/>
+											<g
+												class="check"
+												fill="none"
+												fill-rule="evenodd"
+												clip-rule="evenodd"
+											>
+												<path
+													d="M12.298 6.564a.5.5 0 0 1 .194.68l-2.777 5a.5.5 0 1 1-.874-.486l2.777-5a.5.5 0 0 1 .68-.194"
+												/>
+												<path
+													d="M6.11 9.466a.5.5 0 0 1 .702-.078L9.59 11.61a.5.5 0 0 1-.625.781L6.188 10.17a.5.5 0 0 1-.078-.703"
+												/>
+												<path
+													d="M 4 3 M 2.713 5.3 c 0.015 0.758 -0.398 1.785 -0.935 2.321 a 2.66 2.66 0 0 0 0 3.759 c 0.53 0.529 0.92 1.445 0.935 2.192 c 0.014 0.662 0.273 1.32 0.778 1.825 a 2.65 2.65 0 0 0 1.748 0.775 c 0.791 0.04 1.827 0.499 2.387 1.06 a 2.66 2.66 0 0 0 3.759 0 c 0.56 -0.561 1.596 -1.02 2.387 -1.06 a 2.65 2.65 0 0 0 1.748 -0.775 a 2.65 2.65 0 0 0 0.777 -1.825 c 0.016 -0.747 0.406 -1.663 0.935 -2.192 a 2.66 2.66 0 0 0 0 -3.759 c -0.536 -0.536 -0.95 -1.563 -0.934 -2.32 a 2.65 2.65 0 0 0 -0.778 -1.933 a 2.65 2.65 0 0 0 -2.015 -0.775 c -0.714 0.036 -1.615 -0.31 -2.12 -0.816 a 2.66 2.66 0 0 0 -3.76 0 c -0.504 0.506 -1.406 0.852 -2.12 0.816 a 2.65 2.65 0 0 0 -2.014 0.775 A 2.65 2.65 0 0 0 2.713 5.3"
+												/>
+											</g>
+											<text class="center-text">A2</text>
+
+											<!-- Flèches horizontales -->
+											<line
+												marker-start="url(#head)"
+												id="left-arrow"
+											/>
+											<text class="size-cm size-H">10cm</text>
+											<line
+												marker-end="url(#head)"
+												id="right-arrow"
+											/>
+
+											<!-- Flèches verticales -->
+											<line
+												marker-start="url(#head)"
+												id="top-arrow"
+											/>
+											<text class="size-cm size-V">10cm</text>
+											<line
+												marker-start="url(#head)"
+												id="bottom-arrow"
+											/>
+										</svg>
+									</label>
+								</div>
+								<div class="col-4 col-md-2 p-2 d-flex justify-content-center">
+									<label class="d-flex justify-content-center">
+										<input
+											type="radio"
+											class="hide"
+											name="size"
+										/>
+										<svg
+											width="100%"
+											class="draws"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<rect
+												id="paper"
+												x="0"
+												y="0"
+												width="100"
+												height="150"
+											/>
+											<g
+												class="check"
+												fill="none"
+												fill-rule="evenodd"
+												clip-rule="evenodd"
+											>
+												<path
+													d="M12.298 6.564a.5.5 0 0 1 .194.68l-2.777 5a.5.5 0 1 1-.874-.486l2.777-5a.5.5 0 0 1 .68-.194"
+												/>
+												<path
+													d="M6.11 9.466a.5.5 0 0 1 .702-.078L9.59 11.61a.5.5 0 0 1-.625.781L6.188 10.17a.5.5 0 0 1-.078-.703"
+												/>
+												<path
+													d="M 4 3 M 2.713 5.3 c 0.015 0.758 -0.398 1.785 -0.935 2.321 a 2.66 2.66 0 0 0 0 3.759 c 0.53 0.529 0.92 1.445 0.935 2.192 c 0.014 0.662 0.273 1.32 0.778 1.825 a 2.65 2.65 0 0 0 1.748 0.775 c 0.791 0.04 1.827 0.499 2.387 1.06 a 2.66 2.66 0 0 0 3.759 0 c 0.56 -0.561 1.596 -1.02 2.387 -1.06 a 2.65 2.65 0 0 0 1.748 -0.775 a 2.65 2.65 0 0 0 0.777 -1.825 c 0.016 -0.747 0.406 -1.663 0.935 -2.192 a 2.66 2.66 0 0 0 0 -3.759 c -0.536 -0.536 -0.95 -1.563 -0.934 -2.32 a 2.65 2.65 0 0 0 -0.778 -1.933 a 2.65 2.65 0 0 0 -2.015 -0.775 c -0.714 0.036 -1.615 -0.31 -2.12 -0.816 a 2.66 2.66 0 0 0 -3.76 0 c -0.504 0.506 -1.406 0.852 -2.12 0.816 a 2.65 2.65 0 0 0 -2.014 0.775 A 2.65 2.65 0 0 0 2.713 5.3"
+												/>
+											</g>
+											<text class="center-text">A2</text>
+
+											<!-- Flèches horizontales -->
+											<line
+												marker-start="url(#head)"
+												id="left-arrow"
+											/>
+											<text class="size-cm size-H">10cm</text>
+											<line
+												marker-end="url(#head)"
+												id="right-arrow"
+											/>
+
+											<!-- Flèches verticales -->
+											<line
+												marker-start="url(#head)"
+												id="top-arrow"
+											/>
+											<text class="size-cm size-V">10cm</text>
+											<line
+												marker-start="url(#head)"
+												id="bottom-arrow"
+											/>
+										</svg>
+									</label>
+								</div>
+								<div class="col-4 col-md-2 p-2 justify-content-center">
+									<label class="d-flex justify-content-center">
+										<input
+											type="radio"
+											class="hide"
+											name="size"
+										/>
+										<svg
+											width="100%"
+											class="draws"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<rect
+												id="paper"
+												x="0"
+												y="0"
+												width="100"
+												height="150"
+											/>
+											<g
+												class="check"
+												fill="none"
+												fill-rule="evenodd"
+												clip-rule="evenodd"
+											>
+												<path
+													d="M12.298 6.564a.5.5 0 0 1 .194.68l-2.777 5a.5.5 0 1 1-.874-.486l2.777-5a.5.5 0 0 1 .68-.194"
+												/>
+												<path
+													d="M6.11 9.466a.5.5 0 0 1 .702-.078L9.59 11.61a.5.5 0 0 1-.625.781L6.188 10.17a.5.5 0 0 1-.078-.703"
+												/>
+												<path
+													d="M 4 3 M 2.713 5.3 c 0.015 0.758 -0.398 1.785 -0.935 2.321 a 2.66 2.66 0 0 0 0 3.759 c 0.53 0.529 0.92 1.445 0.935 2.192 c 0.014 0.662 0.273 1.32 0.778 1.825 a 2.65 2.65 0 0 0 1.748 0.775 c 0.791 0.04 1.827 0.499 2.387 1.06 a 2.66 2.66 0 0 0 3.759 0 c 0.56 -0.561 1.596 -1.02 2.387 -1.06 a 2.65 2.65 0 0 0 1.748 -0.775 a 2.65 2.65 0 0 0 0.777 -1.825 c 0.016 -0.747 0.406 -1.663 0.935 -2.192 a 2.66 2.66 0 0 0 0 -3.759 c -0.536 -0.536 -0.95 -1.563 -0.934 -2.32 a 2.65 2.65 0 0 0 -0.778 -1.933 a 2.65 2.65 0 0 0 -2.015 -0.775 c -0.714 0.036 -1.615 -0.31 -2.12 -0.816 a 2.66 2.66 0 0 0 -3.76 0 c -0.504 0.506 -1.406 0.852 -2.12 0.816 a 2.65 2.65 0 0 0 -2.014 0.775 A 2.65 2.65 0 0 0 2.713 5.3"
+												/>
+											</g>
+											<text class="center-text">A2</text>
+
+											<!-- Flèches horizontales -->
+											<line
+												marker-start="url(#head)"
+												id="left-arrow"
+											/>
+											<text class="size-cm size-H">10cm</text>
+											<line
+												marker-end="url(#head)"
+												id="right-arrow"
+											/>
+
+											<!-- Flèches verticales -->
+											<line
+												marker-start="url(#head)"
+												id="top-arrow"
+											/>
+											<text class="size-cm size-V">10cm</text>
+											<line
+												marker-start="url(#head)"
+												id="bottom-arrow"
+											/>
+										</svg>
+									</label>
+								</div>
+							</div>
+						</div>
+				
+</div>
+<div id="step-content-1" class="step-content flex-column justify-content-evenly active">
+	 <div class="col-12 text-center">
+							
+							
+								<span class="custo-zone-subtitle">
+									Souhaitez vous un décor floral ?:</span
+								>
+							
+			</div>
+
+						<div
+							class="row  d-flex justify-content-center align-content-start"
+						>
+							
+							<div class="col-12 text-center toggle-switch mt-4">
+								<label
+									class="floral-label"
+									for="floral-toggle"
+									>Oui</label
+								>
+								<input
+									type="checkbox"
+									id="floral-toggle"
+								/>
+								<label
+									class="slider round"
+									for="floral-toggle"
+								>
+									<div class="thumb"></div>
+								</label>
+								<label
+									class="floral-label"
+									for="floral-toggle"
+									>Non</label
+								>
+							</div>
+							<div
+								id="floral-form"
+								class="row d-flex justify-content-center align-items-center"
+							>
+								<div class="col-12 col-md-6 flex-column d-flex">
+									<span class="custo-zone-subtitle">Nom de la fleur :</span>
+									<input
+										id="back-textInput"
+										type="text"
+										name="subject"
+										placeholder="Saisir le nom de la fleur"
+										class="form-control ps-3"
+										required=""
+									/>
+								</div>
+								<div class="col-12 col-md-6 flex-column d-flex">
+									<span class="custo-zone-subtitle">Couleur de la fleur :</span>
+									<input
+										id="back-textInput"
+										type="text"
+										name="subject"
+										placeholder="Saisir la couleur de la fleur"
+										class="form-control ps-3"
+										required=""
+									/>
+								</div>
+							</div>
+
+							<span class="custo-zone-subtitle pt-4 mb-2"
+								>Souhaitez vous le nom de l'animal ?:</span
+							>
+							<div class="col-12 text-center toggle-switch mt-4">
+								<label
+									class="name-label"
+									for="name-toggle"
+									>Oui</label
+								>
+								<input
+									type="checkbox"
+									id="name-toggle"
+								/>
+								<label
+									class="slider round"
+									for="name-toggle"
+								>
+									<div class="thumb"></div>
+								</label>
+								<label
+									class="name-label"
+									for="name-toggle"
+									>Non</label
+								>
+								<div
+									id="name-form"
+									class="row d-flex justify-content-center align-items-center"
+								>
+									<div class="col-12 col-md-6 flex-column d-flex">
+										<span class="custo-zone-subtitle">Nom de l'animal :</span>
+										<input
+											id="back-textInput"
+											type="text"
+											name="subject"
+											placeholder="Saisir le nom de l'animal"
+											class="form-control ps-3"
+											required=""
+										/>
+									</div>
+								</div>
+							</div>
+						</div>
+				
+</div>
+<div id="step-content-2" class="step-content flex-column justify-content-evenly active">
+	<div class="col-12 text-center">
+									<span class="custo-zone-subtitle">
+									Images :</span
+								>
+	</div>
+
+						<div
+							class="row  d-flex justify-content-center align-content-start"
+						>
+							
+							<div
+								class="col-12 col-md-6 flex-column justify-content-center d-flex align-items-center mb-3"
+							>
+								<span class="custo-zone-subtitle mb-2"
+									>Choisir votre image</span
+								>
+								<div
+									class="drop-zone"
+									id="drop-zone"
+								>
+									<span class="plus-sign">+</span>
+									<input
+										type="file"
+										id="file-input"
+										class="file-input"
+										multiple
+										accept="image/*"
+									/>
+								</div>
+							</div>
+							<div
+								class="col-12 col-md-6 flex-column d-flex align-items-center"
+							>
+								<span class="custo-zone-subtitle mb-2"
+									>Exemple images correctes/incorrectes</span
+								>
+								<div class="swiper medals medal-slider">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<img
+												src="{% static 'images/banner-img.png' %}"
+												class="img-fluid"
+											/>
+										</div>
+										<div class="swiper-slide">
+											<img
+												src="{% static 'images/banner-img.png' %}"
+												class="img-fluid"
+											/>
+										</div>
+										<div class="swiper-slide">
+											<img
+												src="{% static 'images/banner-img.png' %}"
+												class="img-fluid"
+											/>
+										</div>
+										<div class="swiper-slide">
+											<img
+												src="{% static 'images/banner-img.png' %}"
+												class="img-fluid"
+											/>
+										</div>
+									</div>
+									<div class="swiper-pagination"></div>
+								</div>
+							</div>
+						</div>
+					
+</div>
+<div id="step-content-3" class="step-content flex-column justify-content-evenly">
+
+
+	<div class="col-12 text-center">
+								<span class="custo-zone-title"> Recapitulatif :</span>
+	</div>
+
+						<div
+							class="row custo-zone d-flex justify-content-center align-content-start"
+						>
+							
+
+							<div
+								class="col-auto d-flex flex-column align-items-center justify-content-center pt-4 pt-md-0"
+							>
+								<svg
+									width="100%"
+									class="draws"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<rect
+										id="paper"
+										x="0"
+										y="0"
+										width="100"
+										height="150"
+									/>
+									<g
+										class="check"
+										fill="none"
+										fill-rule="evenodd"
+										clip-rule="evenodd"
+									>
+										<path
+											d="M12.298 6.564a.5.5 0 0 1 .194.68l-2.777 5a.5.5 0 1 1-.874-.486l2.777-5a.5.5 0 0 1 .68-.194"
+										/>
+										<path
+											d="M6.11 9.466a.5.5 0 0 1 .702-.078L9.59 11.61a.5.5 0 0 1-.625.781L6.188 10.17a.5.5 0 0 1-.078-.703"
+										/>
+										<path
+											d="M 4 3 M 2.713 5.3 c 0.015 0.758 -0.398 1.785 -0.935 2.321 a 2.66 2.66 0 0 0 0 3.759 c 0.53 0.529 0.92 1.445 0.935 2.192 c 0.014 0.662 0.273 1.32 0.778 1.825 a 2.65 2.65 0 0 0 1.748 0.775 c 0.791 0.04 1.827 0.499 2.387 1.06 a 2.66 2.66 0 0 0 3.759 0 c 0.56 -0.561 1.596 -1.02 2.387 -1.06 a 2.65 2.65 0 0 0 1.748 -0.775 a 2.65 2.65 0 0 0 0.777 -1.825 c 0.016 -0.747 0.406 -1.663 0.935 -2.192 a 2.66 2.66 0 0 0 0 -3.759 c -0.536 -0.536 -0.95 -1.563 -0.934 -2.32 a 2.65 2.65 0 0 0 -0.778 -1.933 a 2.65 2.65 0 0 0 -2.015 -0.775 c -0.714 0.036 -1.615 -0.31 -2.12 -0.816 a 2.66 2.66 0 0 0 -3.76 0 c -0.504 0.506 -1.406 0.852 -2.12 0.816 a 2.65 2.65 0 0 0 -2.014 0.775 A 2.65 2.65 0 0 0 2.713 5.3"
+										/>
+									</g>
+									<text class="center-text">A2</text>
+
+									<!-- Flèches horizontales -->
+									<line
+										marker-start="url(#head)"
+										id="left-arrow"
+									/>
+									<text class="size-cm size-H">10cm</text>
+									<line
+										marker-end="url(#head)"
+										id="right-arrow"
+									/>
+
+									<!-- Flèches verticales -->
+									<line
+										marker-start="url(#head)"
+										id="top-arrow"
+									/>
+									<text class="size-cm size-V">10cm</text>
+									<line
+										marker-start="url(#head)"
+										id="bottom-arrow"
+									/>
+								</svg>
+							</div>
+
+							<div
+								class="col-1 d-none d-lg-flex align-items-center pt-4 pt-md-0"
+							>
+								<svg
+									width="100"
+									height="100"
+									viewBox="0 0 100 100"
+									class="mb-1"
+								>
+									<use xlink:href="#arrow-right"></use>
+								</svg>
+							</div>
+							<div
+								class="col-12 col-lg-6 d-flex flex-column justify-content-center pt-5"
+							>
+								<table
+									cellspacing="0"
+									class="table"
+								>
+									<tbody class="table-cm2">
+										<tr
+											class="subtotal border-top border-bottom pt-2 pb-2 text-uppercase"
+										>
+											<th>Portrait 3 animaux :</th>
+											<td data-title="Subtotal">
+												<span class="price-amount amount ps-5">
+													<bdi>
+														<span class="price-currency-symbol">20€ </span>
+													</bdi>
+												</span>
+											</td>
+										</tr>
+										<tr
+											class="subtotal border-top border-bottom pt-2 pb-2 text-uppercase"
+										>
+											<th>Supplément floral :</th>
+											<td data-title="Subtotal">
+												<span class="price-amount amount ps-5">
+													<bdi>
+														<span class="price-currency-symbol">5.00€</span>
+													</bdi>
+												</span>
+											</td>
+										</tr>
+										<tr
+											class="subtotal border-top border-bottom pt-2 pb-2 text-uppercase"
+										>
+											<th>Supplément nom animal :</th>
+											<td data-title="Subtotal">
+												<span class="price-amount amount ps-5">
+													<bdi>
+														<span class="price-currency-symbol">5.00€</span>
+													</bdi>
+												</span>
+											</td>
+										</tr>
+										<tr
+											class="order-total border-bottom pt-2 pb-2 text-uppercase"
+										>
+											<th>Total =</th>
+											<td data-title="Subtotal">
+												<span class="price-amount amount ps-5">
+													<bdi>
+														<span class="price-currency-symbol">30.00€</span>
+													</bdi>
+												</span>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+								<a
+									class="w-100 btn btn-primary btn-lg"
+									href="cart.html"
+									>Ajouter au panier</a
+								>
+							</div>
+						</div>
+					
+</div>
+</div>
+<div class="row d-flex justify-content-center mt-4 p-0">
+	<div class="col-auto">
+		<a id="prev" class="btn btn-primary p-2 text-uppercase rounded-1">
+								<svg width="24" height="24" viewBox="0 0 24 24" class="mb-1">
+									<use xlink:href="#arrow-left"></use>
+								</svg>précédent
+								
+							</a>
+							<a id="reset" class="btn btn-outline-primary p-2  text-uppercase  rounded-1">
+								
+								<svg width="24" height="24" viewBox="0 0 24 24" class="mb-1">
+									<use xlink:href="#retry"></use>
+								</svg>
+							</a>
+							<a id="next" class="btn btn-primary p-2 text-uppercase  rounded-1">
+								suivant
+								<svg width="24" height="24" viewBox="0 0 24 24" class="mb-1">
+									<use xlink:href="#arrow-right"></use>
+								</svg>
+							</a>
+		
+	</div>
+
+
+</div>
+</div>
+							
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+{% endblock %}	
+{% block javascripts %}
+<script src="{% static 'js/draws.js' %}"></script>
+<script>
+$(document).ready(function () {
+
+
+  let currentStep = 0;
+  let completedSteps = new Set();
+  let lastStep = 0;
+
+
+  const stepValidators = {
+  0: function () {
+    // ex: vérifier un input texte
+    return $('input[name="shape"]:checked').length > 0;
+  },
+
+  1: function () {
+    // ex: vérifier un radio
+    return $('input[name="size"]:checked').length > 0;
+  },
+
+  2: function () {
+    // ex: vérifier une checkbox
+    return $('#acceptTerms').is(':checked');
+  }
+};
+
+  /* ===============================
+     STEP CONTENT (SLIDER)
+  =============================== */
+  function updateContent() {
+    const $contents = $('.step-content');
+
+    $contents.each(function (i) {
+      $(this)
+        .removeClass('active slide-left slide-right').hide();
+    });
+
+    const $active = $('#step-content-' + currentStep);
+    $active.show();
+
+    if (currentStep > lastStep) {
+      $active.addClass('active slide-right');
+    } else if (currentStep < lastStep) {
+      $active.addClass('active slide-left');
+    } else {
+      $active.addClass('active');
+    }
+
+    lastStep = currentStep;
+  }
+
+  /* ===============================
+     PROGRESS BAR
+  =============================== */
+  function updateProgress() {
+    const $steps = $('.step');
+    const $first = $steps.first().find('.step-circle');
+    const $last = $steps.last().find('.step-circle');
+
+    const stepperOffset = $('#stepper').offset().left;
+
+    const start = $first.offset().left + $first.outerWidth() / 2 - stepperOffset;
+    const end = $last.offset().left + $last.outerWidth() / 2 - stepperOffset;
+
+    $('.progress-bar').css({
+      left: start,
+      width: end - start
+    });
+
+    const $current = $steps.eq(currentStep).find('.step-circle');
+    const currentCenter =
+      $current.offset().left + $current.outerWidth() / 2 - stepperOffset;
+
+    $('#progress-fill').css({
+      left: start,
+      width: currentCenter - start
+    });
+  }
+
+  /* ===============================
+     SCROLL STEPPER
+  =============================== */
+  function scrollToStep(index) {
+    const $container = $('.stepper-container');
+    const $step = $('.step').eq(index);
+
+    const target =
+      $step.offset().left -
+      $container.offset().left +
+      $container.scrollLeft() -
+      $container.width() / 2 +
+      $step.outerWidth() / 2;
+
+    $container.stop().animate({ scrollLeft: target }, 400);
+  }
+
+  /* ===============================
+     RENDER STEPS
+  =============================== */
+  function renderSteps() {
+    const $steps = $('.step');
+    const maxCompleted = Math.max(-1, ...completedSteps);
+
+    $steps.each(function () {
+      const index = parseInt($(this).data('step'), 10);
+
+      $(this)
+        .removeClass('active completed completed-active unlock');
+
+      if (completedSteps.has(index)) $(this).addClass('completed');
+      if (index === currentStep) $(this).addClass('active');
+      if (completedSteps.has(index) && index === currentStep)
+        $(this).addClass('completed-active');
+
+      if (
+        completedSteps.has(index) ||
+        index === maxCompleted + 1 ||
+        index === currentStep
+      ) {
+        $(this).addClass('unlock');
+      }
+    });
+
+	if (currentStep === 0)   
+		$('#prev').hide();
+	else 
+		$('#prev').show();
+
+	if (currentStep === $steps.length - 1)   
+		$('#next').hide();
+	else 
+		$('#next').show();
+
+    $('#prev').prop('disabled', currentStep === 0);
+    $('#next').prop('disabled', currentStep === $steps.length - 1);
+
+    updateContent();
+    updateProgress();
+    scrollToStep(currentStep);
+
+  }
+
+  /* ===============================
+     EVENTS
+  =============================== */
+  $('.step').on('click', function () {
+    const index = parseInt($(this).data('step'), 10);
+    const maxCompleted = Math.max(-1, ...completedSteps);
+
+    if (
+      completedSteps.has(index) ||
+      index === maxCompleted + 1 ||
+      index === currentStep
+    ) {
+      currentStep = index;
+      renderSteps();
+    }
+  });
+
+  $('#next').on('click', function () {
+
+	if (!validateCurrentStep()) {
+    alert('Merci de compléter cette étape');
+    return;
+  }
+    if (currentStep < $('.step').length - 1) {
+      completedSteps.add(currentStep);
+      currentStep++;
+      renderSteps();
+    }
+  });
+
+  $('#prev').on('click', function () {
+    if (currentStep > 0) {
+      currentStep--;
+      renderSteps();
+    }
+  });
+  $('#reset').on('click', function () {
+  currentStep = 0;
+  completedSteps.clear();
+
+  // 🔥 IMPORTANT : reset du scroll mémoire
+  lastStep = 0;
+  renderSteps();
+});
+
+  /* ===============================
+     SWIPE MOBILE
+  =============================== */
+  let startX = 0;
+  const threshold = 60;
+
+  $('.step-content-wrapper').on('touchstart', function (e) {
+    startX = e.originalEvent.touches[0].clientX;
+  });
+
+  $('.step-content-wrapper').on('touchend', function (e) {
+    const endX = e.originalEvent.changedTouches[0].clientX;
+    const diff = startX - endX;
+
+    if (Math.abs(diff) < threshold) return;
+
+    if (diff > 0 && currentStep < $('.step').length - 1) {
+      completedSteps.add(currentStep);
+      currentStep++;
+      renderSteps();
+    }
+
+    if (diff < 0 && currentStep > 0) {
+      currentStep--;
+      renderSteps();
+    }
+  });
+
+  $(window).on('resize', updateProgress);
+
+  renderSteps();
+
+
+  function validateCurrentStep() {
+ 	return true; // temporaire
+  if (typeof stepValidators[currentStep] === 'function') {
+    return stepValidators[currentStep]();
+  }
+  return true; // pas de validation = OK
+}
+
+});
+
+</script>
+{% endblock %}

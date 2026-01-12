@@ -1,0 +1,6 @@
+Watching for file changes with StatReloader
+[12/Jan/2026 17:41:40] "GET / HTTP/1.1" 200 43345
+[12/Jan/2026 17:51:22] "GET /medailles/ HTTP/1.1" 200 265459
+[12/Jan/2026 17:51:22] "GET /static/js/medals.js HTTP/1.1" 304 0
+[12/Jan/2026 17:51:22] "GET /static/js/three3D.js HTTP/1.1" 304 0
+[12/Jan/2026 17:51:28] "GET /portraits/ HTTP/1.1" 200 79493

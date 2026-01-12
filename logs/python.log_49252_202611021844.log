@@ -1,0 +1,13 @@
+Watching for file changes with StatReloader
+[10/Jan/2026 22:08:45] "GET / HTTP/1.1" 200 43332
+Not Found: /SDK/webLanguage
+[10/Jan/2026 22:21:39] "GET /SDK/webLanguage HTTP/1.1" 404 3250
+Not Found: /.env
+[10/Jan/2026 22:21:49] "GET /.env HTTP/1.1" 404 3230
+[10/Jan/2026 22:37:41] "GET / HTTP/1.1" 200 43332
+Not Found: /security.txt
+[10/Jan/2026 22:39:01] "GET /security.txt HTTP/1.1" 404 3238
+Forbidden (CSRF cookie not set.): /
+[10/Jan/2026 22:47:10] "POST / HTTP/1.1" 403 2855
+[10/Jan/2026 22:58:31] "GET / HTTP/1.1" 200 43332
+[10/Jan/2026 23:15:26] "GET / HTTP/1.0" 200 43332

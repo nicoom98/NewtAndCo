@@ -1,0 +1,5 @@
+Watching for file changes with StatReloader
+[13/Dec/2025 17:34:37] "GET / HTTP/1.1" 200 49395
+[13/Dec/2025 17:43:39] "GET / HTTP/1.1" 200 49395
+Not Found: /Autodiscover/Autodiscover.xml
+[13/Dec/2025 17:46:23] "POST /Autodiscover/Autodiscover.xml HTTP/1.1" 404 3032

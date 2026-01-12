@@ -1,0 +1,66 @@
+Watching for file changes with StatReloader
+[12/Jan/2026 13:05:33] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 43345
+[12/Jan/2026 13:11:44] "GET / HTTP/1.1" 200 43345
+[12/Jan/2026 13:23:04] "GET / HTTP/1.1" 200 43345
+Not Found: /robots.txt
+[12/Jan/2026 13:23:04] "GET /robots.txt HTTP/1.1" 404 3498
+[12/Jan/2026 13:23:04] "GET / HTTP/1.1" 200 43345
+[12/Jan/2026 13:23:05] "GET /medailles/ HTTP/1.1" 200 263382
+Not Found: /popsocket.html
+[12/Jan/2026 13:23:06] "GET /popsocket.html HTTP/1.1" 404 3510
+Not Found: /veilleuse.html
+[12/Jan/2026 13:23:06] "GET /veilleuse.html HTTP/1.1" 404 3510
+Not Found: /single-product.html
+[12/Jan/2026 13:23:06] "GET /single-product.html HTTP/1.1" 404 3525
+[12/Jan/2026 13:23:07] "GET /contact/ HTTP/1.1" 200 28128
+Not Found: /porteclef.html
+[12/Jan/2026 13:23:07] "GET /porteclef.html HTTP/1.1" 404 3510
+[12/Jan/2026 13:23:08] "GET /accueil/ HTTP/1.1" 200 43345
+Not Found: / single-product.html
+[12/Jan/2026 13:23:08] "GET /%20single-product.html HTTP/1.1" 404 3530
+Not Found: /faqs.html
+[12/Jan/2026 13:23:09] "GET /faqs.html HTTP/1.1" 404 3495
+[12/Jan/2026 13:23:09] "GET /portraits/ HTTP/1.1" 200 78064
+Not Found: /contact/porteclef.html
+[12/Jan/2026 13:23:10] "GET /contact/porteclef.html HTTP/1.1" 404 3534
+Not Found: /accueil/single-product.html
+[12/Jan/2026 13:23:10] "GET /accueil/single-product.html HTTP/1.1" 404 3549
+Not Found: /portraits/cart.html
+[12/Jan/2026 13:23:10] "GET /portraits/cart.html HTTP/1.1" 404 3525
+Not Found: /accueil/faqs.html
+[12/Jan/2026 13:23:11] "GET /accueil/faqs.html HTTP/1.1" 404 3519
+Not Found: /medailles/popsocket.html
+[12/Jan/2026 13:23:11] "GET /medailles/popsocket.html HTTP/1.1" 404 3540
+Not Found: /accueil/ single-product.html
+[12/Jan/2026 13:23:11] "GET /accueil/%20single-product.html HTTP/1.1" 404 3554
+Not Found: /accueil/porteclef.html
+[12/Jan/2026 13:23:12] "GET /accueil/porteclef.html HTTP/1.1" 404 3534
+Not Found: /medailles/faqs.html
+[12/Jan/2026 13:23:12] "GET /medailles/faqs.html HTTP/1.1" 404 3525
+Not Found: /portraits/faqs.html
+[12/Jan/2026 13:23:12] "GET /portraits/faqs.html HTTP/1.1" 404 3525
+Not Found: /medailles/single-product.html
+[12/Jan/2026 13:23:13] "GET /medailles/single-product.html HTTP/1.1" 404 3555
+Not Found: /contact/popsocket.html
+[12/Jan/2026 13:23:13] "GET /contact/popsocket.html HTTP/1.1" 404 3534
+Not Found: /contact/faqs.html
+[12/Jan/2026 13:23:14] "GET /contact/faqs.html HTTP/1.1" 404 3519
+Not Found: /portraits/popsocket.html
+[12/Jan/2026 13:23:14] "GET /portraits/popsocket.html HTTP/1.1" 404 3540
+Not Found: /portraits/veilleuse.html
+[12/Jan/2026 13:23:14] "GET /portraits/veilleuse.html HTTP/1.1" 404 3540
+Not Found: /medailles/porteclef.html
+[12/Jan/2026 13:23:15] "GET /medailles/porteclef.html HTTP/1.1" 404 3540
+Not Found: /accueil/popsocket.html
+[12/Jan/2026 13:23:15] "GET /accueil/popsocket.html HTTP/1.1" 404 3534
+Not Found: /medailles/veilleuse.html
+[12/Jan/2026 13:23:15] "GET /medailles/veilleuse.html HTTP/1.1" 404 3540
+Not Found: /contact/veilleuse.html
+[12/Jan/2026 13:23:16] "GET /contact/veilleuse.html HTTP/1.1" 404 3534
+Not Found: /accueil/veilleuse.html
+[12/Jan/2026 13:23:16] "GET /accueil/veilleuse.html HTTP/1.1" 404 3534
+Not Found: /portraits/contact.html
+[12/Jan/2026 13:23:16] "GET /portraits/contact.html HTTP/1.1" 404 3534
+Not Found: /medailles/cart.html
+[12/Jan/2026 13:23:17] "GET /medailles/cart.html HTTP/1.1" 404 3525
+[12/Jan/2026 13:35:43] "GET /admin/config.php HTTP/1.0" 302 0

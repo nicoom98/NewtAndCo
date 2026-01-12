@@ -1,0 +1,6 @@
+Watching for file changes with StatReloader
+[12/Dec/2025 20:41:20] "GET / HTTP/1.1" 200 53542
+[12/Dec/2025 20:55:52] "GET / HTTP/1.0" 200 53542
+[12/Dec/2025 21:06:08] "GET / HTTP/1.1" 200 53542
+Not Found: /cgi-bin/luci/;stok=/locale
+[12/Dec/2025 21:07:30] "GET /cgi-bin/luci/;stok=/locale HTTP/1.1" 404 2762

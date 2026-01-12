@@ -1,0 +1,114 @@
+Watching for file changes with StatReloader
+[15/Dec/2025 18:29:48] "GET / HTTP/1.1" 200 43332
+[15/Dec/2025 18:29:48] "GET / HTTP/1.1" 200 43332
+Not Found: /actuator/health
+[15/Dec/2025 18:37:44] "GET /actuator/health HTTP/1.1" 404 3247
+Not Found: /.env
+[15/Dec/2025 18:48:07] "GET /.env HTTP/1.1" 404 3214
+Not Found: /.git/config
+[15/Dec/2025 18:48:07] "GET /.git/config HTTP/1.1" 404 3235
+[15/Dec/2025 18:48:08] "GET / HTTP/1.1" 200 43332
+[15/Dec/2025 18:56:27] "GET / HTTP/1.0" 200 43332
+[15/Dec/2025 19:14:36] "GET / HTTP/1.1" 200 43332
+[15/Dec/2025 19:17:26] "GET / HTTP/1.1" 200 43332
+[15/Dec/2025 19:17:27] "GET / HTTP/1.1" 200 43332
+Forbidden (CSRF cookie not set.): /
+[15/Dec/2025 19:17:28] "POST / HTTP/1.1" 403 2855
+Not Found: /.env
+[15/Dec/2025 19:20:53] "GET /.env HTTP/1.1" 404 3214
+Forbidden (CSRF cookie not set.): /
+[15/Dec/2025 19:20:53] "POST / HTTP/1.1" 403 2855
+[15/Dec/2025 19:28:36] "HEAD / HTTP/1.1" 200 0
+[15/Dec/2025 19:28:36] "GET / HTTP/1.1" 200 43332
+[15/Dec/2025 19:37:48] "GET / HTTP/1.1" 200 43332
+[15/Dec/2025 19:53:15] "GET / HTTP/1.1" 200 43332
+Not Found: /hello.world
+[15/Dec/2025 19:54:19] "POST /hello.world?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input HTTP/1.1" 404 3303
+Forbidden (CSRF cookie not set.): /
+[15/Dec/2025 19:54:20] "POST /?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input HTTP/1.1" 403 2855
+Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[15/Dec/2025 19:54:22] "GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3355
+Not Found: /vendor/phpunit/phpunit/Util/PHP/eval-stdin.php
+[15/Dec/2025 19:54:22] "GET /vendor/phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 3343
+Not Found: /vendor/phpunit/src/Util/PHP/eval-stdin.php
+[15/Dec/2025 19:54:23] "GET /vendor/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3331
+Not Found: /vendor/phpunit/Util/PHP/eval-stdin.php
+[15/Dec/2025 19:54:24] "GET /vendor/phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 3319
+Not Found: /vendor/phpunit/phpunit/LICENSE/eval-stdin.php
+[15/Dec/2025 19:54:24] "GET /vendor/phpunit/phpunit/LICENSE/eval-stdin.php HTTP/1.1" 404 3340
+Not Found: /vendor/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[15/Dec/2025 19:54:25] "GET /vendor/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3376
+Not Found: /phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[15/Dec/2025 19:54:26] "GET /phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3334
+Not Found: /phpunit/phpunit/Util/PHP/eval-stdin.php
+[15/Dec/2025 19:54:27] "GET /phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 3322
+Not Found: /phpunit/src/Util/PHP/eval-stdin.php
+[15/Dec/2025 19:54:28] "GET /phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3310
+Not Found: /phpunit/Util/PHP/eval-stdin.php
+[15/Dec/2025 19:54:28] "GET /phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 3298
+Not Found: /lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[15/Dec/2025 19:54:30] "GET /lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3346
+Not Found: /lib/phpunit/phpunit/Util/PHP/eval-stdin.php
+[15/Dec/2025 19:54:30] "GET /lib/phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 3334
+Not Found: /lib/phpunit/src/Util/PHP/eval-stdin.php
+[15/Dec/2025 19:54:31] "GET /lib/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3322
+Not Found: /lib/phpunit/Util/PHP/eval-stdin.php
+[15/Dec/2025 19:54:32] "GET /lib/phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 3310
+Not Found: /lib/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[15/Dec/2025 19:54:33] "GET /lib/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3367
+Not Found: /laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[15/Dec/2025 19:54:33] "GET /laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3379
+Not Found: /www/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[15/Dec/2025 19:54:34] "GET /www/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3367
+Not Found: /ws/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[15/Dec/2025 19:54:34] "GET /ws/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3364
+Not Found: /yii/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[15/Dec/2025 19:54:35] "GET /yii/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3367
+Not Found: /zend/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[15/Dec/2025 19:54:36] "GET /zend/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3370
+Not Found: /ws/ec/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[15/Dec/2025 19:54:36] "GET /ws/ec/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3373
+Not Found: /V2/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[15/Dec/2025 19:54:37] "GET /V2/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3364
+Not Found: /tests/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[15/Dec/2025 19:54:38] "GET /tests/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3373
+[15/Dec/2025 19:54:38] "GET / HTTP/1.1" 200 43332
+Not Found: /test/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[15/Dec/2025 19:54:39] "GET /test/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3370
+Not Found: /testing/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[15/Dec/2025 19:54:39] "GET /testing/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3379
+Not Found: /api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[15/Dec/2025 19:54:40] "GET /api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3367
+Not Found: /demo/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[15/Dec/2025 19:54:40] "GET /demo/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3370
+Not Found: /cms/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[15/Dec/2025 19:54:41] "GET /cms/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3367
+Not Found: /crm/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[15/Dec/2025 19:54:41] "GET /crm/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3367
+[15/Dec/2025 19:54:42] "GET /admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 302 0
+Not Found: /backup/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[15/Dec/2025 19:54:43] "GET /backup/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3376
+Not Found: /blog/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[15/Dec/2025 19:54:44] "GET /blog/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3370
+Not Found: /workspace/drupal/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[15/Dec/2025 19:54:44] "GET /workspace/drupal/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3406
+Not Found: /panel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[15/Dec/2025 19:54:45] "GET /panel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3373
+Not Found: /public/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[15/Dec/2025 19:54:46] "GET /public/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3376
+Not Found: /apps/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[15/Dec/2025 19:54:46] "GET /apps/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3370
+Not Found: /app/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[15/Dec/2025 19:54:47] "GET /app/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3367
+Not Found: /index.php
+[15/Dec/2025 19:54:48] "GET /index.php?s=/index/\\think\\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello HTTP/1.1" 404 3341
+Not Found: /public/index.php
+[15/Dec/2025 19:54:48] "GET /public/index.php?s=/index/\\think\\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello HTTP/1.1" 404 3362
+Not Found: /index.php
+[15/Dec/2025 19:54:49] "GET /index.php?lang=../../../../../../../../usr/local/lib/php/pearcmd&+config-create+/&/<?echo(md5("hi"));?>+/tmp/index1.php HTTP/1.1" 404 3358
+Not Found: /index.php
+[15/Dec/2025 19:54:50] "GET /index.php?lang=../../../../../../../../tmp/index1 HTTP/1.1" 404 3272
+Not Found: /containers/json
+[15/Dec/2025 19:54:50] "GET /containers/json HTTP/1.1" 404 3250
+[15/Dec/2025 20:05:51] "GET / HTTP/1.1" 200 43332
+[15/Dec/2025 20:09:03] "GET / HTTP/1.1" 200 43332

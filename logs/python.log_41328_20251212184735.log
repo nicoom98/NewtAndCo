@@ -1,0 +1,11 @@
+Watching for file changes with StatReloader
+[12/Dec/2025 19:47:36] "GET / HTTP/1.1" 200 53542
+[12/Dec/2025 19:50:53] "GET / HTTP/1.1" 200 53542
+[12/Dec/2025 19:55:59] "GET / HTTP/1.1" 200 53542
+[12/Dec/2025 19:58:59] "GET / HTTP/1.1" 200 53542
+[12/Dec/2025 20:01:00] "GET / HTTP/1.1" 200 53542
+Not Found: /favicon.ico
+[12/Dec/2025 20:01:09] "GET /favicon.ico HTTP/1.1" 404 2710
+Not Found: /security.txt
+[12/Dec/2025 20:01:26] "GET /security.txt HTTP/1.1" 404 2713
+[12/Dec/2025 20:18:44] "GET / HTTP/1.1" 200 53542

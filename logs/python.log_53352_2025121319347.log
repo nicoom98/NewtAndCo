@@ -1,0 +1,11 @@
+Watching for file changes with StatReloader
+Not Found: /manager/html
+[13/Dec/2025 20:34:08] "GET /manager/html HTTP/1.1" 404 2977
+[13/Dec/2025 20:49:20] "GET / HTTP/1.1" 200 49407
+Not Found: /dispatch.asp
+[13/Dec/2025 20:51:48] "GET /dispatch.asp HTTP/1.1" 404 2980
+Not Found: /cgi-bin/luci/;stok=/locale
+[13/Dec/2025 20:56:59] "GET /cgi-bin/luci/;stok=/locale HTTP/1.1" 404 3026
+[13/Dec/2025 20:57:58] "GET / HTTP/1.1" 200 49407
+[13/Dec/2025 21:05:10] "GET / HTTP/1.0" 200 49407
+[13/Dec/2025 21:05:36] "GET / HTTP/1.1" 200 49407

@@ -1,0 +1,31 @@
+Watching for file changes with StatReloader
+[11/Jan/2026 17:02:32] "HEAD / HTTP/1.1" 200 0
+[11/Jan/2026 17:02:32] "GET / HTTP/1.1" 200 43332
+[11/Jan/2026 17:17:36] "GET / HTTP/1.1" 200 43332
+Forbidden (CSRF cookie not set.): /
+[11/Jan/2026 17:34:54] "POST / HTTP/1.1" 403 2855
+[11/Jan/2026 17:49:26] "GET / HTTP/1.1" 200 43332
+C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\medaille\views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 11, 2026 - 17:02:32
+Django version 6.0, using settings 'NewtAndCo.settings'
+Starting development server at http://127.0.0.1:9806/
+Quit the server with CTRL-BREAK.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/6.0/howto/deployment/
+Watching for file changes with StatReloader
+C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\medaille\views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 11, 2026 - 18:00:16
+Django version 6.0, using settings 'NewtAndCo.settings'
+Starting development server at http://127.0.0.1:9806/
+Quit the server with CTRL-BREAK.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/6.0/howto/deployment/
+Watching for file changes with StatReloader

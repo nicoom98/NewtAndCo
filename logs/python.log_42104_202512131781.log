@@ -1,0 +1,45 @@
+Watching for file changes with StatReloader
+Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[13/Dec/2025 18:08:02] "POST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3095
+[13/Dec/2025 18:20:51] "GET / HTTP/1.1" 200 49395
+Not Found: /cgi-bin/luci/;stok=/locale
+[13/Dec/2025 18:21:58] "GET /cgi-bin/luci/;stok=/locale HTTP/1.1" 404 3026
+[13/Dec/2025 18:25:42] "GET / HTTP/1.1" 200 49395
+Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[13/Dec/2025 18:27:02] "GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3094
+Not Found: /solr/admin/info/system
+[13/Dec/2025 18:30:58] "GET /solr/admin/info/system?wt=json HTTP/1.1" 404 3018
+[13/Dec/2025 18:31:31] "HEAD / HTTP/1.1" 200 0
+[13/Dec/2025 18:31:31] "GET / HTTP/1.1" 200 49395
+[13/Dec/2025 18:32:34] "GET / HTTP/1.1" 200 49395
+[13/Dec/2025 18:46:19] "GET /contact/ HTTP/1.1" 200 29078
+[13/Dec/2025 18:46:20] "GET /static/css/style.css HTTP/1.1" 304 0
+[13/Dec/2025 18:46:23] "GET /accueil/ HTTP/1.1" 200 49395
+[13/Dec/2025 18:47:42] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[13/Dec/2025 18:47:42] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[13/Dec/2025 18:47:42] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[13/Dec/2025 18:47:42] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[13/Dec/2025 18:48:48] "GET /accueil/ HTTP/1.1" 200 49407
+[13/Dec/2025 18:48:48] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[13/Dec/2025 18:48:48] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[13/Dec/2025 18:48:48] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[13/Dec/2025 18:48:48] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[13/Dec/2025 18:54:11] "GET /contact/ HTTP/1.1" 200 29090
+[13/Dec/2025 19:06:59] "GET / HTTP/1.1" 200 49407
+[13/Dec/2025 19:18:57] "GET / HTTP/1.1" 200 49407
+[13/Dec/2025 19:20:40] "GET / HTTP/1.1" 200 49407
+Not Found: /favicon.ico
+[13/Dec/2025 19:20:45] "GET /favicon.ico HTTP/1.1" 404 2974
+Not Found: /wiki
+[13/Dec/2025 19:20:50] "GET /wiki HTTP/1.1" 404 2953
+[13/Dec/2025 19:25:16] "GET / HTTP/1.1" 200 49407
+[13/Dec/2025 19:35:52] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 49407
+[13/Dec/2025 19:49:13] "GET / HTTP/1.1" 200 49407
+[13/Dec/2025 19:51:31] "GET /accueil/ HTTP/1.1" 200 49407
+[13/Dec/2025 19:51:31] "GET /static/css/style.css HTTP/1.1" 304 0
+Not Found: /console/
+[13/Dec/2025 20:00:33] "GET /console/ HTTP/1.1" 404 2968
+[13/Dec/2025 20:00:51] "GET / HTTP/1.1" 200 49407
+[13/Dec/2025 20:12:07] "GET / HTTP/1.1" 200 49407
+Not Found: /_ignition/execute-solution
+[13/Dec/2025 20:13:41] "GET /_ignition/execute-solution HTTP/1.1" 404 3022

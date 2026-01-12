@@ -1,0 +1,440 @@
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "C:\Users\nicol\AppData\Local\Programs\Python\Python312\Lib\threading.py", line 1075, in _bootstrap_inner
+    self.run()
+  File "C:\Users\nicol\AppData\Local\Programs\Python\Python312\Lib\threading.py", line 1012, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\utils\autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\core\management\commands\runserver.py", line 134, in inner_run
+    self.check(**check_kwargs)
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\core\management\base.py", line 569, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+?: (staticfiles.E002) The STATICFILES_DIRS setting should not contain the STATIC_ROOT setting.
+
+System check identified 1 issue (0 silenced).
+C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\NewtAndCo\settings.py changed, reloading.
+Performing system checks...
+
+Watching for file changes with StatReloader
+[12/Dec/2025 17:38:14] "GET / HTTP/1.1" 200 53122
+Not Found: /css/swiper.css
+[12/Dec/2025 17:38:14] "GET /css/swiper.css HTTP/1.1" 404 2724
+Not Found: /css/bootstrap.css
+Not Found: /css/vendor.css
+[12/Dec/2025 17:38:14] "GET /css/bootstrap.css HTTP/1.1" 404 2733
+[12/Dec/2025 17:38:14] "GET /css/vendor.css HTTP/1.1" 404 2724
+Not Found: /style.css
+[12/Dec/2025 17:38:14] "GET /style.css HTTP/1.1" 404 2709
+Not Found: /logo.png
+Not Found: /js/jquery-3.7.1.min.js
+[12/Dec/2025 17:38:14] "GET /logo.png HTTP/1.1" 404 2706
+[12/Dec/2025 17:38:14] "GET /js/jquery-3.7.1.min.js HTTP/1.1" 404 2748
+Not Found: /js/swiper.js
+Not Found: /js/bootstrap.bundle.js
+[12/Dec/2025 17:38:14] "GET /js/swiper.js HTTP/1.1" 404 2718
+[12/Dec/2025 17:38:14] "GET /js/bootstrap.bundle.js HTTP/1.1" 404 2748
+Not Found: /js/plugins.js
+Not Found: /js/script.js
+[12/Dec/2025 17:38:14] "GET /js/plugins.js HTTP/1.1" 404 2721
+[12/Dec/2025 17:38:14] "GET /js/script.js HTTP/1.1" 404 2718
+Not Found: /js/iconify.js
+Not Found: /images/diapo.png
+[12/Dec/2025 17:38:14] "GET /js/iconify.js HTTP/1.1" 404 2721
+[12/Dec/2025 17:38:14] "GET /images/diapo.png HTTP/1.1" 404 2730
+Not Found: /images/diapo.png
+Not Found: /images/overlay.png
+[12/Dec/2025 17:38:14] "GET /images/diapo.png HTTP/1.1" 404 2730
+[12/Dec/2025 17:38:14] "GET /images/overlay.png HTTP/1.1" 404 2736
+Not Found: /images/item9.jpg
+Not Found: /images/item10.jpg
+[12/Dec/2025 17:38:14] "GET /images/item9.jpg HTTP/1.1" 404 2730
+Not Found: /images/item11.jpg
+[12/Dec/2025 17:38:14] "GET /images/item10.jpg HTTP/1.1" 404 2733
+[12/Dec/2025 17:38:14] "GET /images/item11.jpg HTTP/1.1" 404 2733
+Not Found: /images/item12.jpg
+Not Found: /images/item13.jpg
+[12/Dec/2025 17:38:14] "GET /images/item12.jpg HTTP/1.1" 404 2733
+[12/Dec/2025 17:38:14] "GET /images/item13.jpg HTTP/1.1" 404 2733
+Not Found: /images/item15.jpg
+Not Found: /images/item14.jpg
+[12/Dec/2025 17:38:14] "GET /images/item14.jpg HTTP/1.1" 404 2733
+[12/Dec/2025 17:38:14] "GET /images/item15.jpg HTTP/1.1" 404 2733
+Not Found: /images/insta1.jpg
+Not Found: /images/item16.jpg
+[12/Dec/2025 17:38:14] "GET /images/insta1.jpg HTTP/1.1" 404 2733
+[12/Dec/2025 17:38:14] "GET /images/item16.jpg HTTP/1.1" 404 2733
+Not Found: /images/2.png
+Not Found: /images/insta2.jpg
+[12/Dec/2025 17:38:14] "GET /images/2.png HTTP/1.1" 404 2718
+[12/Dec/2025 17:38:14] "GET /images/insta2.jpg HTTP/1.1" 404 2733
+Not Found: /images/insta4.jpg
+Not Found: /images/insta3.jpg
+[12/Dec/2025 17:38:14] "GET /images/insta4.jpg HTTP/1.1" 404 2733
+[12/Dec/2025 17:38:14] "GET /images/insta3.jpg HTTP/1.1" 404 2733
+Not Found: /images/insta5.jpg
+[12/Dec/2025 17:38:14] "GET /images/insta5.jpg HTTP/1.1" 404 2733
+Not Found: /images/insta6.jpg
+[12/Dec/2025 17:38:14] "GET /images/insta6.jpg HTTP/1.1" 404 2733
+[12/Dec/2025 17:38:21] "GET / HTTP/1.1" 200 53122
+Not Found: /css/swiper.css
+[12/Dec/2025 17:38:21] "GET /css/swiper.css HTTP/1.1" 404 2724
+Not Found: /css/bootstrap.css
+Not Found: /css/vendor.css
+Not Found: /style.css
+[12/Dec/2025 17:38:21] "GET /css/bootstrap.css HTTP/1.1" 404 2733
+[12/Dec/2025 17:38:21] "GET /css/vendor.css HTTP/1.1" 404 2724
+Not Found: /logo.png
+[12/Dec/2025 17:38:21] "GET /style.css HTTP/1.1" 404 2709
+Not Found: /js/jquery-3.7.1.min.js
+Not Found: /js/bootstrap.bundle.js
+[12/Dec/2025 17:38:21] "GET /logo.png HTTP/1.1" 404 2706
+Not Found: /js/swiper.js
+Not Found: /js/script.js
+[12/Dec/2025 17:38:21] "GET /js/jquery-3.7.1.min.js HTTP/1.1" 404 2748
+Not Found: /js/plugins.js
+[12/Dec/2025 17:38:21] "GET /js/bootstrap.bundle.js HTTP/1.1" 404 2748
+[12/Dec/2025 17:38:21] "GET /js/script.js HTTP/1.1" 404 2718
+Not Found: /js/iconify.js
+[12/Dec/2025 17:38:21] "GET /js/swiper.js HTTP/1.1" 404 2718
+[12/Dec/2025 17:38:21] "GET /js/plugins.js HTTP/1.1" 404 2721
+Not Found: /images/item9.jpg
+[12/Dec/2025 17:38:21] "GET /js/iconify.js HTTP/1.1" 404 2721
+Not Found: /images/diapo.png
+Not Found: /images/diapo.png
+[12/Dec/2025 17:38:21] "GET /images/item9.jpg HTTP/1.1" 404 2730
+Not Found: /images/item10.jpg
+[12/Dec/2025 17:38:21] "GET /images/diapo.png HTTP/1.1" 404 2730
+Not Found: /images/overlay.png
+Not Found: /images/item11.jpg
+[12/Dec/2025 17:38:21] "GET /images/diapo.png HTTP/1.1" 404 2730
+[12/Dec/2025 17:38:21] "GET /images/item10.jpg HTTP/1.1" 404 2733
+Not Found: /images/item12.jpg
+[12/Dec/2025 17:38:21] "GET /images/overlay.png HTTP/1.1" 404 2736
+[12/Dec/2025 17:38:21] "GET /images/item11.jpg HTTP/1.1" 404 2733
+Not Found: /images/item13.jpg
+[12/Dec/2025 17:38:21] "GET /images/item12.jpg HTTP/1.1" 404 2733
+Not Found: /images/item14.jpg
+Not Found: /images/item15.jpg
+Not Found: /images/item16.jpg
+[12/Dec/2025 17:38:21] "GET /images/item13.jpg HTTP/1.1" 404 2733
+Not Found: /images/insta1.jpg
+[12/Dec/2025 17:38:21] "GET /images/item14.jpg HTTP/1.1" 404 2733
+Not Found: /images/2.png
+[12/Dec/2025 17:38:21] "GET /images/item16.jpg HTTP/1.1" 404 2733
+Not Found: /images/insta2.jpg
+[12/Dec/2025 17:38:21] "GET /images/item15.jpg HTTP/1.1" 404 2733
+Not Found: /images/insta3.jpg
+[12/Dec/2025 17:38:21] "GET /images/insta1.jpg HTTP/1.1" 404 2733
+[12/Dec/2025 17:38:21] "GET /images/2.png HTTP/1.1" 404 2718
+[12/Dec/2025 17:38:21] "GET /images/insta2.jpg HTTP/1.1" 404 2733
+[12/Dec/2025 17:38:21] "GET /images/insta3.jpg HTTP/1.1" 404 2733
+Not Found: /images/insta5.jpg
+Not Found: /images/insta6.jpg
+Not Found: /images/insta4.jpg
+[12/Dec/2025 17:38:21] "GET /images/insta6.jpg HTTP/1.1" 404 2733
+[12/Dec/2025 17:38:21] "GET /images/insta5.jpg HTTP/1.1" 404 2733
+[12/Dec/2025 17:38:21] "GET /images/insta4.jpg HTTP/1.1" 404 2733
+[12/Dec/2025 17:38:21] "GET / HTTP/1.1" 200 53122
+Not Found: /css/swiper.css
+[12/Dec/2025 17:38:21] "GET /css/swiper.css HTTP/1.1" 404 2724
+Not Found: /css/bootstrap.css
+Not Found: /style.css
+Not Found: /css/vendor.css
+Not Found: /js/jquery-3.7.1.min.js
+Not Found: /js/swiper.js
+[12/Dec/2025 17:38:21] "GET /css/bootstrap.css HTTP/1.1" 404 2733
+Not Found: /logo.png
+[12/Dec/2025 17:38:21] "GET /js/jquery-3.7.1.min.js HTTP/1.1" 404 2748
+[12/Dec/2025 17:38:21] "GET /style.css HTTP/1.1" 404 2709
+[12/Dec/2025 17:38:21] "GET /css/vendor.css HTTP/1.1" 404 2724
+[12/Dec/2025 17:38:21] "GET /js/swiper.js HTTP/1.1" 404 2718
+[12/Dec/2025 17:38:21] "GET /logo.png HTTP/1.1" 404 2706
+Not Found: /js/bootstrap.bundle.js
+Not Found: /js/script.js
+Not Found: /images/diapo.png
+Not Found: /js/iconify.js
+Not Found: /images/diapo.png
+[12/Dec/2025 17:38:21] "GET /images/diapo.png HTTP/1.1" 404 2730
+Not Found: /js/plugins.js
+[12/Dec/2025 17:38:21] "GET /js/bootstrap.bundle.js HTTP/1.1" 404 2748
+[12/Dec/2025 17:38:21] "GET /js/script.js HTTP/1.1" 404 2718
+[12/Dec/2025 17:38:21] "GET /js/iconify.js HTTP/1.1" 404 2721
+[12/Dec/2025 17:38:21] "GET /images/diapo.png HTTP/1.1" 404 2730
+[12/Dec/2025 17:38:21] "GET /js/plugins.js HTTP/1.1" 404 2721
+Not Found: /images/item10.jpg
+Not Found: /images/overlay.png
+Not Found: /images/item9.jpg
+Not Found: /images/item11.jpg
+[12/Dec/2025 17:38:21] "GET /images/item10.jpg HTTP/1.1" 404 2733
+[12/Dec/2025 17:38:21] "GET /images/overlay.png HTTP/1.1" 404 2736
+Not Found: /images/item13.jpg
+[12/Dec/2025 17:38:21] "GET /images/item11.jpg HTTP/1.1" 404 2733
+Not Found: /images/item12.jpg
+[12/Dec/2025 17:38:21] "GET /images/item9.jpg HTTP/1.1" 404 2730
+[12/Dec/2025 17:38:21] "GET /images/item13.jpg HTTP/1.1" 404 2733
+[12/Dec/2025 17:38:21] "GET /images/item12.jpg HTTP/1.1" 404 2733
+Not Found: /images/2.png
+Not Found: /images/item14.jpg
+Not Found: /images/insta2.jpg
+[12/Dec/2025 17:38:21] "GET /images/2.png HTTP/1.1" 404 2718
+Not Found: /images/insta1.jpg
+[12/Dec/2025 17:38:21] "GET /images/item14.jpg HTTP/1.1" 404 2733
+Not Found: /images/item15.jpg
+[12/Dec/2025 17:38:21] "GET /images/insta2.jpg HTTP/1.1" 404 2733
+Not Found: /images/item16.jpg
+[12/Dec/2025 17:38:21] "GET /images/insta1.jpg HTTP/1.1" 404 2733
+Not Found: /images/insta3.jpg
+[12/Dec/2025 17:38:21] "GET /images/item15.jpg HTTP/1.1" 404 2733
+Not Found: /images/insta4.jpg
+[12/Dec/2025 17:38:21] "GET /images/item16.jpg HTTP/1.1" 404 2733
+Not Found: /images/insta6.jpg
+[12/Dec/2025 17:38:21] "GET /images/insta3.jpg HTTP/1.1" 404 2733
+Not Found: /images/insta5.jpg
+[12/Dec/2025 17:38:21] "GET /images/insta4.jpg HTTP/1.1" 404 2733
+[12/Dec/2025 17:38:21] "GET /images/insta6.jpg HTTP/1.1" 404 2733
+[12/Dec/2025 17:38:21] "GET /images/insta5.jpg HTTP/1.1" 404 2733
+[12/Dec/2025 17:38:22] "GET / HTTP/1.1" 200 53122
+Not Found: /css/swiper.css
+Not Found: /css/bootstrap.css
+[12/Dec/2025 17:38:22] "GET /css/swiper.css HTTP/1.1" 404 2724
+Not Found: /style.css
+Not Found: /logo.png
+[12/Dec/2025 17:38:22] "GET /css/bootstrap.css HTTP/1.1" 404 2733
+Not Found: /css/vendor.css
+Not Found: /js/jquery-3.7.1.min.js
+[12/Dec/2025 17:38:22] "GET /style.css HTTP/1.1" 404 2709
+Not Found: /js/swiper.js
+[12/Dec/2025 17:38:22] "GET /logo.png HTTP/1.1" 404 2706
+[12/Dec/2025 17:38:22] "GET /css/vendor.css HTTP/1.1" 404 2724
+[12/Dec/2025 17:38:22] "GET /js/jquery-3.7.1.min.js HTTP/1.1" 404 2748
+Not Found: /js/plugins.js
+[12/Dec/2025 17:38:22] "GET /js/swiper.js HTTP/1.1" 404 2718
+Not Found: /js/bootstrap.bundle.js
+[12/Dec/2025 17:38:22] "GET /js/plugins.js HTTP/1.1" 404 2721
+Not Found: /js/script.js
+Not Found: /images/diapo.png
+[12/Dec/2025 17:38:22] "GET /js/bootstrap.bundle.js HTTP/1.1" 404 2748
+Not Found: /js/iconify.js
+Not Found: /images/diapo.png
+[12/Dec/2025 17:38:22] "GET /js/script.js HTTP/1.1" 404 2718
+Not Found: /images/overlay.png
+[12/Dec/2025 17:38:22] "GET /js/iconify.js HTTP/1.1" 404 2721
+Not Found: /images/item9.jpg
+[12/Dec/2025 17:38:22] "GET /images/diapo.png HTTP/1.1" 404 2730
+Not Found: /images/item11.jpg
+[12/Dec/2025 17:38:22] "GET /images/diapo.png HTTP/1.1" 404 2730
+[12/Dec/2025 17:38:22] "GET /images/overlay.png HTTP/1.1" 404 2736
+Not Found: /images/item12.jpg
+[12/Dec/2025 17:38:22] "GET /images/item9.jpg HTTP/1.1" 404 2730
+Not Found: /images/item10.jpg
+[12/Dec/2025 17:38:22] "GET /images/item11.jpg HTTP/1.1" 404 2733
+Not Found: /images/item15.jpg
+Not Found: /images/item13.jpg
+[12/Dec/2025 17:38:22] "GET /images/item10.jpg HTTP/1.1" 404 2733
+Not Found: /images/item14.jpg
+[12/Dec/2025 17:38:22] "GET /images/item12.jpg HTTP/1.1" 404 2733
+Not Found: /images/item16.jpg
+[12/Dec/2025 17:38:22] "GET /images/item13.jpg HTTP/1.1" 404 2733
+Not Found: /images/insta1.jpg
+[12/Dec/2025 17:38:22] "GET /images/item15.jpg HTTP/1.1" 404 2733
+Not Found: /images/2.png
+[12/Dec/2025 17:38:22] "GET /images/item14.jpg HTTP/1.1" 404 2733
+[12/Dec/2025 17:38:22] "GET /images/item16.jpg HTTP/1.1" 404 2733
+Not Found: /images/insta2.jpg
+[12/Dec/2025 17:38:22] "GET /images/2.png HTTP/1.1" 404 2718
+[12/Dec/2025 17:38:22] "GET /images/insta1.jpg HTTP/1.1" 404 2733
+Not Found: /images/insta3.jpg
+[12/Dec/2025 17:38:22] "GET /images/insta2.jpg HTTP/1.1" 404 2733
+Not Found: /images/insta5.jpg
+Not Found: /images/insta4.jpg
+Not Found: /images/insta6.jpg
+[12/Dec/2025 17:38:22] "GET /images/insta3.jpg HTTP/1.1" 404 2733
+[12/Dec/2025 17:38:22] "GET /images/insta4.jpg HTTP/1.1" 404 2733
+[12/Dec/2025 17:38:22] "GET /images/insta5.jpg HTTP/1.1" 404 2733
+[12/Dec/2025 17:38:22] "GET /images/insta6.jpg HTTP/1.1" 404 2733
+[12/Dec/2025 17:38:22] "GET / HTTP/1.1" 200 53122
+Not Found: /css/swiper.css
+Not Found: /css/bootstrap.css
+Not Found: /style.css
+Not Found: /css/vendor.css
+[12/Dec/2025 17:38:22] "GET /css/swiper.css HTTP/1.1" 404 2724
+Not Found: /js/jquery-3.7.1.min.js
+[12/Dec/2025 17:38:22] "GET /css/bootstrap.css HTTP/1.1" 404 2733
+Not Found: /logo.png
+[12/Dec/2025 17:38:22] "GET /style.css HTTP/1.1" 404 2709
+Not Found: /js/bootstrap.bundle.js
+[12/Dec/2025 17:38:22] "GET /css/vendor.css HTTP/1.1" 404 2724
+Not Found: /js/swiper.js
+[12/Dec/2025 17:38:22] "GET /js/jquery-3.7.1.min.js HTTP/1.1" 404 2748
+[12/Dec/2025 17:38:22] "GET /logo.png HTTP/1.1" 404 2706
+Not Found: /js/plugins.js
+Not Found: /js/script.js
+[12/Dec/2025 17:38:22] "GET /js/bootstrap.bundle.js HTTP/1.1" 404 2748
+Not Found: /js/iconify.js
+[12/Dec/2025 17:38:22] "GET /js/swiper.js HTTP/1.1" 404 2718
+Not Found: /images/diapo.png
+[12/Dec/2025 17:38:22] "GET /js/plugins.js HTTP/1.1" 404 2721
+Not Found: /images/diapo.png
+[12/Dec/2025 17:38:22] "GET /js/script.js HTTP/1.1" 404 2718
+Not Found: /images/overlay.png
+[12/Dec/2025 17:38:22] "GET /js/iconify.js HTTP/1.1" 404 2721
+[12/Dec/2025 17:38:22] "GET /images/diapo.png HTTP/1.1" 404 2730
+Not Found: /images/item9.jpg
+[12/Dec/2025 17:38:22] "GET /images/diapo.png HTTP/1.1" 404 2730
+Not Found: /images/item11.jpg
+[12/Dec/2025 17:38:22] "GET /images/overlay.png HTTP/1.1" 404 2736
+[12/Dec/2025 17:38:22] "GET /images/item9.jpg HTTP/1.1" 404 2730
+Not Found: /images/item12.jpg
+Not Found: /images/item10.jpg
+[12/Dec/2025 17:38:22] "GET /images/item11.jpg HTTP/1.1" 404 2733
+Not Found: /images/item13.jpg
+[12/Dec/2025 17:38:22] "GET /images/item12.jpg HTTP/1.1" 404 2733
+Not Found: /images/item14.jpg
+[12/Dec/2025 17:38:22] "GET /images/item10.jpg HTTP/1.1" 404 2733
+Not Found: /images/2.png
+[12/Dec/2025 17:38:22] "GET /images/item13.jpg HTTP/1.1" 404 2733
+Not Found: /images/item15.jpg
+[12/Dec/2025 17:38:22] "GET /images/item14.jpg HTTP/1.1" 404 2733
+Not Found: /images/insta1.jpg
+[12/Dec/2025 17:38:22] "GET /images/2.png HTTP/1.1" 404 2718
+Not Found: /images/item16.jpg
+[12/Dec/2025 17:38:22] "GET /images/item15.jpg HTTP/1.1" 404 2733
+Not Found: /images/insta2.jpg
+[12/Dec/2025 17:38:22] "GET /images/insta1.jpg HTTP/1.1" 404 2733
+[12/Dec/2025 17:38:22] "GET /images/item16.jpg HTTP/1.1" 404 2733
+Not Found: /images/insta3.jpg
+[12/Dec/2025 17:38:22] "GET /images/insta2.jpg HTTP/1.1" 404 2733
+Not Found: /images/insta4.jpg
+Not Found: /images/insta6.jpg
+[12/Dec/2025 17:38:22] "GET /images/insta3.jpg HTTP/1.1" 404 2733
+Not Found: /images/insta5.jpg
+[12/Dec/2025 17:38:22] "GET /images/insta4.jpg HTTP/1.1" 404 2733
+[12/Dec/2025 17:38:22] "GET /images/insta6.jpg HTTP/1.1" 404 2733
+[12/Dec/2025 17:38:22] "GET /images/insta5.jpg HTTP/1.1" 404 2733
+[12/Dec/2025 17:38:22] "GET / HTTP/1.1" 200 53122
+Not Found: /css/swiper.css
+Not Found: /logo.png
+[12/Dec/2025 17:38:22] "GET /css/swiper.css HTTP/1.1" 404 2724
+Not Found: /style.css
+Not Found: /css/bootstrap.css
+Not Found: /css/vendor.css
+[12/Dec/2025 17:38:22] "GET /logo.png HTTP/1.1" 404 2706
+Not Found: /js/jquery-3.7.1.min.js
+[12/Dec/2025 17:38:22] "GET /style.css HTTP/1.1" 404 2709
+Not Found: /js/swiper.js
+Not Found: /js/bootstrap.bundle.js
+[12/Dec/2025 17:38:22] "GET /css/vendor.css HTTP/1.1" 404 2724
+[12/Dec/2025 17:38:22] "GET /css/bootstrap.css HTTP/1.1" 404 2733
+[12/Dec/2025 17:38:22] "GET /js/jquery-3.7.1.min.js HTTP/1.1" 404 2748
+[12/Dec/2025 17:38:22] "GET /js/swiper.js HTTP/1.1" 404 2718
+Not Found: /js/plugins.js
+[12/Dec/2025 17:38:22] "GET /js/bootstrap.bundle.js HTTP/1.1" 404 2748
+Not Found: /js/script.js
+Not Found: /js/iconify.js
+Not Found: /images/diapo.png
+[12/Dec/2025 17:38:22] "GET /js/plugins.js HTTP/1.1" 404 2721
+Not Found: /images/diapo.png
+[12/Dec/2025 17:38:22] "GET /js/script.js HTTP/1.1" 404 2718
+Not Found: /images/overlay.png
+[12/Dec/2025 17:38:22] "GET /js/iconify.js HTTP/1.1" 404 2721
+[12/Dec/2025 17:38:22] "GET /images/diapo.png HTTP/1.1" 404 2730
+[12/Dec/2025 17:38:22] "GET /images/diapo.png HTTP/1.1" 404 2730
+Not Found: /images/item9.jpg
+Not Found: /images/item10.jpg
+[12/Dec/2025 17:38:22] "GET /images/overlay.png HTTP/1.1" 404 2736
+Not Found: /images/item11.jpg
+Not Found: /images/item12.jpg
+Not Found: /images/item13.jpg
+[12/Dec/2025 17:38:22] "GET /images/item10.jpg HTTP/1.1" 404 2733
+[12/Dec/2025 17:38:22] "GET /images/item11.jpg HTTP/1.1" 404 2733
+[12/Dec/2025 17:38:22] "GET /images/item9.jpg HTTP/1.1" 404 2730
+Not Found: /images/item14.jpg
+[12/Dec/2025 17:38:22] "GET /images/item12.jpg HTTP/1.1" 404 2733
+[12/Dec/2025 17:38:22] "GET /images/item13.jpg HTTP/1.1" 404 2733
+Not Found: /images/item16.jpg
+[12/Dec/2025 17:38:22] "GET /images/item14.jpg HTTP/1.1" 404 2733
+Not Found: /images/2.png
+Not Found: /images/item15.jpg
+Not Found: /images/insta1.jpg
+[12/Dec/2025 17:38:22] "GET /images/item15.jpg HTTP/1.1" 404 2733
+Not Found: /images/insta2.jpg
+[12/Dec/2025 17:38:22] "GET /images/item16.jpg HTTP/1.1" 404 2733
+Not Found: /images/insta3.jpg
+[12/Dec/2025 17:38:22] "GET /images/2.png HTTP/1.1" 404 2718
+[12/Dec/2025 17:38:22] "GET /images/insta1.jpg HTTP/1.1" 404 2733
+Not Found: /images/insta5.jpg
+[12/Dec/2025 17:38:22] "GET /images/insta2.jpg HTTP/1.1" 404 2733
+Not Found: /images/insta4.jpg
+[12/Dec/2025 17:38:22] "GET /images/insta3.jpg HTTP/1.1" 404 2733
+Not Found: /images/insta6.jpg
+[12/Dec/2025 17:38:22] "GET /images/insta5.jpg HTTP/1.1" 404 2733
+[12/Dec/2025 17:38:22] "GET /images/insta4.jpg HTTP/1.1" 404 2733
+[12/Dec/2025 17:38:22] "GET /images/insta6.jpg HTTP/1.1" 404 2733
+C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\NewtAndCo\settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 12, 2025 - 17:38:14
+Django version 6.0, using settings 'NewtAndCo.settings'
+Starting development server at http://127.0.0.1:6554/
+Quit the server with CTRL-BREAK.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/6.0/howto/deployment/
+Watching for file changes with StatReloader
+C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\NewtAndCo\settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 12, 2025 - 17:38:29
+Django version 6.0, using settings 'NewtAndCo.settings'
+Starting development server at http://127.0.0.1:6554/
+Quit the server with CTRL-BREAK.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/6.0/howto/deployment/
+Watching for file changes with StatReloader
+C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\NewtAndCo\settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 12, 2025 - 17:42:55
+Django version 6.0, using settings 'NewtAndCo.settings'
+Starting development server at http://127.0.0.1:6554/
+Quit the server with CTRL-BREAK.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/6.0/howto/deployment/
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "C:\Users\nicol\AppData\Local\Programs\Python\Python312\Lib\threading.py", line 1075, in _bootstrap_inner
+    self.run()
+  File "C:\Users\nicol\AppData\Local\Programs\Python\Python312\Lib\threading.py", line 1012, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\utils\autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\core\management\commands\runserver.py", line 143, in inner_run
+    handler = self.get_handler(*args, **options)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\contrib\staticfiles\management\commands\runserver.py", line 35, in get_handler
+    return StaticFilesHandler(handler)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\contrib\staticfiles\handlers.py", line 75, in __init__
+    self.base_url = urlparse(self.get_base_url())
+                             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\contrib\staticfiles\handlers.py", line 30, in get_base_url
+    utils.check_settings()
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\contrib\staticfiles\utils.py", line 49, in check_settings
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: You're using the staticfiles app without having set the required STATIC_URL setting.
+C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\NewtAndCo\settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+Watching for file changes with StatReloader

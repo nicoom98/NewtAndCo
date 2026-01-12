@@ -1,0 +1,418 @@
+Watching for file changes with StatReloader
+[13/Dec/2025 11:08:25] "GET / HTTP/1.1" 200 49479
+Not Found: /cgi-bin/luci/;stok=/locale
+[13/Dec/2025 11:12:07] "GET /cgi-bin/luci/;stok=/locale HTTP/1.1" 404 2765
+[13/Dec/2025 11:15:42] "GET / HTTP/1.1" 200 49479
+Not Found: /.git/config
+[13/Dec/2025 11:30:42] "GET /.git/config HTTP/1.1" 404 2713
+[13/Dec/2025 11:44:35] "GET / HTTP/1.1" 200 49479
+[13/Dec/2025 11:47:23] "GET / HTTP/1.1" 200 49479
+[13/Dec/2025 11:50:22] "GET / HTTP/1.1" 200 49479
+[13/Dec/2025 12:03:44] "GET / HTTP/1.1" 200 49479
+[13/Dec/2025 12:04:15] "GET /admin/ HTTP/1.1" 200 6020
+[13/Dec/2025 12:04:17] "GET /admin/auth/user/ HTTP/1.1" 200 11645
+[13/Dec/2025 12:04:17] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[13/Dec/2025 12:04:20] "GET /admin/ HTTP/1.1" 200 6020
+[13/Dec/2025 12:04:21] "GET /admin/auth/group/ HTTP/1.1" 200 8010
+[13/Dec/2025 12:04:21] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[13/Dec/2025 12:04:22] "GET /admin/ HTTP/1.1" 200 6020
+[13/Dec/2025 12:04:25] "GET /admin/auth/group/ HTTP/1.1" 200 8010
+[13/Dec/2025 12:04:25] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[13/Dec/2025 12:04:26] "GET /admin/auth/user/ HTTP/1.1" 200 11645
+[13/Dec/2025 12:04:26] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[13/Dec/2025 12:04:29] "GET /admin/auth/user/1/change/ HTTP/1.1" 200 22378
+[13/Dec/2025 12:04:29] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[13/Dec/2025 12:04:36] "GET /admin/auth/user/ HTTP/1.1" 200 11645
+[13/Dec/2025 12:04:36] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[13/Dec/2025 12:05:45] "GET / HTTP/1.1" 200 49479
+[13/Dec/2025 12:15:04] "GET / HTTP/1.1" 200 49479
+[13/Dec/2025 12:15:05] "GET /static/css/style.css HTTP/1.1" 304 0
+C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\NewtAndCo\urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 13, 2025 - 11:08:24
+Django version 6.0, using settings 'NewtAndCo.settings'
+Starting development server at http://127.0.0.1:15720/
+Quit the server with CTRL-BREAK.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/6.0/howto/deployment/
+Watching for file changes with StatReloader
+Not Found: /index.html
+[13/Dec/2025 12:20:50] "GET /index.html HTTP/1.1" 404 2970
+Not Found: /contact.html
+[13/Dec/2025 12:20:53] "GET /contact.html HTTP/1.1" 404 2976
+[13/Dec/2025 12:21:28] "GET / HTTP/1.1" 200 49469
+[13/Dec/2025 12:21:30] "GET /contact HTTP/1.1" 301 0
+[13/Dec/2025 12:21:30] "GET /contact/ HTTP/1.1" 200 34483
+Not Found: /contact/css/swiper.css
+[13/Dec/2025 12:21:30] "GET /contact/css/swiper.css HTTP/1.1" 404 3006
+Not Found: /contact/css/vendor.css
+[13/Dec/2025 12:21:30] "GET /contact/css/vendor.css HTTP/1.1" 404 3006
+Not Found: /contact/css/bootstrap.css
+Not Found: /contact/logo.png
+[13/Dec/2025 12:21:30] "GET /contact/css/bootstrap.css HTTP/1.1" 404 3015
+Not Found: /contact/style.css
+Not Found: /contact/js/jquery-1.11.0.min.js
+[13/Dec/2025 12:21:30] "GET /contact/logo.png HTTP/1.1" 404 2988
+[13/Dec/2025 12:21:30] "GET /contact/style.css HTTP/1.1" 404 2991
+[13/Dec/2025 12:21:30] "GET /contact/js/jquery-1.11.0.min.js HTTP/1.1" 404 3033
+Not Found: /contact/js/swiper.js
+Not Found: /contact/js/bootstrap.bundle.js
+[13/Dec/2025 12:21:30] "GET /contact/js/swiper.js HTTP/1.1" 404 3000
+[13/Dec/2025 12:21:30] "GET /contact/js/bootstrap.bundle.js HTTP/1.1" 404 3030
+Not Found: /contact/js/plugins.js
+Not Found: /contact/js/iconify.js
+Not Found: /contact/js/script.js
+[13/Dec/2025 12:21:30] "GET /contact/js/plugins.js HTTP/1.1" 404 3003
+[13/Dec/2025 12:21:30] "GET /contact/js/script.js HTTP/1.1" 404 3000
+[13/Dec/2025 12:21:30] "GET /contact/js/iconify.js HTTP/1.1" 404 3003
+Not Found: /contact/images/overlay.png
+Not Found: /contact/images/insta1.jpg
+Not Found: /contact/images/insta2.jpg
+[13/Dec/2025 12:21:30] "GET /contact/images/overlay.png HTTP/1.1" 404 3018
+[13/Dec/2025 12:21:30] "GET /contact/images/insta1.jpg HTTP/1.1" 404 3015
+[13/Dec/2025 12:21:30] "GET /contact/images/insta2.jpg HTTP/1.1" 404 3015
+Not Found: /contact/images/insta3.jpg
+[13/Dec/2025 12:21:30] "GET /contact/images/insta3.jpg HTTP/1.1" 404 3015
+Not Found: /contact/images/insta4.jpg
+Not Found: /contact/images/insta5.jpg
+Not Found: /contact/images/insta6.jpg
+[13/Dec/2025 12:21:30] "GET /contact/images/insta4.jpg HTTP/1.1" 404 3015
+[13/Dec/2025 12:21:30] "GET /contact/images/insta6.jpg HTTP/1.1" 404 3015
+[13/Dec/2025 12:21:30] "GET /contact/images/insta5.jpg HTTP/1.1" 404 3015
+Not Found: /contact/images/2.png
+[13/Dec/2025 12:21:30] "GET /contact/images/2.png HTTP/1.1" 404 3000
+[13/Dec/2025 12:25:40] "GET /contact/ HTTP/1.1" 200 29512
+Not Found: /contact/images/overlay.png
+Not Found: /contact/images/insta1.jpg
+[13/Dec/2025 12:25:40] "GET /contact/images/overlay.png HTTP/1.1" 404 3018
+[13/Dec/2025 12:25:40] "GET /contact/images/insta1.jpg HTTP/1.1" 404 3015
+Not Found: /contact/images/insta2.jpg
+Not Found: /contact/images/insta3.jpg
+[13/Dec/2025 12:25:40] "GET /contact/images/insta2.jpg HTTP/1.1" 404 3015
+[13/Dec/2025 12:25:40] "GET /contact/images/insta3.jpg HTTP/1.1" 404 3015
+Not Found: /contact/images/insta4.jpg
+Not Found: /contact/images/insta5.jpg
+[13/Dec/2025 12:25:40] "GET /contact/images/insta4.jpg HTTP/1.1" 404 3015
+[13/Dec/2025 12:25:40] "GET /contact/images/insta5.jpg HTTP/1.1" 404 3015
+Not Found: /contact/images/insta6.jpg
+[13/Dec/2025 12:25:40] "GET /contact/images/insta6.jpg HTTP/1.1" 404 3015
+[13/Dec/2025 12:26:37] "GET /contact/ HTTP/1.1" 200 29291
+[13/Dec/2025 12:26:37] "GET /static/css/style.css HTTP/1.1" 304 0
+Not Found: /contact/images/overlay.png
+[13/Dec/2025 12:26:37] "GET /contact/images/overlay.png HTTP/1.1" 404 3018
+Not Found: /contact/index.html
+[13/Dec/2025 12:26:40] "GET /contact/index.html HTTP/1.1" 404 2994
+[13/Dec/2025 12:26:52] "GET / HTTP/1.1" 200 49470
+Not Found: /contact/index.html
+[13/Dec/2025 12:27:30] "GET /contact/index.html HTTP/1.1" 404 2994
+[13/Dec/2025 12:27:33] "GET /contact/ HTTP/1.1" 200 29238
+Not Found: /contact/images/overlay.png
+[13/Dec/2025 12:27:33] "GET /contact/images/overlay.png HTTP/1.1" 404 3018
+[13/Dec/2025 12:27:34] "GET / HTTP/1.1" 200 49417
+[13/Dec/2025 12:27:35] "GET /contact/ HTTP/1.1" 200 29238
+Not Found: /contact/images/overlay.png
+[13/Dec/2025 12:27:35] "GET /contact/images/overlay.png HTTP/1.1" 404 3018
+[13/Dec/2025 12:27:38] "GET / HTTP/1.1" 200 49417
+[13/Dec/2025 12:27:39] "GET /contact/ HTTP/1.1" 200 29238
+Not Found: /contact/images/overlay.png
+[13/Dec/2025 12:27:39] "GET /contact/images/overlay.png HTTP/1.1" 404 3018
+[13/Dec/2025 12:27:40] "GET / HTTP/1.1" 200 49417
+[13/Dec/2025 12:27:41] "GET /contact/ HTTP/1.1" 200 29238
+Not Found: /contact/images/overlay.png
+[13/Dec/2025 12:27:41] "GET /contact/images/overlay.png HTTP/1.1" 404 3018
+[13/Dec/2025 12:27:42] "GET / HTTP/1.1" 200 49417
+[13/Dec/2025 12:27:43] "GET /contact/ HTTP/1.1" 200 29238
+Not Found: /contact/images/overlay.png
+[13/Dec/2025 12:27:43] "GET /contact/images/overlay.png HTTP/1.1" 404 3018
+Not Found: /contact/contact
+[13/Dec/2025 12:29:18] "GET /contact/contact HTTP/1.1" 404 2985
+Not Found: /contact/contact
+[13/Dec/2025 12:29:19] "GET /contact/contact HTTP/1.1" 404 2985
+Not Found: /contact/contact
+[13/Dec/2025 12:29:20] "GET /contact/contact HTTP/1.1" 404 2985
+Not Found: /contact/contact
+[13/Dec/2025 12:29:20] "GET /contact/contact HTTP/1.1" 404 2985
+[13/Dec/2025 12:29:22] "GET / HTTP/1.1" 200 49417
+[13/Dec/2025 12:29:23] "GET /contact/ HTTP/1.1" 200 29246
+Not Found: /contact/contact
+[13/Dec/2025 12:29:26] "GET /contact/contact HTTP/1.1" 404 2985
+[13/Dec/2025 12:34:38] "GET / HTTP/1.1" 200 49417
+[13/Dec/2025 12:36:42] "GET /contact/ HTTP/1.1" 200 29249
+[13/Dec/2025 12:36:45] "GET / HTTP/1.1" 200 49561
+[13/Dec/2025 12:37:06] "GET / HTTP/1.1" 200 49427
+[13/Dec/2025 12:37:11] "GET /contact/ HTTP/1.1" 200 29249
+C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\home\urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 13, 2025 - 12:20:49
+Django version 6.0, using settings 'NewtAndCo.settings'
+Starting development server at http://127.0.0.1:15720/
+Quit the server with CTRL-BREAK.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/6.0/howto/deployment/
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\home\views.py", line 6, in index
+    return render(request, 'home/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 174, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\loader_tags.py", line 160, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\loader_tags.py", line 211, in render
+    return template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 176, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\defaulttags.py", line 511, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\urls\resolvers.py", line 842, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'panier' not found. 'panier' is not a valid view function or pattern name.
+[13/Dec/2025 12:44:51] "GET / HTTP/1.1" 500 159698
+C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\contact\urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 13, 2025 - 12:44:45
+Django version 6.0, using settings 'NewtAndCo.settings'
+Starting development server at http://127.0.0.1:15720/
+Quit the server with CTRL-BREAK.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/6.0/howto/deployment/
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\home\views.py", line 6, in index
+    return render(request, 'home/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 174, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\loader_tags.py", line 160, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\loader_tags.py", line 211, in render
+    return template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 176, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\defaulttags.py", line 511, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\urls\resolvers.py", line 842, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'panier' not found. 'panier' is not a valid view function or pattern name.
+[13/Dec/2025 12:46:05] "GET / HTTP/1.1" 500 159183
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\home\views.py", line 6, in index
+    return render(request, 'home/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 174, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\loader_tags.py", line 160, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\loader_tags.py", line 211, in render
+    return template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 176, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\template\defaulttags.py", line 511, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\Desktop\NEWTCO\NewtAndCo\env\Lib\site-packages\django\urls\resolvers.py", line 842, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'favoris' not found. 'favoris' is not a valid view function or pattern name.
+[13/Dec/2025 12:46:17] "GET / HTTP/1.1" 500 158948
+[13/Dec/2025 12:46:27] "GET / HTTP/1.1" 200 49372
+[13/Dec/2025 12:46:27] "GET /static/css/style.css HTTP/1.1" 304 0
+[13/Dec/2025 12:46:28] "GET /accueil/ HTTP/1.1" 200 49372
+[13/Dec/2025 12:46:30] "GET /contact/ HTTP/1.1" 200 29193
+[13/Dec/2025 12:46:31] "GET /accueil/ HTTP/1.1" 200 49372
+[13/Dec/2025 12:46:32] "GET /contact/ HTTP/1.1" 200 29193
+[13/Dec/2025 12:46:33] "GET /accueil/ HTTP/1.1" 200 49372
+[13/Dec/2025 12:46:34] "GET /contact/ HTTP/1.1" 200 29193
+[13/Dec/2025 12:47:24] "GET /accueil/ HTTP/1.1" 200 49372
+[13/Dec/2025 12:47:27] "GET /accueil/ HTTP/1.1" 200 49372
+[13/Dec/2025 12:47:29] "GET /accueil/ HTTP/1.1" 200 49372
+[13/Dec/2025 12:47:32] "GET /accueil/ HTTP/1.1" 200 49372
+[13/Dec/2025 12:47:36] "GET /accueil/ HTTP/1.1" 200 49372
+[13/Dec/2025 12:47:37] "GET /contact/ HTTP/1.1" 200 29193
+[13/Dec/2025 12:47:42] "GET /contact/ HTTP/1.1" 200 29193
+[13/Dec/2025 12:47:44] "GET /accueil/ HTTP/1.1" 200 49372
+[13/Dec/2025 12:47:46] "GET /contact/ HTTP/1.1" 200 29193
+Not Found: /contact/contact
+[13/Dec/2025 12:47:55] "GET /contact/contact HTTP/1.1" 404 2991
+Not Found: /contact/contact
+[13/Dec/2025 12:48:00] "GET /contact/contact HTTP/1.1" 404 2991
+Not Found: /contact/contact
+[13/Dec/2025 12:50:28] "GET /contact/contact HTTP/1.1" 404 2991
+[13/Dec/2025 12:50:29] "GET /contact/ HTTP/1.1" 200 29210
+[13/Dec/2025 12:50:32] "GET /accueil/ HTTP/1.1" 200 49389
+[13/Dec/2025 12:50:34] "GET /contact/ HTTP/1.1" 200 29210
+[13/Dec/2025 12:50:35] "GET /accueil/ HTTP/1.1" 200 49389
+[13/Dec/2025 12:50:39] "GET /contact/ HTTP/1.1" 200 29210
+[13/Dec/2025 12:50:40] "GET /accueil/ HTTP/1.1" 200 49389
+[13/Dec/2025 12:50:42] "GET /contact/ HTTP/1.1" 200 29210
+[13/Dec/2025 12:50:44] "GET /contact/ HTTP/1.1" 200 29210
+[13/Dec/2025 12:50:45] "GET /contact/ HTTP/1.1" 200 29210
+[13/Dec/2025 12:50:47] "GET /accueil/ HTTP/1.1" 200 49389
+[13/Dec/2025 12:50:49] "GET /contact/ HTTP/1.1" 200 29210
+[13/Dec/2025 12:50:50] "GET /contact/ HTTP/1.1" 200 29210
+[13/Dec/2025 12:50:55] "GET /accueil/ HTTP/1.1" 200 49389
+[13/Dec/2025 12:50:57] "GET /contact/ HTTP/1.1" 200 29210
+[13/Dec/2025 12:51:01] "GET /contact/ HTTP/1.1" 200 29210
+Not Found: /contact/veilleuse.html
+[13/Dec/2025 12:51:03] "GET /contact/veilleuse.html HTTP/1.1" 404 3012
+[13/Dec/2025 12:54:36] "GET / HTTP/1.1" 200 49395

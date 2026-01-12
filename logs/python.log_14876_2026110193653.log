@@ -1,0 +1,4 @@
+Watching for file changes with StatReloader
+Forbidden (CSRF cookie not set.): /
+[10/Jan/2026 20:36:54] "POST / HTTP/1.1" 403 2855
+[10/Jan/2026 20:42:44] "GET / HTTP/1.1" 200 43332

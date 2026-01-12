@@ -1,0 +1,311 @@
+Watching for file changes with StatReloader
+[11/Jan/2026 11:43:19] "GET / HTTP/1.1" 200 43332
+[11/Jan/2026 11:43:19] "GET /static/css/style.css HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[11/Jan/2026 11:43:20] "GET /favicon.ico HTTP/1.1" 404 3240
+[11/Jan/2026 11:51:37] "GET / HTTP/1.1" 200 43332
+[11/Jan/2026 11:54:22] "GET / HTTP/1.1" 200 43332
+[11/Jan/2026 12:07:05] "GET / HTTP/1.1" 200 43332
+[11/Jan/2026 12:08:36] "GET / HTTP/1.1" 200 43332
+Not Found: /wp-content/plugins/hellopress/wp_filemanager.php
+[11/Jan/2026 12:15:23] "GET /wp-content/plugins/hellopress/wp_filemanager.php HTTP/1.1" 404 3362
+Not Found: /class-t.api.php
+[11/Jan/2026 12:15:24] "GET /class-t.api.php HTTP/1.1" 404 3263
+Not Found: /zwso.php
+[11/Jan/2026 12:15:24] "GET /zwso.php HTTP/1.1" 404 3242
+Not Found: /wp-admin/css/colors/blue/index.php
+[11/Jan/2026 12:15:25] "GET /wp-admin/css/colors/blue/index.php HTTP/1.1" 404 3320
+Not Found: /class19.php
+[11/Jan/2026 12:15:25] "GET /class19.php HTTP/1.1" 404 3251
+Not Found: /class20.php
+[11/Jan/2026 12:15:25] "GET /class20.php HTTP/1.1" 404 3251
+Not Found: /admin.php
+[11/Jan/2026 12:15:25] "GET /admin.php?p= HTTP/1.1" 404 3248
+Not Found: /randkeyword.php
+[11/Jan/2026 12:15:26] "GET /randkeyword.php HTTP/1.1" 404 3263
+Not Found: /fwe.php
+[11/Jan/2026 12:15:26] "GET /fwe.php HTTP/1.1" 404 3239
+Not Found: /images/m.php
+[11/Jan/2026 12:15:26] "GET /images/m.php HTTP/1.1" 404 3254
+Not Found: /g.php
+[11/Jan/2026 12:15:26] "GET /g.php HTTP/1.1" 404 3233
+Not Found: /tx1.php
+[11/Jan/2026 12:15:27] "GET /tx1.php HTTP/1.1" 404 3239
+Not Found: /xv.php
+[11/Jan/2026 12:15:27] "GET /xv.php HTTP/1.1" 404 3236
+Not Found: /x56.php
+[11/Jan/2026 12:15:27] "GET /x56.php HTTP/1.1" 404 3239
+Not Found: /htaccess.php
+[11/Jan/2026 12:15:27] "GET /htaccess.php HTTP/1.1" 404 3254
+Not Found: /readme.php
+[11/Jan/2026 12:15:28] "GET /readme.php HTTP/1.1" 404 3248
+Not Found: /x50.php
+[11/Jan/2026 12:15:28] "GET /x50.php HTTP/1.1" 404 3239
+Not Found: /fv.php
+[11/Jan/2026 12:15:28] "GET /fv.php HTTP/1.1" 404 3236
+Not Found: /file.php
+[11/Jan/2026 12:15:28] "GET /file.php? HTTP/1.1" 404 3242
+Not Found: /lsd.php
+[11/Jan/2026 12:15:29] "GET /lsd.php HTTP/1.1" 404 3239
+Not Found: /as.php
+[11/Jan/2026 12:15:29] "GET /as.php HTTP/1.1" 404 3236
+Not Found: /wsd.php
+[11/Jan/2026 12:15:29] "GET /wsd.php HTTP/1.1" 404 3239
+Not Found: /gtc.php
+[11/Jan/2026 12:15:29] "GET /gtc.php HTTP/1.1" 404 3239
+Not Found: /atx.php
+[11/Jan/2026 12:15:30] "GET /atx.php HTTP/1.1" 404 3239
+Not Found: /z60.php
+[11/Jan/2026 12:15:30] "GET /z60.php HTTP/1.1" 404 3239
+Not Found: /403.php
+[11/Jan/2026 12:15:30] "GET /403.php HTTP/1.1" 404 3239
+Not Found: /m.php
+[11/Jan/2026 12:15:30] "GET /m.php HTTP/1.1" 404 3233
+Not Found: /themes.php
+[11/Jan/2026 12:15:31] "GET /themes.php HTTP/1.1" 404 3248
+Not Found: /wp-admin/maint/about.php
+[11/Jan/2026 12:15:31] "GET /wp-admin/maint/about.php HTTP/1.1" 404 3290
+Not Found: /wp-admin/network/wp-conflg.php
+[11/Jan/2026 12:15:31] "GET /wp-admin/network/wp-conflg.php?p= HTTP/1.1" 404 3311
+Not Found: /click.php
+[11/Jan/2026 12:15:31] "GET /click.php HTTP/1.1" 404 3245
+Not Found: /install.php
+[11/Jan/2026 12:15:32] "GET /install.php HTTP/1.1" 404 3251
+Not Found: /lv.php
+[11/Jan/2026 12:15:32] "GET /lv.php HTTP/1.1" 404 3236
+Not Found: /simple.php
+[11/Jan/2026 12:15:32] "GET /simple.php HTTP/1.1" 404 3248
+Not Found: /css.php
+[11/Jan/2026 12:15:32] "GET /css.php HTTP/1.1" 404 3239
+Not Found: /cong.php
+[11/Jan/2026 12:15:33] "GET /cong.php HTTP/1.1" 404 3242
+Not Found: /wp-includes/images/wp-login.php
+[11/Jan/2026 12:15:33] "GET /wp-includes/images/wp-login.php HTTP/1.1" 404 3311
+Not Found: /cong.php
+[11/Jan/2026 12:15:33] "GET /cong.php HTTP/1.1" 404 3242
+Not Found: /w.php
+[11/Jan/2026 12:15:34] "GET /w.php HTTP/1.1" 404 3233
+Not Found: /404.php
+[11/Jan/2026 12:15:34] "GET /404.php HTTP/1.1" 404 3239
+Not Found: /ioxi-o.php
+[11/Jan/2026 12:15:34] "GET /ioxi-o.php HTTP/1.1" 404 3248
+Not Found: /0x.php
+[11/Jan/2026 12:15:34] "GET /0x.php HTTP/1.1" 404 3236
+Not Found: /css.php
+[11/Jan/2026 12:15:35] "GET /css.php HTTP/1.1" 404 3239
+Not Found: /222.php
+[11/Jan/2026 12:15:35] "GET /222.php HTTP/1.1" 404 3239
+Not Found: /wp-content/index.php
+[11/Jan/2026 12:15:35] "GET /wp-content/index.php HTTP/1.1" 404 3278
+Not Found: /admin.php
+[11/Jan/2026 12:15:35] "GET /admin.php HTTP/1.1" 404 3245
+Not Found: /wp-admin/maint/maint.php
+[11/Jan/2026 12:15:36] "GET /wp-admin/maint/maint.php HTTP/1.1" 404 3290
+Not Found: /classwithtostring.php
+[11/Jan/2026 12:15:36] "GET /classwithtostring.php HTTP/1.1" 404 3281
+Not Found: /abcd.php
+[11/Jan/2026 12:15:36] "GET /abcd.php HTTP/1.1" 404 3242
+Not Found: /autoload_classmap.php
+[11/Jan/2026 12:15:36] "GET /autoload_classmap.php?p= HTTP/1.1" 404 3284
+Not Found: /inputs.php
+[11/Jan/2026 12:15:37] "GET /inputs.php HTTP/1.1" 404 3248
+Not Found: /about.php
+[11/Jan/2026 12:15:37] "GET /about.php HTTP/1.1" 404 3245
+Not Found: /alfa.php
+[11/Jan/2026 12:15:37] "GET /alfa.php HTTP/1.1" 404 3242
+Not Found: /themes/twentytwentytwo/index.php
+[11/Jan/2026 12:15:37] "GET /themes/twentytwentytwo/index.php HTTP/1.1" 404 3314
+Not Found: /wp-admin/js/wp-conflg.php
+[11/Jan/2026 12:15:38] "GET /wp-admin/js/wp-conflg.php?p= HTTP/1.1" 404 3296
+Not Found: /wp-admin/wp-conflg.php
+[11/Jan/2026 12:15:38] "GET /wp-admin/wp-conflg.php?p= HTTP/1.1" 404 3287
+Not Found: /wp-admin/css/wp-conflg.php
+[11/Jan/2026 12:15:38] "GET /wp-admin/css/wp-conflg.php?p= HTTP/1.1" 404 3299
+Not Found: /manager.php
+[11/Jan/2026 12:15:38] "GET /manager.php?p= HTTP/1.1" 404 3254
+Not Found: /item.php
+[11/Jan/2026 12:15:39] "GET /item.php HTTP/1.1" 404 3242
+Not Found: /plugins/Cache/footer.php
+[11/Jan/2026 12:15:39] "GET /plugins/Cache/footer.php HTTP/1.1" 404 3290
+Not Found: /404.php
+[11/Jan/2026 12:15:39] "GET /404.php HTTP/1.1" 404 3239
+Not Found: /mail.php
+[11/Jan/2026 12:15:39] "GET /mail.php HTTP/1.1" 404 3242
+Not Found: /wp-content/plugins/index.php
+[11/Jan/2026 12:15:40] "GET /wp-content/plugins/index.php HTTP/1.1" 404 3302
+Not Found: /sx.php
+[11/Jan/2026 12:15:40] "GET /sx.php HTTP/1.1" 404 3236
+Not Found: /wp-admin/maint/admin.php
+[11/Jan/2026 12:15:40] "GET /wp-admin/maint/admin.php HTTP/1.1" 404 3290
+Not Found: /alfa.php
+[11/Jan/2026 12:15:40] "GET /alfa.php HTTP/1.1" 404 3242
+Not Found: /1.php
+[11/Jan/2026 12:15:41] "GET /1.php HTTP/1.1" 404 3233
+Not Found: /byp.php
+[11/Jan/2026 12:15:41] "GET /byp.php HTTP/1.1" 404 3239
+Not Found: /wp-trackback.php
+[11/Jan/2026 12:15:41] "GET /wp-trackback.php HTTP/1.1" 404 3266
+Not Found: /.well-known/index.php
+[11/Jan/2026 12:15:41] "GET /.well-known/index.php HTTP/1.1" 404 3281
+Not Found: /wp-admin/network/plugins.php
+[11/Jan/2026 12:15:42] "GET /wp-admin/network/plugins.php HTTP/1.1" 404 3302
+Not Found: /wp-admin/about.php
+[11/Jan/2026 12:15:42] "GET /wp-admin/about.php HTTP/1.1" 404 3272
+Not Found: /gmo.php
+[11/Jan/2026 12:15:42] "GET /gmo.php HTTP/1.1" 404 3239
+Not Found: /wp-includes/ID3/about.php
+[11/Jan/2026 12:15:42] "GET /wp-includes/ID3/about.php HTTP/1.1" 404 3293
+Not Found: /css/index.php
+[11/Jan/2026 12:15:43] "GET /css/index.php HTTP/1.1" 404 3257
+Not Found: /wp-includes/SimplePie/wp-login.php
+[11/Jan/2026 12:15:43] "GET /wp-includes/SimplePie/wp-login.php HTTP/1.1" 404 3320
+Not Found: /wp-content/themes/about.php
+[11/Jan/2026 12:15:43] "GET /wp-content/themes/about.php HTTP/1.1" 404 3299
+Not Found: /filemanager/dialog.php
+[11/Jan/2026 12:15:43] "GET /filemanager/dialog.php HTTP/1.1" 404 3284
+Not Found: /wp-admin/maint/index.php
+[11/Jan/2026 12:15:44] "GET /wp-admin/maint/index.php HTTP/1.1" 404 3290
+Not Found: /wp-includes/customize/about.php
+[11/Jan/2026 12:15:44] "GET /wp-includes/customize/about.php HTTP/1.1" 404 3311
+Not Found: /index/function.php
+[11/Jan/2026 12:15:44] "GET /index/function.php HTTP/1.1" 404 3272
+Not Found: /uploads/autoload_classmap.php
+[11/Jan/2026 12:15:44] "GET /uploads/autoload_classmap.php HTTP/1.1" 404 3305
+Not Found: /wp-includes/style-engine/about.php
+[11/Jan/2026 12:15:45] "GET /wp-includes/style-engine/about.php HTTP/1.1" 404 3320
+Not Found: /ww1.php
+[11/Jan/2026 12:15:45] "GET /ww1.php HTTP/1.1" 404 3239
+Not Found: /about/function.php
+[11/Jan/2026 12:15:45] "GET /about/function.php HTTP/1.1" 404 3272
+[11/Jan/2026 12:15:45] "GET /admin/function.php HTTP/1.1" 302 0
+[11/Jan/2026 12:15:46] "GET /admin/login/?next=/admin/function.php HTTP/1.1" 200 4104
+Not Found: /.well-known/acme-challenge/index.php
+[11/Jan/2026 12:15:46] "GET /.well-known/acme-challenge/index.php HTTP/1.1" 404 3326
+Not Found: /css/colors/blue/index.php
+[11/Jan/2026 12:15:46] "GET /css/colors/blue/index.php HTTP/1.1" 404 3293
+Not Found: /security.php
+[11/Jan/2026 12:15:47] "GET /security.php HTTP/1.1" 404 3254
+Not Found: /wp-admin/user/about.php
+[11/Jan/2026 12:15:47] "GET /wp-admin/user/about.php HTTP/1.1" 404 3287
+Not Found: /wp-admin/js/index.php
+[11/Jan/2026 12:15:47] "GET /wp-admin/js/index.php HTTP/1.1" 404 3281
+Not Found: /wp-content/upgrade/about.php
+[11/Jan/2026 12:15:47] "GET /wp-content/upgrade/about.php HTTP/1.1" 404 3302
+Not Found: /wp-includes/assets/index.php
+[11/Jan/2026 12:15:48] "GET /wp-includes/assets/index.php HTTP/1.1" 404 3302
+Not Found: /wp-content/radio.php
+[11/Jan/2026 12:15:48] "GET /wp-content/radio.php HTTP/1.1" 404 3278
+Not Found: /wp-includes/fonts/index.php
+[11/Jan/2026 12:15:48] "GET /wp-includes/fonts/index.php?p= HTTP/1.1" 404 3302
+Not Found: /.well-known/admin.php
+[11/Jan/2026 12:15:48] "GET /.well-known/admin.php HTTP/1.1" 404 3281
+Not Found: /wp-content/admin.php
+[11/Jan/2026 12:15:49] "GET /wp-content/admin.php HTTP/1.1" 404 3278
+Not Found: /wp-content/plugins/admin.php
+[11/Jan/2026 12:15:49] "GET /wp-content/plugins/admin.php HTTP/1.1" 404 3302
+Not Found: /wp-content/themes/twentytwentytwo/index.php
+[11/Jan/2026 12:15:49] "GET /wp-content/themes/twentytwentytwo/index.php?p= HTTP/1.1" 404 3350
+Not Found: /.well-known/log.php
+[11/Jan/2026 12:15:49] "GET /.well-known/log.php HTTP/1.1" 404 3275
+Not Found: /class.php
+[11/Jan/2026 12:15:50] "GET /class.php HTTP/1.1" 404 3245
+Not Found: /bless5.php
+[11/Jan/2026 12:15:50] "GET /bless5.php HTTP/1.1" 404 3248
+Not Found: /wp-includes/js/codemirror/index.php
+[11/Jan/2026 12:15:50] "GET /wp-includes/js/codemirror/index.php HTTP/1.1" 404 3323
+Not Found: /wp-includes/block-patterns/index.php
+[11/Jan/2026 12:15:50] "GET /wp-includes/block-patterns/index.php HTTP/1.1" 404 3326
+Not Found: /lock360.php
+[11/Jan/2026 12:15:51] "GET /lock360.php HTTP/1.1" 404 3251
+Not Found: /f35.php
+[11/Jan/2026 12:15:51] "GET /f35.php HTTP/1.1" 404 3239
+Not Found: /ioxi-o1.php
+[11/Jan/2026 12:15:51] "GET /ioxi-o1.php HTTP/1.1" 404 3251
+Not Found: /juuuu.php
+[11/Jan/2026 12:15:51] "GET /juuuu.php HTTP/1.1" 404 3245
+Not Found: /ha.php
+[11/Jan/2026 12:15:52] "GET /ha.php HTTP/1.1" 404 3236
+Not Found: /gg.php
+[11/Jan/2026 12:15:52] "GET /gg.php HTTP/1.1" 404 3236
+Not Found: /we2.php
+[11/Jan/2026 12:15:52] "GET /we2.php HTTP/1.1" 404 3239
+Not Found: /04.php
+[11/Jan/2026 12:15:53] "GET /04.php HTTP/1.1" 404 3236
+Not Found: /333.php
+[11/Jan/2026 12:15:53] "GET /333.php HTTP/1.1" 404 3239
+Not Found: /520.php
+[11/Jan/2026 12:15:53] "GET /520.php HTTP/1.1" 404 3239
+Not Found: /ar.php
+[11/Jan/2026 12:15:53] "GET /ar.php HTTP/1.1" 404 3236
+Not Found: /x.php
+[11/Jan/2026 12:15:54] "GET /x.php HTTP/1.1" 404 3233
+Not Found: /xx.php
+[11/Jan/2026 12:15:54] "GET /xx.php HTTP/1.1" 404 3236
+Not Found: /gifclass4.php
+[11/Jan/2026 12:15:54] "GET /gifclass4.php HTTP/1.1" 404 3257
+Not Found: /2clas.php
+[11/Jan/2026 12:15:54] "GET /2clas.php HTTP/1.1" 404 3245
+Not Found: /ave.php
+[11/Jan/2026 12:15:55] "GET /ave.php HTTP/1.1" 404 3239
+Not Found: /wrt.php
+[11/Jan/2026 12:15:55] "GET /wrt.php HTTP/1.1" 404 3239
+Not Found: /bibil.php
+[11/Jan/2026 12:15:55] "GET /bibil.php HTTP/1.1" 404 3245
+Not Found: /radio.php
+[11/Jan/2026 12:15:55] "GET /radio.php HTTP/1.1" 404 3245
+Not Found: /files.php
+[11/Jan/2026 12:15:56] "GET /files.php HTTP/1.1" 404 3245
+Not Found: /file7.php
+[11/Jan/2026 12:15:56] "GET /file7.php HTTP/1.1" 404 3245
+Not Found: /gifclass.php
+[11/Jan/2026 12:15:56] "GET /gifclass.php HTTP/1.1" 404 3254
+Not Found: /wp-admin/css/colors/midnight/about.php
+[11/Jan/2026 12:15:56] "GET /wp-admin/css/colors/midnight/about.php HTTP/1.1" 404 3332
+Not Found: /nox.php
+[11/Jan/2026 12:15:57] "GET /nox.php HTTP/1.1" 404 3239
+Not Found: /file48.php
+[11/Jan/2026 12:15:57] "GET /file48.php HTTP/1.1" 404 3248
+Not Found: /info.php
+[11/Jan/2026 12:15:57] "GET /info.php HTTP/1.1" 404 3242
+Not Found: /class9.php
+[11/Jan/2026 12:15:57] "GET /class9.php HTTP/1.1" 404 3248
+Not Found: /la.php
+[11/Jan/2026 12:15:58] "GET /la.php HTTP/1.1" 404 3236
+Not Found: /bless11.php
+[11/Jan/2026 12:15:58] "GET /bless11.php HTTP/1.1" 404 3251
+Not Found: /ccou.php
+[11/Jan/2026 12:15:58] "GET /ccou.php HTTP/1.1" 404 3242
+Not Found: /ton.php
+[11/Jan/2026 12:15:58] "GET /ton.php HTTP/1.1" 404 3239
+Not Found: /403.php
+[11/Jan/2026 12:15:59] "GET /403.php HTTP/1.1" 404 3239
+Not Found: /file9.php
+[11/Jan/2026 12:15:59] "GET /file9.php HTTP/1.1" 404 3245
+Not Found: /ac.php
+[11/Jan/2026 12:15:59] "GET /ac.php HTTP/1.1" 404 3236
+Not Found: /new4.php
+[11/Jan/2026 12:15:59] "GET /new4.php HTTP/1.1" 404 3242
+Not Found: /pop.php
+[11/Jan/2026 12:16:00] "GET /pop.php HTTP/1.1" 404 3239
+Not Found: /az.php
+[11/Jan/2026 12:16:00] "GET /az.php HTTP/1.1" 404 3236
+Not Found: /xaz.php
+[11/Jan/2026 12:16:00] "GET /xaz.php HTTP/1.1" 404 3239
+Not Found: /up4.php
+[11/Jan/2026 12:16:00] "GET /up4.php HTTP/1.1" 404 3239
+Not Found: /1aa.php
+[11/Jan/2026 12:16:01] "GET /1aa.php HTTP/1.1" 404 3239
+Not Found: /elp.php
+[11/Jan/2026 12:16:01] "GET /elp.php HTTP/1.1" 404 3239
+Not Found: /wtz.php
+[11/Jan/2026 12:16:01] "GET /wtz.php HTTP/1.1" 404 3239
+Not Found: /galex.php
+[11/Jan/2026 12:16:01] "GET /galex.php HTTP/1.1" 404 3245
+Not Found: /xb.php
+[11/Jan/2026 12:16:02] "GET /xb.php HTTP/1.1" 404 3236
+Not Found: /ova.php
+[11/Jan/2026 12:16:02] "GET /ova.php HTTP/1.1" 404 3239
+Not Found: /vx.php
+[11/Jan/2026 12:16:02] "GET /vx.php HTTP/1.1" 404 3236
+Not Found: /rh.php
+[11/Jan/2026 12:16:02] "GET /rh.php HTTP/1.1" 404 3236

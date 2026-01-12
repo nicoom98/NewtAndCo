@@ -1,0 +1,10 @@
+Watching for file changes with StatReloader
+[13/Dec/2025 13:41:13] "GET / HTTP/1.1" 200 49395
+[13/Dec/2025 13:41:59] "GET / HTTP/1.1" 200 49395
+Not Found: /cgi-bin/luci/;stok=/locale
+[13/Dec/2025 13:46:25] "GET /cgi-bin/luci/;stok=/locale HTTP/1.1" 404 3026
+[13/Dec/2025 13:52:53] "GET / HTTP/1.1" 200 49395
+Not Found: /favicon.ico
+[13/Dec/2025 13:52:55] "GET /favicon.ico HTTP/1.1" 404 2974
+Not Found: /sitemap.xml
+[13/Dec/2025 13:53:01] "GET /sitemap.xml HTTP/1.1" 404 2974

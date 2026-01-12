@@ -1,0 +1,8 @@
+Watching for file changes with StatReloader
+[16/Dec/2025 09:52:23] "GET / HTTP/1.1" 200 43332
+[16/Dec/2025 10:12:48] "GET / HTTP/1.1" 200 43332
+[16/Dec/2025 10:32:19] "GET / HTTP/1.0" 200 43332
+[16/Dec/2025 10:44:30] "GET / HTTP/1.1" 200 43332
+[16/Dec/2025 10:54:22] "OPTIONS / HTTP/1.1" 200 43332
+Not Found: /SDK/webLanguage
+[16/Dec/2025 10:54:32] "GET /SDK/webLanguage HTTP/1.1" 404 3250

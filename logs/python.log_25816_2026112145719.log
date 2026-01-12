@@ -1,0 +1,284 @@
+Watching for file changes with StatReloader
+[12/Jan/2026 15:57:20] "GET /portraits/ HTTP/1.1" 200 78654
+[12/Jan/2026 15:57:20] "GET /static/css/swiper.css HTTP/1.1" 200 20951
+[12/Jan/2026 15:57:20] "GET /static/css/bootstrap.css HTTP/1.1" 200 293102
+[12/Jan/2026 15:57:20] "GET /static/css/vendor.css HTTP/1.1" 200 31551
+[12/Jan/2026 15:57:20] "GET /static/css/style.css HTTP/1.1" 200 26219
+[12/Jan/2026 15:57:20] "GET /static/css/colorPick.css HTTP/1.1" 200 2899
+[12/Jan/2026 15:57:20] "GET /static/js/jquery-3.7.1.min.js HTTP/1.1" 200 87535
+[12/Jan/2026 15:57:20] "GET /static/logo.png HTTP/1.1" 200 474639
+[12/Jan/2026 15:57:20] "GET /static/js/swiper.js HTTP/1.1" 200 209964
+[12/Jan/2026 15:57:20] "GET /static/js/script.js HTTP/1.1" 200 7057
+[12/Jan/2026 15:57:20] "GET /static/js/plugins.js HTTP/1.1" 200 75356
+[12/Jan/2026 15:57:20] "GET /static/js/iconify.js HTTP/1.1" 200 34237
+[12/Jan/2026 15:57:20] "GET /static/images/overlay.png HTTP/1.1" 200 7706
+[12/Jan/2026 15:57:20] "GET /static/images/blog-lg4.jpg HTTP/1.1" 200 142502
+[12/Jan/2026 15:57:20] "GET /static/images/blog-lg2.jpg HTTP/1.1" 200 155307
+[12/Jan/2026 15:57:20] "GET /static/js/draws.js HTTP/1.1" 200 4503
+[12/Jan/2026 15:57:20] "GET /static/js/bootstrap.bundle.js HTTP/1.1" 200 214133
+[12/Jan/2026 15:57:20] "GET /static/images/blog-lg3.jpg HTTP/1.1" 200 104266
+[12/Jan/2026 15:57:20] "GET /static/images/reviewer-2.jpg HTTP/1.1" 200 20298
+[12/Jan/2026 15:57:20] "GET /static/images/blog-lg1.jpg HTTP/1.1" 200 182460
+[12/Jan/2026 15:57:20] "GET /static/images/banner-img.png HTTP/1.1" 200 368268
+[12/Jan/2026 15:57:20] "GET /static/images/2.png HTTP/1.1" 200 55963
+[12/Jan/2026 15:57:20] "GET /static/images/insta1.jpg HTTP/1.1" 200 75355
+[12/Jan/2026 15:57:20] "GET /static/images/insta2.jpg HTTP/1.1" 200 45973
+[12/Jan/2026 15:57:20] "GET /static/images/insta3.jpg HTTP/1.1" 200 64180
+[12/Jan/2026 15:57:20] "GET /static/images/insta5.jpg HTTP/1.1" 200 60771
+[12/Jan/2026 15:57:20] "GET /static/images/insta4.jpg HTTP/1.1" 200 92950
+[12/Jan/2026 15:57:21] "GET /static/images/insta6.jpg HTTP/1.1" 200 56555
+[12/Jan/2026 15:57:21] "GET /static/images/image0.png HTTP/1.1" 200 33679
+Not Found: /favicon.ico
+[12/Jan/2026 15:57:21] "GET /favicon.ico HTTP/1.1" 404 3501
+[12/Jan/2026 15:57:48] "GET /medailles/ HTTP/1.1" 200 264197
+[12/Jan/2026 15:57:48] "GET /static/images/item9.jpg HTTP/1.1" 200 45540
+[12/Jan/2026 15:57:48] "GET /static/images/item10.jpg HTTP/1.1" 200 34413
+[12/Jan/2026 15:57:48] "GET /static/js/medals.js HTTP/1.1" 200 13140
+[12/Jan/2026 15:57:48] "GET /static/images/item11.jpg HTTP/1.1" 200 46664
+[12/Jan/2026 15:57:48] "GET /static/images/item12.jpg HTTP/1.1" 200 44155
+[12/Jan/2026 15:57:48] "GET /static/images/marber.jpg HTTP/1.1" 200 27815
+[12/Jan/2026 15:57:48] "GET /static/images/silver.jpg HTTP/1.1" 200 61166
+[12/Jan/2026 15:57:48] "GET /static/images/cuivre.jpg HTTP/1.1" 200 80739
+[12/Jan/2026 15:57:48] "GET /static/images/gold.png HTTP/1.1" 200 77928
+[12/Jan/2026 15:57:48] "GET /static/images/marber3.jpg HTTP/1.1" 200 39330
+[12/Jan/2026 15:57:48] "GET /static/images/029.jpg HTTP/1.1" 200 3943189
+[12/Jan/2026 15:57:48] "GET /static/images/marber2.jpg HTTP/1.1" 200 473058
+[12/Jan/2026 15:57:48] "GET /static/js/three3D.js HTTP/1.1" 200 15117
+[12/Jan/2026 15:57:49] "GET /static/images/item13.jpg HTTP/1.1" 200 40460
+[12/Jan/2026 15:58:02] "GET /static/fonts/Arial_Regular.json HTTP/1.1" 200 1309702
+[12/Jan/2026 15:58:02] "GET /static/images/paillette.jpg HTTP/1.1" 200 53765
+[12/Jan/2026 15:58:02] "GET /static/images/or.png HTTP/1.1" 200 4446828
+[12/Jan/2026 16:00:18] "GET /portraits/ HTTP/1.1" 200 78654
+Not Found: /favicon.ico
+[12/Jan/2026 16:01:16] "GET /favicon.ico HTTP/1.1" 404 3496
+[12/Jan/2026 16:02:45] "GET /medailles/ HTTP/1.1" 200 264197
+[12/Jan/2026 16:02:45] "GET /static/js/medals.js HTTP/1.1" 304 0
+Not Found: /hello.world
+[12/Jan/2026 16:09:17] "POST /hello.world?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input HTTP/1.1" 404 3564
+Forbidden (CSRF cookie not set.): /
+[12/Jan/2026 16:09:18] "POST /?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input HTTP/1.1" 403 2855
+Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[12/Jan/2026 16:09:55] "GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3616
+Not Found: /vendor/phpunit/phpunit/Util/PHP/eval-stdin.php
+[12/Jan/2026 16:09:59] "GET /vendor/phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 3604
+Not Found: /vendor/phpunit/src/Util/PHP/eval-stdin.php
+[12/Jan/2026 16:09:59] "GET /vendor/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3592
+Not Found: /vendor/phpunit/Util/PHP/eval-stdin.php
+[12/Jan/2026 16:10:01] "GET /vendor/phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 3580
+Not Found: /vendor/phpunit/phpunit/LICENSE/eval-stdin.php
+[12/Jan/2026 16:10:01] "GET /vendor/phpunit/phpunit/LICENSE/eval-stdin.php HTTP/1.1" 404 3601
+Not Found: /vendor/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[12/Jan/2026 16:10:01] "GET /vendor/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3637
+Not Found: /phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[12/Jan/2026 16:10:01] "GET /phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3595
+Not Found: /phpunit/phpunit/Util/PHP/eval-stdin.php
+[12/Jan/2026 16:10:02] "GET /phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 3583
+Not Found: /phpunit/src/Util/PHP/eval-stdin.php
+[12/Jan/2026 16:10:02] "GET /phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3571
+Not Found: /phpunit/Util/PHP/eval-stdin.php
+[12/Jan/2026 16:10:03] "GET /phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 3559
+Not Found: /lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[12/Jan/2026 16:10:03] "GET /lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3607
+Not Found: /lib/phpunit/phpunit/Util/PHP/eval-stdin.php
+[12/Jan/2026 16:10:03] "GET /lib/phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 3595
+Not Found: /lib/phpunit/src/Util/PHP/eval-stdin.php
+[12/Jan/2026 16:10:04] "GET /lib/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3583
+Not Found: /lib/phpunit/Util/PHP/eval-stdin.php
+[12/Jan/2026 16:10:05] "GET /lib/phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 3571
+Not Found: /lib/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[12/Jan/2026 16:10:05] "GET /lib/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3628
+Not Found: /laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[12/Jan/2026 16:10:06] "GET /laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3640
+Not Found: /www/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[12/Jan/2026 16:10:07] "GET /www/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3628
+Not Found: /ws/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[12/Jan/2026 16:10:07] "GET /ws/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3625
+Not Found: /yii/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[12/Jan/2026 16:10:08] "GET /yii/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3628
+Not Found: /zend/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[12/Jan/2026 16:10:08] "GET /zend/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3631
+Not Found: /ws/ec/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[12/Jan/2026 16:10:08] "GET /ws/ec/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3634
+Not Found: /V2/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[12/Jan/2026 16:10:08] "GET /V2/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3625
+Not Found: /tests/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[12/Jan/2026 16:10:09] "GET /tests/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3634
+Not Found: /test/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[12/Jan/2026 16:10:09] "GET /test/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3631
+Not Found: /testing/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[12/Jan/2026 16:10:09] "GET /testing/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3640
+Not Found: /api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[12/Jan/2026 16:10:09] "GET /api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3628
+Not Found: /demo/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[12/Jan/2026 16:10:09] "GET /demo/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3631
+Not Found: /cms/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[12/Jan/2026 16:10:10] "GET /cms/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3628
+Not Found: /crm/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[12/Jan/2026 16:10:10] "GET /crm/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3628
+[12/Jan/2026 16:10:12] "GET /admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 302 0
+Not Found: /backup/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[12/Jan/2026 16:10:12] "GET /backup/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3637
+Not Found: /blog/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[12/Jan/2026 16:10:13] "GET /blog/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3631
+Not Found: /workspace/drupal/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[12/Jan/2026 16:10:14] "GET /workspace/drupal/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3667
+Not Found: /panel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[12/Jan/2026 16:10:15] "GET /panel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3634
+Not Found: /public/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[12/Jan/2026 16:10:15] "GET /public/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3637
+Not Found: /apps/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[12/Jan/2026 16:10:15] "GET /apps/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3631
+Not Found: /app/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[12/Jan/2026 16:10:15] "GET /app/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 3628
+Not Found: /index.php
+[12/Jan/2026 16:10:15] "GET /index.php?s=/index/\\think\\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello HTTP/1.1" 404 3602
+Not Found: /public/index.php
+[12/Jan/2026 16:10:16] "GET /public/index.php?s=/index/\\think\\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello HTTP/1.1" 404 3623
+Not Found: /index.php
+[12/Jan/2026 16:10:16] "GET /index.php?lang=../../../../../../../../usr/local/lib/php/pearcmd&+config-create+/&/<?echo(md5("hi"));?>+/tmp/index1.php HTTP/1.1" 404 3619
+Not Found: /index.php
+[12/Jan/2026 16:10:16] "GET /index.php?lang=../../../../../../../../tmp/index1 HTTP/1.1" 404 3533
+Not Found: /containers/json
+[12/Jan/2026 16:10:16] "GET /containers/json HTTP/1.1" 404 3511
+[12/Jan/2026 16:14:47] "GET /medailles/ HTTP/1.1" 200 264376
+[12/Jan/2026 16:14:47] "GET /static/js/medals.js HTTP/1.1" 304 0
+[12/Jan/2026 16:17:06] "GET /medailles/ HTTP/1.1" 200 264509
+[12/Jan/2026 16:21:07] "GET /medailles/ HTTP/1.1" 200 264751
+[12/Jan/2026 16:21:07] "GET /static/js/medals.js HTTP/1.1" 304 0
+[12/Jan/2026 16:21:45] "GET /medailles/ HTTP/1.1" 200 264801
+[12/Jan/2026 16:21:45] "GET /static/css/swiper.css HTTP/1.1" 200 20951
+[12/Jan/2026 16:21:45] "GET /static/css/vendor.css HTTP/1.1" 200 31551
+[12/Jan/2026 16:21:45] "GET /static/css/style.css HTTP/1.1" 200 26219
+[12/Jan/2026 16:21:45] "GET /static/css/bootstrap.css HTTP/1.1" 200 293102
+[12/Jan/2026 16:21:45] "GET /static/css/colorPick.css HTTP/1.1" 200 2899
+[12/Jan/2026 16:21:45] "GET /static/logo.png HTTP/1.1" 200 474639
+[12/Jan/2026 16:21:45] "GET /static/js/swiper.js HTTP/1.1" 200 209964
+[12/Jan/2026 16:21:45] "GET /static/js/jquery-3.7.1.min.js HTTP/1.1" 200 87535
+[12/Jan/2026 16:21:45] "GET /static/js/plugins.js HTTP/1.1" 200 75356
+[12/Jan/2026 16:21:45] "GET /static/js/script.js HTTP/1.1" 200 7057
+[12/Jan/2026 16:21:45] "GET /static/js/medals.js HTTP/1.1" 200 13140
+[12/Jan/2026 16:21:45] "GET /static/images/overlay.png HTTP/1.1" 200 7706
+[12/Jan/2026 16:21:45] "GET /static/images/item9.jpg HTTP/1.1" 200 45540
+[12/Jan/2026 16:21:45] "GET /static/images/item10.jpg HTTP/1.1" 200 34413
+[12/Jan/2026 16:21:45] "GET /static/js/iconify.js HTTP/1.1" 200 34237
+[12/Jan/2026 16:21:45] "GET /static/images/item11.jpg HTTP/1.1" 200 46664
+[12/Jan/2026 16:21:45] "GET /static/images/item12.jpg HTTP/1.1" 200 44155
+[12/Jan/2026 16:21:45] "GET /static/images/blog-lg4.jpg HTTP/1.1" 200 142502
+[12/Jan/2026 16:21:45] "GET /static/images/blog-lg2.jpg HTTP/1.1" 200 155307
+[12/Jan/2026 16:21:45] "GET /static/images/blog-lg3.jpg HTTP/1.1" 200 104266
+[12/Jan/2026 16:21:45] "GET /static/images/reviewer-2.jpg HTTP/1.1" 200 20298
+[12/Jan/2026 16:21:45] "GET /static/images/blog-lg1.jpg HTTP/1.1" 200 182460
+[12/Jan/2026 16:21:45] "GET /static/images/insta1.jpg HTTP/1.1" 200 75355
+[12/Jan/2026 16:21:45] "GET /static/images/insta2.jpg HTTP/1.1" 200 45973
+[12/Jan/2026 16:21:45] "GET /static/images/insta3.jpg HTTP/1.1" 200 64180
+[12/Jan/2026 16:21:45] "GET /static/images/insta4.jpg HTTP/1.1" 200 92950
+[12/Jan/2026 16:21:45] "GET /static/images/insta5.jpg HTTP/1.1" 200 60771
+[12/Jan/2026 16:21:45] "GET /static/images/insta6.jpg HTTP/1.1" 200 56555
+[12/Jan/2026 16:21:45] "GET /static/images/gold.png HTTP/1.1" 200 77928
+[12/Jan/2026 16:21:45] "GET /static/images/silver.jpg HTTP/1.1" 200 61166
+[12/Jan/2026 16:21:45] "GET /static/images/2.png HTTP/1.1" 200 55963
+[12/Jan/2026 16:21:45] "GET /static/images/cuivre.jpg HTTP/1.1" 200 80739
+[12/Jan/2026 16:21:45] "GET /static/images/marber.jpg HTTP/1.1" 200 27815
+[12/Jan/2026 16:21:45] "GET /static/images/marber2.jpg HTTP/1.1" 200 473058
+[12/Jan/2026 16:21:45] "GET /static/images/marber3.jpg HTTP/1.1" 200 39330
+[12/Jan/2026 16:21:45] "GET /static/images/029.jpg HTTP/1.1" 200 3943189
+[12/Jan/2026 16:21:45] "GET /static/images/image0.png HTTP/1.1" 200 33679
+[12/Jan/2026 16:21:45] "GET /static/js/bootstrap.bundle.js HTTP/1.1" 200 214133
+[12/Jan/2026 16:21:45] "GET /static/js/three3D.js HTTP/1.1" 200 15117
+Not Found: /favicon.ico
+[12/Jan/2026 16:21:45] "GET /favicon.ico HTTP/1.1" 404 3501
+[12/Jan/2026 16:22:33] "GET /static/fonts/faith_Regular.json HTTP/1.1" 200 321668
+[12/Jan/2026 16:23:07] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[12/Jan/2026 16:23:07] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[12/Jan/2026 16:23:07] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[12/Jan/2026 16:23:07] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[12/Jan/2026 16:23:27] "GET /medailles/ HTTP/1.1" 200 264801
+[12/Jan/2026 16:23:27] "GET /static/css/swiper.css HTTP/1.1" 200 20951
+[12/Jan/2026 16:23:27] "GET /static/css/vendor.css HTTP/1.1" 200 31551
+[12/Jan/2026 16:23:27] "GET /static/css/style.css HTTP/1.1" 200 26219
+[12/Jan/2026 16:23:27] "GET /static/css/colorPick.css HTTP/1.1" 200 2899
+[12/Jan/2026 16:23:27] "GET /static/css/bootstrap.css HTTP/1.1" 200 293102
+[12/Jan/2026 16:23:27] "GET /static/js/jquery-3.7.1.min.js HTTP/1.1" 200 87535
+[12/Jan/2026 16:23:27] "GET /static/logo.png HTTP/1.1" 200 474639
+[12/Jan/2026 16:23:27] "GET /static/js/plugins.js HTTP/1.1" 200 75356
+[12/Jan/2026 16:23:27] "GET /static/js/bootstrap.bundle.js HTTP/1.1" 200 214133
+[12/Jan/2026 16:23:27] "GET /static/js/swiper.js HTTP/1.1" 200 209964
+[12/Jan/2026 16:23:27] "GET /static/js/script.js HTTP/1.1" 200 7057
+[12/Jan/2026 16:23:27] "GET /static/js/medals.js HTTP/1.1" 200 13140
+[12/Jan/2026 16:23:27] "GET /static/js/iconify.js HTTP/1.1" 200 34237
+[12/Jan/2026 16:23:27] "GET /static/images/overlay.png HTTP/1.1" 200 7706
+[12/Jan/2026 16:23:27] "GET /static/images/item10.jpg HTTP/1.1" 200 34413
+[12/Jan/2026 16:23:27] "GET /static/images/item9.jpg HTTP/1.1" 200 45540
+[12/Jan/2026 16:23:27] "GET /static/images/item11.jpg HTTP/1.1" 200 46664
+[12/Jan/2026 16:23:27] "GET /static/images/item12.jpg HTTP/1.1" 200 44155
+[12/Jan/2026 16:23:27] "GET /static/images/blog-lg4.jpg HTTP/1.1" 200 142502
+[12/Jan/2026 16:23:27] "GET /static/images/blog-lg2.jpg HTTP/1.1" 200 155307
+[12/Jan/2026 16:23:27] "GET /static/images/blog-lg3.jpg HTTP/1.1" 200 104266
+[12/Jan/2026 16:23:27] "GET /static/images/blog-lg1.jpg HTTP/1.1" 200 182460
+[12/Jan/2026 16:23:27] "GET /static/images/reviewer-2.jpg HTTP/1.1" 200 20298
+[12/Jan/2026 16:23:27] "GET /static/images/insta1.jpg HTTP/1.1" 200 75355
+[12/Jan/2026 16:23:27] "GET /static/images/insta2.jpg HTTP/1.1" 200 45973
+[12/Jan/2026 16:23:27] "GET /static/images/insta3.jpg HTTP/1.1" 200 64180
+[12/Jan/2026 16:23:27] "GET /static/images/insta4.jpg HTTP/1.1" 200 92950
+[12/Jan/2026 16:23:27] "GET /static/images/insta5.jpg HTTP/1.1" 200 60771
+[12/Jan/2026 16:23:27] "GET /static/images/insta6.jpg HTTP/1.1" 200 56555
+[12/Jan/2026 16:23:27] "GET /static/images/2.png HTTP/1.1" 200 55963
+[12/Jan/2026 16:23:27] "GET /static/images/image0.png HTTP/1.1" 200 33679
+[12/Jan/2026 16:23:27] "GET /static/images/029.jpg HTTP/1.1" 200 3943189
+[12/Jan/2026 16:23:27] "GET /static/images/gold.png HTTP/1.1" 200 77928
+[12/Jan/2026 16:23:27] "GET /static/images/marber3.jpg HTTP/1.1" 200 39330
+[12/Jan/2026 16:23:27] "GET /static/images/silver.jpg HTTP/1.1" 200 61166
+[12/Jan/2026 16:23:27] "GET /static/images/marber2.jpg HTTP/1.1" 200 473058
+[12/Jan/2026 16:23:27] "GET /static/js/three3D.js HTTP/1.1" 200 15117
+[12/Jan/2026 16:23:27] "GET /static/images/cuivre.jpg HTTP/1.1" 200 80739
+[12/Jan/2026 16:23:27] "GET /static/images/marber.jpg HTTP/1.1" 200 27815
+Not Found: /favicon.ico
+[12/Jan/2026 16:23:28] "GET /favicon.ico HTTP/1.1" 404 3501
+[12/Jan/2026 16:23:35] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[12/Jan/2026 16:23:35] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[12/Jan/2026 16:23:35] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[12/Jan/2026 16:23:35] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[12/Jan/2026 16:24:02] "GET /medailles/ HTTP/1.1" 200 264795
+[12/Jan/2026 16:24:02] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[12/Jan/2026 16:24:02] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[12/Jan/2026 16:24:02] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[12/Jan/2026 16:24:02] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[12/Jan/2026 16:28:21] "GET /medailles/ HTTP/1.1" 200 265430
+[12/Jan/2026 16:28:21] "GET /static/js/medals.js HTTP/1.1" 304 0
+[12/Jan/2026 16:28:21] "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1882
+[12/Jan/2026 16:28:21] "GET /static/js/swiper-bundle.min.js.map HTTP/1.1" 404 1900
+[12/Jan/2026 16:28:21] "GET /static/js/bootstrap.bundle.js.map HTTP/1.1" 404 1897
+[12/Jan/2026 16:28:21] "GET /static/js/jarallax.min.js.map HTTP/1.1" 404 1885
+[12/Jan/2026 16:41:28] "GET / HTTP/1.1" 200 43345
+[12/Jan/2026 16:48:10] "GET / HTTP/1.1" 200 43345
+[12/Jan/2026 16:55:32] "GET / HTTP/1.1" 200 43345
+[12/Jan/2026 17:10:31] "GET / HTTP/1.1" 200 43345
+[12/Jan/2026 17:10:31] "GET /static/css/swiper.css HTTP/1.1" 200 20951
+[12/Jan/2026 17:10:31] "GET /static/css/vendor.css HTTP/1.1" 200 31551
+[12/Jan/2026 17:10:31] "GET /static/css/bootstrap.css HTTP/1.1" 200 293102
+[12/Jan/2026 17:10:31] "GET /static/css/style.css HTTP/1.1" 200 26219
+[12/Jan/2026 17:10:31] "GET /static/js/jquery-3.7.1.min.js HTTP/1.1" 200 87535
+[12/Jan/2026 17:10:31] "GET /static/logo.png HTTP/1.1" 200 474639
+[12/Jan/2026 17:10:31] "GET /static/js/swiper.js HTTP/1.1" 200 209964
+[12/Jan/2026 17:10:31] "GET /static/js/bootstrap.bundle.js HTTP/1.1" 200 214133
+[12/Jan/2026 17:10:31] "GET /static/js/plugins.js HTTP/1.1" 200 75356
+[12/Jan/2026 17:10:31] "GET /static/js/script.js HTTP/1.1" 200 7057
+[12/Jan/2026 17:10:31] "GET /static/js/iconify.js HTTP/1.1" 200 34237
+[12/Jan/2026 17:10:31] "GET /static/images/overlay.png HTTP/1.1" 200 7706
+[12/Jan/2026 17:10:31] "GET /static/images/item9.jpg HTTP/1.1" 200 45540
+[12/Jan/2026 17:10:31] "GET /static/images/diapo.png HTTP/1.1" 200 113838
+[12/Jan/2026 17:10:31] "GET /static/images/item10.jpg HTTP/1.1" 200 34413
+[12/Jan/2026 17:10:31] "GET /static/images/item11.jpg HTTP/1.1" 200 46664
+[12/Jan/2026 17:10:31] "GET /static/images/item12.jpg HTTP/1.1" 200 44155
+[12/Jan/2026 17:10:31] "GET /static/images/item13.jpg HTTP/1.1" 200 40460
+[12/Jan/2026 17:10:31] "GET /static/images/item14.jpg HTTP/1.1" 200 35909
+[12/Jan/2026 17:10:31] "GET /static/images/item15.jpg HTTP/1.1" 200 41490
+[12/Jan/2026 17:10:31] "GET /static/images/item16.jpg HTTP/1.1" 200 40992
+[12/Jan/2026 17:10:31] "GET /static/images/insta1.jpg HTTP/1.1" 200 75355
+[12/Jan/2026 17:10:31] "GET /static/images/insta2.jpg HTTP/1.1" 200 45973
+[12/Jan/2026 17:10:31] "GET /static/images/insta3.jpg HTTP/1.1" 200 64180
+[12/Jan/2026 17:10:31] "GET /static/images/insta4.jpg HTTP/1.1" 200 92950
+[12/Jan/2026 17:10:31] "GET /static/images/insta5.jpg HTTP/1.1" 200 60771
+[12/Jan/2026 17:10:31] "GET /static/images/insta6.jpg HTTP/1.1" 200 56555
+[12/Jan/2026 17:10:31] "GET /static/images/2.png HTTP/1.1" 200 55963
+[12/Jan/2026 17:18:27] "GET / HTTP/1.1" 200 43345
